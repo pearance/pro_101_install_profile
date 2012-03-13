@@ -1,0 +1,7 @@
+name = Legal Pro 101
+description = Start with only a few modules enabled.
+version = VERSION
+core = 7.x
+
+dependencies[] = features
+files[] = legalpro101.profile
