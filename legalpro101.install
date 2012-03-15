@@ -13,7 +13,7 @@ function legalpro101_install() {
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
 
 
-  // Setup themes.
+  // Setup initial themes.
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
