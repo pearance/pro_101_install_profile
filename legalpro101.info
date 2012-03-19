@@ -4,6 +4,5 @@ version = VERSION
 core = 7.x
 
 dependencies[] = features
-dependencies[] = backup_migrate
 dependencies[] = pro_101_base_infrastructure
 files[] = legalpro101.profile
