@@ -3,6 +3,6 @@ description = Start with only a few modules enabled.
 version = VERSION
 core = 7.x
 
-dependencies[] = features
 dependencies[] = pro_101_base_infrastructure
+dependencies[] = pro_101_user_enhancements
 files[] = legalpro101.profile
