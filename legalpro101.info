@@ -6,4 +6,5 @@ core = 7.x
 dependencies[] = pro_101_base_infrastructure
 dependencies[] = pro_101_user_enhancements
 dependencies[] = pro_101_contact
+dependencies[] = pro_101_page
 files[] = legalpro101.profile
