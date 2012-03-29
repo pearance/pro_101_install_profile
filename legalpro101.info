@@ -8,4 +8,5 @@ dependencies[] = pro_101_user_enhancements
 dependencies[] = pro_101_contact
 dependencies[] = pro_101_page
 dependencies[] = pro_101_faqs
+dependencies[] = pro_101_specialty
 files[] = legalpro101.profile
