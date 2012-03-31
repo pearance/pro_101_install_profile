@@ -20,8 +20,8 @@ function pro_101_install() {
     ->execute();
   variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
-  variable_set('theme_default', 'stark');
+  variable_set('theme_default', 'omega');
 
-  theme_enable(array('stark', 'rubik'));
+  theme_enable(array('omega', 'rubik'));
   theme_disable(array('bartik'));
 }
