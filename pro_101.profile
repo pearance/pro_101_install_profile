@@ -6,7 +6,7 @@
  *
  * Allows the profile to alter the site configuration form.
  */
-function legalpro101_form_install_configure_form_alter(&$form, $form_state) {
+function pro_101_form_install_configure_form_alter(&$form, $form_state) {
 }
 
 

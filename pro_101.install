@@ -5,7 +5,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function legalpro101_install() {
+function pro_101_install() {
   // Disable visitor account creation and set basic permissions.
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 
