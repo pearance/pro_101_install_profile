@@ -1,5 +1,5 @@
-name = Legal Pro 101
-description = Start with only a few modules enabled.
+name = Pro 101
+description = The Pro 101 framework
 version = VERSION
 core = 7.x
 
@@ -9,4 +9,4 @@ dependencies[] = pro_101_faqs
 dependencies[] = pro_101_page
 dependencies[] = pro_101_specialty
 dependencies[] = pro_101_user_enhancements
-files[] = legalpro101.profile
+files[] = pro_101.profile
