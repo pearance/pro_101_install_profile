@@ -8,5 +8,6 @@ dependencies[] = pro_101_contact
 dependencies[] = pro_101_faqs
 dependencies[] = pro_101_page
 dependencies[] = pro_101_specialty
+dependencies[] = pro_101_theme_infrastructure
 dependencies[] = pro_101_user_enhancements
 files[] = pro_101.profile
