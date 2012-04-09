@@ -6,13 +6,16 @@ core = 7.x
 dependencies[] = pro_101_about
 dependencies[] = pro_101_base_infrastructure
 dependencies[] = pro_101_contact
+dependencies[] = pro_101_default_users
 dependencies[] = pro_101_faqs
 dependencies[] = pro_101_global_content
 dependencies[] = pro_101_home
 dependencies[] = pro_101_page
 dependencies[] = pro_101_specialty
-dependencies[] = pro_101_support
 dependencies[] = pro_101_theme_infrastructure
 dependencies[] = pro_101_user_enhancements
 
+;dependencies[] = pro_101_support ; Enabled in the post_site_install script.
+
 files[] = pro_101.profile
+
