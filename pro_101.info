@@ -16,9 +16,14 @@ dependencies[] = pro_101_specialty
 dependencies[] = pro_101_theme_infrastructure
 dependencies[] = pro_101_user_enhancements
 
-; The following is enabled in the post_site_install script.
+; Enabled in the post_site_install script.
 ;dependencies[] = pro_101_support
 ;dependencies[] = pro_101_default_users
+
+; Optional (by default not enabled).
+;dependencies[] = pro_101_dev_tools
+
+
 
 files[] = pro_101.profile
 
