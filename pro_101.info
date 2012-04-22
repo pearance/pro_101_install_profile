@@ -3,27 +3,32 @@ description = The Pro 101 framework
 version = VERSION
 core = 7.x
 
+; PRO 101 CONTENT (L)
 dependencies[] = pro_101_about
-dependencies[] = pro_101_base_infrastructure
 dependencies[] = pro_101_blog
 dependencies[] = pro_101_contact
+; dependencies[] = pro_101_default_users ; ENABLED IN THE POST_SITE_INSTALL SCRIPT.
 dependencies[] = pro_101_faqs
 dependencies[] = pro_101_global_content
 dependencies[] = pro_101_home
-dependencies[] = pro_101_media_infrastructure
 dependencies[] = pro_101_page
 dependencies[] = pro_101_specialty
+
+
+; PRO 101 DEVELOPMENT (G)
+; dependencies[] = pro_101_dev_tools ; OPTIONAL (BY DEFAULT NOT ENABLED).
+
+
+; PRO 101 SYSTEM (G)
+dependencies[] = pro_101_build_infrastructure
+dependencies[] = pro_101_core_infrastructure
+dependencies[] = pro_101_media_infrastructure
+dependencies[] = pro_101_seo_infrastructure
+; dependencies[] = pro_101_support ; ENABLED IN THE POST_SITE_INSTALL SCRIPT.
 dependencies[] = pro_101_theme_infrastructure
-dependencies[] = pro_101_user_enhancements
-
-; Enabled in the post_site_install script.
-;dependencies[] = pro_101_support
-;dependencies[] = pro_101_default_users
-
-; Optional (by default not enabled).
-;dependencies[] = pro_101_dev_tools
-
+dependencies[] = pro_101_user_infrastructure
 
 
 files[] = pro_101.profile
 
+; vim: set ft=dosini:
