@@ -1,33 +1,57 @@
 name = Pro 101
-description = The Pro 101 framework
+description = The Pro 101 Framework
 version = VERSION
 core = 7.x
 
-; PRO 101 CONTENT (L)
-dependencies[] = pro_101_about
-dependencies[] = pro_101_blog
-dependencies[] = pro_101_contact
-; dependencies[] = pro_101_default_users ; ENABLED IN THE POST_SITE_INSTALL SCRIPT.
-; dependencies[] = pro_101_answers
-; dependencies[] = pro_101_global_content ; ENABLED IN THE POST_SITE_INSTALL SCRIPT.
-dependencies[] = pro_101_home
-dependencies[] = pro_101_page
-dependencies[] = pro_101_specialty
-
-
-; PRO 101 DEVELOPMENT (G)
-; dependencies[] = pro_101_dev_tools ; OPTIONAL (BY DEFAULT NOT ENABLED).
-
-
-; PRO 101 SYSTEM (G)
+; PRO 101 INFRASTRUCTURE (G)
+dependencies[] = pro_101_authoring_infrastructure
 dependencies[] = pro_101_build_infrastructure
 dependencies[] = pro_101_core_infrastructure
 dependencies[] = pro_101_media_infrastructure
 dependencies[] = pro_101_seo_infrastructure
-; dependencies[] = pro_101_support_infrastructer ; ENABLED IN THE POST_SITE_INSTALL SCRIPT.
+; dependencies[] = pro_101_support_infrastructer ; SEE COMMENTS 1
 dependencies[] = pro_101_theme_infrastructure
 dependencies[] = pro_101_user_infrastructure
 
+
+
+; PRO 101 FEATURES (G)
+dependencies[] = pro_101_about_feature_p
+dependencies[] = pro_101_answers_feature
+dependencies[] = pro_101_blog_feature
+dependencies[] = pro_101_home_feature
+dependencies[] = pro_101_page_feature
+dependencies[] = pro_101_specialty_feature
+
+
+
+; PRO 101 DEVELOPMENT (G)
+; dependencies[] = pro_101_dev_tools ; SEE COMMENTS 10
+; dependencies[] = pro_101_firebug ; SEE COMMENTS 10
+; dependencies[] = pro_101_ignore ; SEE COMMENTS 10
+
+
+
+; PRO 101 CONTENT (L)
+dependencies[] = pro_101_about_content
+dependencies[] = pro_101_answers_content
+dependencies[] = pro_101_blog_content
+; dependencies[] = pro_101_default_users ; SEE COMMENTS 2
+; dependencies[] = pro_101_global_content ; SEE COMMENTS 3
+dependencies[] = pro_101_specialty_content
+
+
+
+
+
+
+; COMMENTS
+; 1. Support_infrastructure needs to be last to populate user profile fields.
+; 2. Default_users must be in the post script so the custom fields, etc can be
+; populated.
+; 3. Global_content relies on many other module's blocks to exist to work
+; properly, so it must be last.
+; 10. Optional, by default its disabled. To be enabled only when needed.
 
 files[] = pro_101.profile
 

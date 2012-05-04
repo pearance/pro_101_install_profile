@@ -7,4 +7,3 @@ echo '----------------------------------------------------------------'
 /srv/aegir/bin/drush -y @$1 en pro_101_support_infrastructure
 /srv/aegir/bin/drush -y @$1 en pro_101_default_users
 /srv/aegir/bin/drush -y @$1 en pro_101_global_content
-/srv/aegir/bin/drush -y @$1 en pro_101_answers

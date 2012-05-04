@@ -16,9 +16,11 @@ rm sites/all/modules/README.txt
 rm sites/all/themes/README.txt
 rm sites/example.sites.php
 
+rm -r sites/all/modules/contrib/uuid/uuid_services_example
+
 # Make all features writable for ftool's direct save.
 chgrp -R www-data sites/all/modules/features/
-chmod -R 774 sites/all/modules/features/
+chmod -R 775 sites/all/modules/features/
 
 # Remove unnecessary core themes.
 rm -r themes/stark
