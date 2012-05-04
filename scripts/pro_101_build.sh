@@ -29,7 +29,7 @@ rm -r themes/seven
 
 # Make all features writable for ftool's direct save.
 chgrp -R www-data sites/all/modules/features/
-chmod -R 775 sites/all/modules/features/
+chmod -R 664 sites/all/modules/features/
 
 
 
