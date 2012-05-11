@@ -23,13 +23,13 @@ rm -r sites/all/modules/contrib/uuid/uuid_services_example
 
 rm -r themes/stark
 rm -r themes/garland
-rm -r themes/seven
+rm -r themes/bartik
 
 
 
 # Make all features writable for ftool's direct save.
 chgrp -R www-data sites/all/modules/features/
-chmod -R 664 sites/all/modules/features/
+chmod -R 774 sites/all/modules/features/
 
 
 
