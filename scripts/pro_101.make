@@ -49,10 +49,10 @@ projects[boxes][version] = "1.0-beta7"
 projects[checkbox_filter][subdir] = "contrib"
 projects[checkbox_filter][version] = "1.0"
 
-projects[contact_info[subdir] = "contrib"
-projects[contact_info[type] = "module"
-projects[contact_info[download][type] = "git"
-projects[contact_info[download][url] = "http://git.drupal.org/sandbox/dboulet/1146162.git"
+projects[contact_info][subdir] = "contrib"
+projects[contact_info][type] = "module"
+projects[contact_info][download][type] = "git"
+projects[contact_info][download][url] = "http://git.drupal.org/sandbox/dboulet/1146162.git"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta2"
@@ -90,6 +90,9 @@ projects[facebook_comments][version] = "1.0-beta2"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-rc2"
+
+projects[field_ellipsis][subdir] = "contrib"
+projects[field_ellipsis][version] = "1.0"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
@@ -139,6 +142,9 @@ projects[pathologic][version] = "1.4"
 
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.x-dev"
+
+projects[read_more][subdir] = "contrib"
+projects[read_more][version] = "1.x-dev"
 
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.x-dev"
@@ -364,6 +370,10 @@ projects[rubik][version] = "4.0-beta8"
 
 projects[omega][version] = "3.1"
 
-projects[pro_101_starter][type] = "theme"
-projects[pro_101_starter][download][type] = "git"
-projects[pro_101_starter][download][url] = "git@github.com:pearance/pro_101_starter.git"
+projects[prostarter][type] = "theme"
+projects[prostarter][download][type] = "git"
+projects[prostarter][download][url] = "git@github.com:pearance/prostarter.git"
+
+projects[propanel][type] = "theme"
+projects[propanel][download][type] = "git"
+projects[propanel][download][url] = "git@github.com:pearance/propanel.git"

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-drush make --working-copy ~/platforms/.builds/pro_101.make $1
+drush make --working-copy ~/platforms/.profiles/pro_101/scripts/pro_101.make $1
 
 # Link installation profile.
 cd /srv/aegir/platforms/$1
