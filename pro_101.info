@@ -6,13 +6,12 @@ core = 7.x
 ; THE ORDER OF THESE ENTRIES IS RELEVANT!
 
 ; PRO 101 INFRASTRUCTURE (G)
-dependencies[] = pro_101_authoring_infrastructure
 dependencies[] = pro_101_build_infrastructure
 dependencies[] = pro_101_core_infrastructure
 dependencies[] = pro_101_media_infrastructure
 dependencies[] = pro_101_seo_infrastructure
+dependencies[] = pro_101_authoring_infrastructure
 ; dependencies[] = pro_101_support_infrastructer ; SEE COMMENTS 1
-dependencies[] = pro_101_theme_infrastructure
 dependencies[] = pro_101_user_infrastructure
 
 
@@ -37,11 +36,12 @@ dependencies[] = pro_101_dev_tools
 
 
 
-; PRO 101 CONTENT (L)
+; PRO 101 DEFAULTS (L)
 dependencies[] = pro_101_contact_content
 dependencies[] = pro_101_about_content
 dependencies[] = pro_101_answers_content
 dependencies[] = pro_101_blog_content
+dependencies[] = pro_101_default_theme
 ; dependencies[] = pro_101_default_users ; SEE COMMENTS 2
 ; dependencies[] = pro_101_global_content ; SEE COMMENTS 3
 dependencies[] = pro_101_specialties_content

@@ -19,7 +19,7 @@ rm sites/all/themes/README.txt
 rm sites/example.sites.php
 
 rm -r sites/all/modules/contrib/features/tests/
-rm -r sites/all/modules/contrib/uuid/uuid_services_example
+rm -r sites/all/modules/contrib/uuid/uuid*example
 
 rm -r themes/stark
 rm -r themes/garland

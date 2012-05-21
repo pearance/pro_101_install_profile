@@ -25,11 +25,8 @@ projects[drupal][patch][1211008] = "http://drupal.org/files/drupal-1211008-53.pa
 
 
 ; Contributed Modules ==========================================================
-projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0-beta3"
-
 projects[admin_menu][subdir] = "contrib"
-projects[admin_menu][version] = "3.x-dev"
+projects[admin_menu][version] = "3.0-rc3"
 
 projects[admin_select][subdir] = "contrib"
 projects[admin_select][version] = "1.2"
@@ -44,15 +41,16 @@ projects[auto_menutitle][subdir] = "contrib"
 projects[auto_menutitle][version] = "1.0"
 
 projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0-beta7"
+projects[boxes][version] = "1.0"
 
-projects[checkbox_filter][subdir] = "contrib"
-projects[checkbox_filter][version] = "1.0"
+projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][version] = "1.9"
 
 projects[contact_info][subdir] = "contrib"
 projects[contact_info][type] = "module"
 projects[contact_info][download][type] = "git"
 projects[contact_info][download][url] = "http://git.drupal.org/sandbox/dboulet/1146162.git"
+;projects[contact_info][directory_name] = "contact_info"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta2"
@@ -115,6 +113,9 @@ projects[globalredirect][version] = "1.4"
 projects[In-Field-Labels][subdir] = "contrib"
 projects[In-Field-Labels][version] = "1.1"
 
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "2.2"
+
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0"
 
@@ -149,6 +150,9 @@ projects[read_more][version] = "1.x-dev"
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.x-dev"
 
+projects[record_feature][subdir] = "contrib"
+projects[record_feature][version] = "1.0-beta2"
+
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-beta4"
 
@@ -170,6 +174,9 @@ projects[strongarm][version] = "2.0-beta5"
 projects[subpathauto][subdir] = "contrib"
 projects[subpathauto][version] = "1.2"
 
+projects[tadaa][subdir] = "contrib"
+projects[tadaa][version] = "1.0-beta1"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-rc1"
 
@@ -180,7 +187,7 @@ projects[user_readonly][subdir] = "contrib"
 projects[user_readonly][version] = "1.3"
 
 projects[uuid][subdir] = "contrib"
-projects[uuid][version] = "1.0-alpha3"
+projects[uuid][version] = "1.x-dev"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.3"
@@ -231,6 +238,11 @@ projects[pro_101_contact_content][subdir] = "features/content"
 projects[pro_101_contact_content][type] = "module"
 projects[pro_101_contact_content][download][type] = "git"
 projects[pro_101_contact_content][download][url] = "git@github.com:pearance/pro_101_contact_content.git"
+
+projects[pro_101_default_theme][subdir] = "features/infrastructure"
+projects[pro_101_default_theme][type] = "module"
+projects[pro_101_default_theme][download][type] = "git"
+projects[pro_101_default_theme][download][url] = "git@github.com:pearance/pro_101_default_theme.git"
 
 projects[pro_101_default_users][subdir] = "features/content"
 projects[pro_101_default_users][type] = "module"
@@ -351,15 +363,18 @@ projects[pro_101_support_infrastructure][type] = "module"
 projects[pro_101_support_infrastructure][download][type] = "git"
 projects[pro_101_support_infrastructure][download][url] = "git@github.com:pearance/pro_101_support_infrastructure.git"
 
-projects[pro_101_theme_infrastructure][subdir] = "features/infrastructure"
-projects[pro_101_theme_infrastructure][type] = "module"
-projects[pro_101_theme_infrastructure][download][type] = "git"
-projects[pro_101_theme_infrastructure][download][url] = "git@github.com:pearance/pro_101_theme_infrastructure.git"
-
 projects[pro_101_user_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_user_infrastructure][type] = "module"
 projects[pro_101_user_infrastructure][download][type] = "git"
 projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/pro_101_user_infrastructure.git"
+
+
+
+; LIBRARIES ====================================================================
+libraries[ckeditor][download][type]= "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
 
 
 
