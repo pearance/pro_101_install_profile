@@ -55,6 +55,9 @@ projects[contact_info][download][url] = "http://git.drupal.org/sandbox/dboulet/1
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta2"
 
+projects[cs_adaptive_image][subdir] = "contrib"
+projects[cs_adaptive_image][version] = "1.0-alpha2"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1"
 
@@ -100,6 +103,9 @@ projects[file_entity][version] = "2.0-unstable3"
 
 projects[filter_perms][subdir] = "contrib"
 projects[filter_perms][version] = "1.x-dev"
+
+projects[flexslider][subdir] = "contrib"
+projects[flexslider][version] = "1.0-rc3"
 
 projects[ftools][subdir] = "contrib"
 projects[ftools][version] = "1.4"
@@ -191,6 +197,9 @@ projects[uuid][version] = "1.x-dev"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.3"
+
+projects[views_slideshow][subdir] = "contrib"
+projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.17"
@@ -375,6 +384,11 @@ libraries[ckeditor][download][type]= "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
+libraries[FlexSlider][download][type]= "get"
+libraries[FlexSlider][download][url] = "https://github.com/woothemes/FlexSlider.git"
+libraries[FlexSlider][directory_name] = "flexslider"
+libraries[FlexSlider][destination] = "libraries"
 
 
 

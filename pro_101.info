@@ -44,6 +44,7 @@ dependencies[] = pro_101_blog_content
 dependencies[] = pro_101_default_theme
 ; dependencies[] = pro_101_default_users ; SEE COMMENTS 2
 ; dependencies[] = pro_101_global_content ; SEE COMMENTS 3
+dependencies[] = pro_101_home_content
 dependencies[] = pro_101_specialties_content
 dependencies[] = pro_101_testimonials_content
 
