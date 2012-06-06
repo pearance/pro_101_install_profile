@@ -80,6 +80,9 @@ projects[drupalforfirebug][version] = "1.2"
 projects[ds][subdir] = "contrib"
 projects[ds][version] = "2.x-dev"
 
+projects[dummyimage][subdir] = "contrib"
+projects[dummyimage][version] = "1.4"
+
 projects[email_registration][subdir] = "contrib"
 projects[email_registration][version] = "1.0"
 
@@ -104,14 +107,8 @@ projects[file_entity][version] = "2.0-unstable3"
 projects[filter_perms][subdir] = "contrib"
 projects[filter_perms][version] = "1.x-dev"
 
-projects[flexslider][subdir] = "contrib"
-projects[flexslider][version] = "1.0-rc3"
-
 projects[ftools][subdir] = "contrib"
 projects[ftools][version] = "1.4"
-
-projects[git_deploy][subdir] = "contrib"
-projects[git_deploy][version] = "2.2"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.4"
@@ -385,10 +382,15 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-libraries[FlexSlider][download][type]= "get"
-libraries[FlexSlider][download][url] = "https://github.com/woothemes/FlexSlider.git"
-libraries[FlexSlider][directory_name] = "flexslider"
-libraries[FlexSlider][destination] = "libraries"
+libraries[cycle][download][type]= "get"
+libraries[cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+libraries[cycle][directory_name] = "jquery.cycle"
+libraries[cycle][destination] = "libraries"
+
+libraries[json2][download][type]= "get"
+libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
+libraries[json2][directory_name] = "json2"
+libraries[json2][destination] = "libraries"
 
 
 
