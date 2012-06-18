@@ -34,3 +34,6 @@ chmod -R 774 sites/all/modules/features/
 
 
 echo -e "\nPost build cleanup completed!"
+
+
+# vim: set ft=sh:

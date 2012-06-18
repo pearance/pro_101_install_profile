@@ -6,16 +6,10 @@ api = "2"
 core = "7.x"
 
 projects[drupal][type] = "core"
-projects[drupal][version] = "7.12"
-
-; Make system directories configurable to allow tests in profiles/[name]/modules to be run. : http://drupal.org/node/911354
-projects[drupal][patch][911354] = "http://drupal.org/files/issues/911354.43.patch"
+projects[drupal][version] = "7.14"
 
 ; Use vocabulary machine name for permissions : http://drupal.org/node/995156
 projects[drupal][patch][995156] = "http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch"
-
-; Split field_bundle_settings out per bundle : http://drupal.org/node/1211008
-projects[drupal][patch][1211008] = "http://drupal.org/files/drupal-1211008-53.patch"
 
 ; Load installation profile
 ;projects[pro_101][type] = "profile"
@@ -28,8 +22,8 @@ projects[drupal][patch][1211008] = "http://drupal.org/files/drupal-1211008-53.pa
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
 
-projects[admin_select][subdir] = "contrib"
-projects[admin_select][version] = "1.2"
+projects[alchemy][subdir] = "contrib"
+projects[alchemy][version] = "1.0-beta1"
 
 projects[allow_all_file_extensions][subdir] = "contrib"
 projects[allow_all_file_extensions][version] = "1.1"
@@ -37,23 +31,30 @@ projects[allow_all_file_extensions][version] = "1.1"
 projects[autocomplete_deluxe][subdir] = "contrib"
 projects[autocomplete_deluxe][version] = "1.0-beta5"
 
-projects[auto_menutitle][subdir] = "contrib"
-projects[auto_menutitle][version] = "1.0"
-
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0"
 
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.9"
 
+projects[clear_password_field][subdir] = "contrib"
+projects[clear_password_field][version] = "1.2"
+
 projects[contact_info][subdir] = "contrib"
 projects[contact_info][type] = "module"
 projects[contact_info][download][type] = "git"
+projects[contact_info][download][branch] = "7.x-1.x"
 projects[contact_info][download][url] = "http://git.drupal.org/sandbox/dboulet/1146162.git"
-;projects[contact_info][directory_name] = "contact_info"
+
+projects[contentanalysis][subdir] = "contrib"
+projects[contentanalysis][version] = "1.0-beta5"
+
+projects[contentoptimizer][subdir] = "contrib"
+projects[contentoptimizer][version] = "2.0-beta4"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta2"
+projects[context][version] = "3.x-dev"
+projects[context][patch][1050724] = "http://drupal.org/files/context-context-ui-revamp-1050724-26.patch"
 
 projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
@@ -66,10 +67,13 @@ projects[defaultcontent][version] = "1.x-dev"
 projects[defaultcontent][patch][1406916] = "http://drupal.org/files/1406916.patch"
 
 projects[delta][subdir] = "contrib"
-projects[delta][version] = "3.0-beta9"
+projects[delta][version] = "3.0-beta10"
 
 projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.2"
+projects[devel][version] = "1.3"
+
+projects[devel_themer][subdir] = "contrib"
+projects[devel_themer][version] = "1.x-dev"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0"
@@ -77,8 +81,10 @@ projects[diff][version] = "2.0"
 projects[drupalforfirebug][subdir] = "contrib"
 projects[drupalforfirebug][version] = "1.2"
 
-projects[ds][subdir] = "contrib"
-projects[ds][version] = "2.x-dev"
+; projects[ds][subdir] = "contrib"
+; projects[ds][version] = "2.x-dev"
+; projects[ds][patch][1614530] = "http://drupal.org/files/ds-view-mode-class-1614530-5.patch"
+; projects[ds][patch][1605212] = "http://drupal.org/files/1605212_8_ds_rdfa.patch"
 
 projects[dummyimage][subdir] = "contrib"
 projects[dummyimage][version] = "1.4"
@@ -89,11 +95,12 @@ projects[email_registration][version] = "1.0"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc2"
 
-projects[facebook_comments][subdir] = "contrib"
-projects[facebook_comments][version] = "1.0-beta2"
-
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-rc2"
+projects[features][type] = "module"
+projects[features][download][type] = "git"
+projects[features][download][url] = "http://git.drupal.org/project/features.git"
+projects[features][download][branch] = "7.x-1.x"
+projects[features][patch][986968] = "http://drupal.org/files/features_986968_20_shortcut_sets.patch"
 
 projects[field_ellipsis][subdir] = "contrib"
 projects[field_ellipsis][version] = "1.0"
@@ -102,7 +109,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable3"
+projects[file_entity][version] = "2.x-dev"
 
 projects[filter_perms][subdir] = "contrib"
 projects[filter_perms][version] = "1.x-dev"
@@ -113,11 +120,20 @@ projects[ftools][version] = "1.4"
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.4"
 
-projects[In-Field-Labels][subdir] = "contrib"
-projects[In-Field-Labels][version] = "1.1"
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "1.2"
+
+projects[insight][subdir] = "contrib"
+projects[insight][version] = "1.0-alpha2"
+
+projects[invisimail][subdir] = "contrib"
+projects[invisimail][version] = "1.1"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
+
+projects[kwresearch][subdir] = "contrib"
+projects[kwresearch][version] = "1.0-alpha3"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0"
@@ -125,14 +141,27 @@ projects[libraries][version] = "1.0"
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
 
+projects[masquerade][subdir] = "contrib"
+projects[masquerade][version] = "1.0-rc4"
+
+projects[masquerade_extras][subdir] = "contrib"
+projects[masquerade_extras][version] = "1.x-dev"
+
 projects[maxlength][subdir] = "contrib"
 projects[maxlength][version] = "3.0-beta1"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable3"
+projects[media][version] = "2.x-dev"
+
+projects[metatag][subdir] = "contrib"
+projects[metatag][version] = "1.0-alpha6"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.6"
+
+projects[mollom][subdir] = "contrib"
+projects[mollom][version] = "2.1"
+projects[mollom][patch][717874] = "http://drupal.org/files/717874-18-exportables-for-mollom.patch"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
@@ -147,8 +176,8 @@ projects[pathologic][version] = "1.4"
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.x-dev"
 
-projects[read_more][subdir] = "contrib"
-projects[read_more][version] = "1.x-dev"
+projects[rabbit_hole][subdir] = "contrib"
+projects[rabbit_hole][version] = "2.0-beta1"
 
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.x-dev"
@@ -159,17 +188,29 @@ projects[record_feature][version] = "1.0-beta2"
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-beta4"
 
-projects[rel][subdir] = "contrib"
-projects[rel][version] = "1.x-dev"
+; projects[rel][subdir] = "contrib"
+; projects[rel][version] = "1.x-dev"
+
+projects[remote_stream_wrapper][subdir] = "contrib"
+projects[remote_stream_wrapper][version] = "1.0-beta4"
 
 projects[role_export][subdir] = "contrib"
 projects[role_export][version] = "1.0"
+
+projects[seotools][subdir] = "contrib"
+projects[seotools][version] = "1.0-alpha5"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][version] = "2.4"
 
 projects[simple_gmap][subdir] = "contrib"
 projects[simple_gmap][version] = "1.0-rc1"
+
+projects[simplehtmldom[subdir] = "contrib"
+projects[simplehtmldom[version] = "1.12"
+
+projects[stringoverrides][subdir] = "contrib"
+projects[stringoverrides][version] = "1.8"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0-beta5"
@@ -179,6 +220,11 @@ projects[subpathauto][version] = "1.2"
 
 projects[tadaa][subdir] = "contrib"
 projects[tadaa][version] = "1.0-beta1"
+
+projects[tadaa][subdir] = "contrib"
+projects[tadaa][type] = "module"
+projects[tadaa][download][type] = "git"
+projects[tadaa][download][url] = "http://git.drupal.org/project/tadaa.git"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-rc1"
@@ -196,17 +242,28 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "3.3"
 
 projects[views_slideshow][subdir] = "contrib"
-projects[views_slideshow][version] = "3.0"
+projects[views_slideshow][version] = "3.x-dev"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.17"
 
+projects[webform_ajax][subdir] = "contrib"
+projects[webform_ajax][version] = "1.0"
+
 projects[webform_phone][subdir] = "contrib"
 projects[webform_phone][version] = "1.4"
+
+projects[wordstream][subdir] = "contrib"
+projects[wordstream][version] = "1.0-rc1"
 
 
 
 ; CUSTOM MODULES ===============================================================
+projects[facebook_comments][subdir] = "custom"
+projects[facebook_comments][type] = "module"
+projects[facebook_comments][download][type] = "git"
+projects[facebook_comments][download][url] = "git@github.com:pearance/facebook_comments.git"
+
 projects[faq][subdir] = "custom"
 projects[faq][type] = "module"
 projects[faq][download][type] = "git"
@@ -217,55 +274,60 @@ projects[pro_101_custom][type] = "module"
 projects[pro_101_custom][download][type] = "git"
 projects[pro_101_custom][download][url] = "git@github.com:pearance/pro_101_custom.git"
 
-projects[uuid_features][subdir] = "custom"
-projects[uuid_features][type] = "module"
-projects[uuid_features][download][type] = "git"
-projects[uuid_features][download][url] = "git@github.com:pearance/uuid_features.git"
-
 
 
 ; CONTENT FEATURES =============================================================
-projects[pro_101_about_content][subdir] = "features/content"
+projects[pro_101_about_content][subdir] = "features/defaults"
 projects[pro_101_about_content][type] = "module"
 projects[pro_101_about_content][download][type] = "git"
 projects[pro_101_about_content][download][url] = "git@github.com:pearance/pro_101_about_content.git"
 
-projects[pro_101_answers_content][subdir] = "features/content"
+projects[pro_101_answers_content][subdir] = "features/defaults"
 projects[pro_101_answers_content][type] = "module"
 projects[pro_101_answers_content][download][type] = "git"
 projects[pro_101_answers_content][download][url] = "git@github.com:pearance/pro_101_answers_content.git"
 
-projects[pro_101_blog_content][subdir] = "features/content"
+projects[pro_101_blog_content][subdir] = "features/defaults"
 projects[pro_101_blog_content][type] = "module"
 projects[pro_101_blog_content][download][type] = "git"
 projects[pro_101_blog_content][download][url] = "git@github.com:pearance/pro_101_blog_content.git"
 
-projects[pro_101_contact_content][subdir] = "features/content"
+projects[pro_101_contact_content][subdir] = "features/defaults"
 projects[pro_101_contact_content][type] = "module"
 projects[pro_101_contact_content][download][type] = "git"
 projects[pro_101_contact_content][download][url] = "git@github.com:pearance/pro_101_contact_content.git"
 
-projects[pro_101_default_theme][subdir] = "features/infrastructure"
+projects[pro_101_default_theme][subdir] = "features/defaults"
 projects[pro_101_default_theme][type] = "module"
 projects[pro_101_default_theme][download][type] = "git"
 projects[pro_101_default_theme][download][url] = "git@github.com:pearance/pro_101_default_theme.git"
 
-projects[pro_101_default_users][subdir] = "features/content"
+projects[pro_101_default_users][subdir] = "features/defaults"
 projects[pro_101_default_users][type] = "module"
 projects[pro_101_default_users][download][type] = "git"
 projects[pro_101_default_users][download][url] = "git@github.com:pearance/pro_101_default_users.git"
 
-projects[pro_101_global_content][subdir] = "features/content"
+projects[pro_101_global_content][subdir] = "features/defaults"
 projects[pro_101_global_content][type] = "module"
 projects[pro_101_global_content][download][type] = "git"
 projects[pro_101_global_content][download][url] = "git@github.com:pearance/pro_101_global_content.git"
 
-projects[pro_101_specialties_content][subdir] = "features/content"
+projects[pro_101_home_content][subdir] = "features/defaults"
+projects[pro_101_home_content][type] = "module"
+projects[pro_101_home_content][download][type] = "git"
+projects[pro_101_home_content][download][url] = "git@github.com:pearance/pro_101_home_content.git"
+
+projects[pro_101_privacy_policy_content][subdir] = "features/defaults"
+projects[pro_101_privacy_policy_content][type] = "module"
+projects[pro_101_privacy_policy_content][download][type] = "git"
+projects[pro_101_privacy_policy_content][download][url] = "git@github.com:pearance/pro_101_privacy_policy_content.git"
+
+projects[pro_101_specialties_content][subdir] = "features/defaults"
 projects[pro_101_specialties_content][type] = "module"
 projects[pro_101_specialties_content][download][url] = "git@github.com:pearance/pro_101_specialties_content.git"
 projects[pro_101_specialties_content][download][type] = "git"
 
-projects[pro_101_testimonials_content][subdir] = "features/content"
+projects[pro_101_testimonials_content][subdir] = "features/defaults"
 projects[pro_101_testimonials_content][type] = "module"
 projects[pro_101_testimonials_content][download][url] = "git@github.com:pearance/pro_101_testimonials_content.git"
 projects[pro_101_testimonials_content][download][type] = "git"
@@ -291,10 +353,10 @@ projects[pro_101_ignore][download][url] = "git@github.com:pearance/pro_101_ignor
 
 
 ; FEATURE FEATURES =============================================================
-projects[pro_101_about_feature_p][subdir] = "features/features"
-projects[pro_101_about_feature_p][type] = "module"
-projects[pro_101_about_feature_p][download][type] = "git"
-projects[pro_101_about_feature_p][download][url] = "git@github.com:pearance/pro_101_about_feature_p.git"
+projects[pro_101_about_feature][subdir] = "features/features"
+projects[pro_101_about_feature][type] = "module"
+projects[pro_101_about_feature][download][type] = "git"
+projects[pro_101_about_feature][download][url] = "git@github.com:pearance/pro_101_about_feature.git"
 
 # projects[pro_101_about_feature_v][subdir] = "features/features"
 # projects[pro_101_about_feature_v][type] = "module"
@@ -316,15 +378,15 @@ projects[pro_101_contact_feature][type] = "module"
 projects[pro_101_contact_feature][download][type] = "git"
 projects[pro_101_contact_feature][download][url] = "git@github.com:pearance/pro_101_contact_feature.git"
 
-projects[pro_101_home_feature][subdir] = "features/features"
-projects[pro_101_home_feature][type] = "module"
-projects[pro_101_home_feature][download][type] = "git"
-projects[pro_101_home_feature][download][url] = "git@github.com:pearance/pro_101_home_feature.git"
-
 projects[pro_101_page_feature][subdir] = "features/features"
 projects[pro_101_page_feature][type] = "module"
 projects[pro_101_page_feature][download][type] = "git"
 projects[pro_101_page_feature][download][url] = "git@github.com:pearance/pro_101_page_feature.git"
+
+projects[pro_101_showcase_feature][subdir] = "features/features"
+projects[pro_101_showcase_feature][type] = "module"
+projects[pro_101_showcase_feature][download][type] = "git"
+projects[pro_101_showcase_feature][download][url] = "git@github.com:pearance/pro_101_showcase_feature.git"
 
 projects[pro_101_specialties_feature][subdir] = "features/features"
 projects[pro_101_specialties_feature][type] = "module"
@@ -377,25 +439,23 @@ projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/
 
 
 ; LIBRARIES ====================================================================
-libraries[ckeditor][download][type]= "get"
+libraries[ckeditor][download][type]= "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination] = "libraries"
 
-libraries[cycle][download][type]= "get"
-libraries[cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
-libraries[cycle][directory_name] = "jquery.cycle"
-libraries[cycle][destination] = "libraries"
+libraries[jquery.cycle][download][type]= "file"
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
-libraries[json2][download][type]= "get"
+libraries[json2][download][type]= "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
-libraries[json2][directory_name] = "json2"
-libraries[json2][destination] = "libraries"
+
+libraries[wordstream][download][type]= "file"
+libraries[wordstream][download][url] = "https://api.wordstream.com/doc/sample_code?doc=wordstream_api.php&label=WordStream%20API%20Sample%20Code"
+libraries[wordstream][download][filename] = "class.wordstream.inc"
 
 
 
 ; THEMES =======================================================================
-projects[tao][version] = "3.0-beta4"
+projects[tao][version] = "3.x-dev"
 
 projects[rubik][version] = "4.0-beta8"
 
@@ -405,6 +465,14 @@ projects[prostarter][type] = "theme"
 projects[prostarter][download][type] = "git"
 projects[prostarter][download][url] = "git@github.com:pearance/prostarter.git"
 
-projects[propanel][type] = "theme"
-projects[propanel][download][type] = "git"
-projects[propanel][download][url] = "git@github.com:pearance/propanel.git"
+projects[rubik][type] = "theme"
+projects[rubik][download][type] = "git"
+projects[rubik][download][url] = "git@github.com:pearance/rubik.git"
+
+
+
+
+
+
+
+; vim: set ft=dosini:

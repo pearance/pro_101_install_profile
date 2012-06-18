@@ -9,19 +9,19 @@ core = 7.x
 dependencies[] = pro_101_build_infrastructure
 dependencies[] = pro_101_core_infrastructure
 dependencies[] = pro_101_media_infrastructure
-dependencies[] = pro_101_seo_infrastructure
 dependencies[] = pro_101_authoring_infrastructure
-; dependencies[] = pro_101_support_infrastructer ; SEE COMMENTS 1
 dependencies[] = pro_101_user_infrastructure
+dependencies[] = pro_101_seo_infrastructure
+; dependencies[] = pro_101_support_infrastructer ; SEE COMMENTS 1
 
 
 
 ; PRO 101 FEATURES (G)
-dependencies[] = pro_101_about_feature_p
+dependencies[] = pro_101_about_feature
 dependencies[] = pro_101_answers_feature
 dependencies[] = pro_101_blog_feature
 dependencies[] = pro_101_contact_feature
-dependencies[] = pro_101_home_feature
+dependencies[] = pro_101_showcase_feature
 dependencies[] = pro_101_page_feature
 dependencies[] = pro_101_specialties_feature
 dependencies[] = pro_101_testimonials_feature
@@ -30,7 +30,6 @@ dependencies[] = pro_101_testimonials_feature
 
 ; PRO 101 DEVELOPMENT (G)
 dependencies[] = pro_101_dev_tools
-; dependencies[] = pro_101_dev_tools ; SEE COMMENTS 10
 ; dependencies[] = pro_101_firebug ; SEE COMMENTS 10
 ; dependencies[] = pro_101_ignore ; SEE COMMENTS 10
 
@@ -42,11 +41,12 @@ dependencies[] = pro_101_about_content
 dependencies[] = pro_101_answers_content
 dependencies[] = pro_101_blog_content
 dependencies[] = pro_101_default_theme
-; dependencies[] = pro_101_default_users ; SEE COMMENTS 2
-; dependencies[] = pro_101_global_content ; SEE COMMENTS 3
 dependencies[] = pro_101_home_content
 dependencies[] = pro_101_specialties_content
+dependencies[] = pro_101_privacy_policy_content
 dependencies[] = pro_101_testimonials_content
+; dependencies[] = pro_101_default_users ; SEE COMMENTS 2
+; dependencies[] = pro_101_global_content ; SEE COMMENTS 3
 
 
 

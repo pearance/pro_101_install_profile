@@ -10,3 +10,7 @@ echo '----------------------------------------------------------------'
 
 /srv/aegir/bin/drush    @$1 pathauto-aliases-delete
 /srv/aegir/bin/drush    @$1 pathauto-aliases-create
+
+/srv/aegir/bin/drush    @$1 fu pro_101_home_content
+
+# vim: set ft=sh:
