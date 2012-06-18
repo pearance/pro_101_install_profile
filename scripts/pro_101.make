@@ -249,6 +249,9 @@ projects[webform_phone][version] = "1.4"
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
 
+projects[xmlsitemap][subdir] = "contrib"
+projects[xmlsitemap][version] = "2.0-rc1"
+
 
 
 ; CUSTOM MODULES ===============================================================
