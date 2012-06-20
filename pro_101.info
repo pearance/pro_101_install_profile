@@ -11,6 +11,7 @@ dependencies[] = pro_101_core_infrastructure
 dependencies[] = pro_101_media_infrastructure
 dependencies[] = pro_101_authoring_infrastructure
 dependencies[] = pro_101_user_infrastructure
+dependencies[] = pro_101_form_infrastructure
 dependencies[] = pro_101_seo_infrastructure
 ; dependencies[] = pro_101_support_infrastructer ; SEE COMMENTS 1
 
@@ -20,7 +21,6 @@ dependencies[] = pro_101_seo_infrastructure
 dependencies[] = pro_101_about_feature
 dependencies[] = pro_101_answers_feature
 dependencies[] = pro_101_blog_feature
-dependencies[] = pro_101_contact_feature
 dependencies[] = pro_101_showcase_feature
 dependencies[] = pro_101_page_feature
 dependencies[] = pro_101_specialties_feature

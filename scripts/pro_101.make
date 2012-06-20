@@ -22,7 +22,7 @@ projects[allow_all_file_extensions][subdir] = "contrib"
 projects[allow_all_file_extensions][version] = "1.1"
 
 projects[autocomplete_deluxe][subdir] = "contrib"
-projects[autocomplete_deluxe][version] = "1.0-beta5"
+projects[autocomplete_deluxe][version] = "1.x-dev"
 
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0"
@@ -37,7 +37,7 @@ projects[contact_info][subdir] = "contrib"
 projects[contact_info][type] = "module"
 projects[contact_info][download][type] = "git"
 projects[contact_info][download][branch] = "7.x-1.x"
-projects[contact_info][download][url] = "http://git.drupal.org/sandbox/dboulet/1146162.git"
+projects[contact_info][download][url] = "http://git.drupal.org/project/contact_info.git"
 
 projects[contentanalysis][subdir] = "contrib"
 projects[contentanalysis][version] = "1.0-beta5"
@@ -369,11 +369,6 @@ projects[pro_101_blog_feature][type] = "module"
 projects[pro_101_blog_feature][download][type] = "git"
 projects[pro_101_blog_feature][download][url] = "git@github.com:pearance/pro_101_blog_feature.git"
 
-projects[pro_101_contact_feature][subdir] = "features/features"
-projects[pro_101_contact_feature][type] = "module"
-projects[pro_101_contact_feature][download][type] = "git"
-projects[pro_101_contact_feature][download][url] = "git@github.com:pearance/pro_101_contact_feature.git"
-
 projects[pro_101_page_feature][subdir] = "features/features"
 projects[pro_101_page_feature][type] = "module"
 projects[pro_101_page_feature][download][type] = "git"
@@ -412,6 +407,11 @@ projects[pro_101_core_infrastructure][type] = "module"
 projects[pro_101_core_infrastructure][download][type] = "git"
 projects[pro_101_core_infrastructure][download][url] = "git@github.com:pearance/pro_101_core_infrastructure.git"
 
+projects[pro_101_form_infrastructure][subdir] = "features/infrastructure"
+projects[pro_101_form_infrastructure][type] = "module"
+projects[pro_101_form_infrastructure][download][type] = "git"
+projects[pro_101_form_infrastructure][download][url] = "git@github.com:pearance/pro_101_form_infrastructure.git"
+
 projects[pro_101_media_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_media_infrastructure][type] = "module"
 projects[pro_101_media_infrastructure][download][type] = "git"
@@ -435,6 +435,12 @@ projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/
 
 
 ; LIBRARIES ====================================================================
+libraries[alchemy][download][type] = "file"
+libraries[alchemy][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
+libraries[alchemy][destination] = "modules/contrib/alchemy/"
+libraries[alchemy][directory_name] = "AlchemyAPI"
+libraries[alchemy][overwrite] = TRUE
+
 libraries[ckeditor][download][type]= "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 
