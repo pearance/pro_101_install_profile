@@ -8,55 +8,48 @@ core = 7.x
 ; PRO 101 INFRASTRUCTURE (G)
 dependencies[] = pro_101_build_infrastructure
 dependencies[] = pro_101_core_infrastructure
-dependencies[] = pro_101_media_infrastructure
-dependencies[] = pro_101_authoring_infrastructure
 dependencies[] = pro_101_user_infrastructure
+dependencies[] = pro_101_authoring_infrastructure
+dependencies[] = pro_101_media_infrastructure
 dependencies[] = pro_101_form_infrastructure
 dependencies[] = pro_101_seo_infrastructure
-; dependencies[] = pro_101_support_infrastructer ; SEE COMMENTS 1
 
 
 
 ; PRO 101 FEATURES (G)
-dependencies[] = pro_101_about_feature
-dependencies[] = pro_101_answers_feature
-dependencies[] = pro_101_blog_feature
-dependencies[] = pro_101_showcase_feature
-dependencies[] = pro_101_page_feature
-dependencies[] = pro_101_specialties_feature
-dependencies[] = pro_101_testimonials_feature
+; dependencies[] = pro_101_about_feature
+; dependencies[] = pro_101_answers_feature
+; dependencies[] = pro_101_blog_feature
+; dependencies[] = pro_101_showcase_feature
+; dependencies[] = pro_101_page_feature
+; dependencies[] = pro_101_specialties_feature
+; dependencies[] = pro_101_testimonials_feature
 
 
 
-; PRO 101 DEVELOPMENT (G)
-dependencies[] = pro_101_dev_tools
-; dependencies[] = pro_101_firebug ; SEE COMMENTS 10
-; dependencies[] = pro_101_ignore ; SEE COMMENTS 10
+; PRO 101 SUPPORT (G)
+dependencies[] = pro_101_support_tools
+; dependencies[] = pro_101_firebug
+; dependencies[] = pro_101_ignore
+; The following is enabled in the post-install script to populate user fields.
+dependencies[] = pro_101_support_accounts
+dependencies[] = pro_101_mock_user_accounts
 
 
 
 ; PRO 101 DEFAULTS (L)
-dependencies[] = pro_101_contact_content
-dependencies[] = pro_101_about_content
-dependencies[] = pro_101_answers_content
-dependencies[] = pro_101_blog_content
-dependencies[] = pro_101_default_theme
-dependencies[] = pro_101_home_content
-dependencies[] = pro_101_specialties_content
-dependencies[] = pro_101_privacy_policy_content
-dependencies[] = pro_101_testimonials_content
-; dependencies[] = pro_101_default_users ; SEE COMMENTS 2
-; dependencies[] = pro_101_global_content ; SEE COMMENTS 3
+; dependencies[] = pro_101_contact_content
+; dependencies[] = pro_101_about_content
+; dependencies[] = pro_101_answers_content
+; dependencies[] = pro_101_blog_content
+; dependencies[] = pro_101_default_theme
+; dependencies[] = pro_101_home_content
+; dependencies[] = pro_101_specialties_content
+; dependencies[] = pro_101_privacy_policy_content
+; dependencies[] = pro_101_testimonials_content
+; dependencies[] = pro_101_global_content
 
 
-
-; COMMENTS
-; 1. Support_infrastructure needs to be last to populate user profile fields.
-; 2. Default_users must be in the post script so the custom fields, etc can be
-; populated.
-; 3. Global_content relies on many other module's blocks to exist to work
-; properly, so it must be last.
-; 10. Optional, by default its disabled. To be enabled only when needed.
 
 files[] = pro_101.profile
 

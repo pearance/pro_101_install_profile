@@ -53,7 +53,7 @@ projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0-rc1"
+projects[ctools][version] = "1.0"
 
 projects[defaultcontent][subdir] = "contrib"
 projects[defaultcontent][version] = "1.x-dev"
@@ -87,6 +87,9 @@ projects[email_registration][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc2"
+
+projects[faq][subdir] = "contrib"
+projects[faq][version] = "1.x-dev"
 
 projects[features][subdir] = "contrib"
 projects[features][type] = "module"
@@ -160,7 +163,9 @@ projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0"
+projects[pathauto][download][type] = "git"
+projects[pathauto][download][url] = "http://git.drupal.org/project/pathauto.git"
+projects[pathauto][tag] = "7.x-1.1"
 projects[pathauto][patch][867578] = "http://drupal.org/files/new_drush_commands_to_create_and_delete_url_aliases-867578-21.patch"
 
 projects[pathologic][subdir] = "contrib"
@@ -191,7 +196,11 @@ projects[role_export][subdir] = "contrib"
 projects[role_export][version] = "1.0"
 
 projects[seotools][subdir] = "contrib"
-projects[seotools][version] = "1.0-alpha5"
+projects[seotools][type] = "module"
+projects[seotools][download][type] = "git"
+projects[seotools][download][url] = "http://git.drupal.org/project/seotools.git"
+projects[seotools][download][branch] = "7.x-1.0-alpha5"
+projects[seotools][patch][] = "http://github.com/pearance/pro_101_install_profile/raw/master/patches/seotools.patch"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][version] = "2.4"
@@ -260,11 +269,6 @@ projects[facebook_comments][type] = "module"
 projects[facebook_comments][download][type] = "git"
 projects[facebook_comments][download][url] = "git@github.com:pearance/facebook_comments.git"
 
-projects[faq][subdir] = "custom"
-projects[faq][type] = "module"
-projects[faq][download][type] = "git"
-projects[faq][download][url] = "git@github.com:pearance/faq.git"
-
 projects[pro_101_custom][subdir] = "custom"
 projects[pro_101_custom][type] = "module"
 projects[pro_101_custom][download][type] = "git"
@@ -298,11 +302,6 @@ projects[pro_101_default_theme][type] = "module"
 projects[pro_101_default_theme][download][type] = "git"
 projects[pro_101_default_theme][download][url] = "git@github.com:pearance/pro_101_default_theme.git"
 
-projects[pro_101_default_users][subdir] = "features/defaults"
-projects[pro_101_default_users][type] = "module"
-projects[pro_101_default_users][download][type] = "git"
-projects[pro_101_default_users][download][url] = "git@github.com:pearance/pro_101_default_users.git"
-
 projects[pro_101_global_content][subdir] = "features/defaults"
 projects[pro_101_global_content][type] = "module"
 projects[pro_101_global_content][download][type] = "git"
@@ -330,21 +329,31 @@ projects[pro_101_testimonials_content][download][type] = "git"
 
 
 
-; DEVELOPMENT FEATURES =========================================================
-projects[pro_101_dev_tools][subdir] = "features/development"
-projects[pro_101_dev_tools][type] = "module"
-projects[pro_101_dev_tools][download][type] = "git"
-projects[pro_101_dev_tools][download][url] = "git@github.com:pearance/pro_101_dev_tools.git"
+; SUPPORT FEATURES =========================================================
+projects[pro_101_support_tools][subdir] = "features/support"
+projects[pro_101_support_tools][type] = "module"
+projects[pro_101_support_tools][download][type] = "git"
+projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_dev_tools.git"
 
-projects[pro_101_firebug][subdir] = "features/development"
+projects[pro_101_firebug][subdir] = "features/support"
 projects[pro_101_firebug][type] = "module"
 projects[pro_101_firebug][download][type] = "git"
 projects[pro_101_firebug][download][url] = "git@github.com:pearance/pro_101_firebug.git"
 
-projects[pro_101_ignore][subdir] = "features/development"
+projects[pro_101_ignore][subdir] = "features/support"
 projects[pro_101_ignore][type] = "module"
 projects[pro_101_ignore][download][type] = "git"
 projects[pro_101_ignore][download][url] = "git@github.com:pearance/pro_101_ignore.git"
+
+projects[pro_101_mock_user_accounts][subdir] = "features/support"
+projects[pro_101_mock_user_accounts][type] = "module"
+projects[pro_101_mock_user_accounts][download][type] = "git"
+projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
+
+projects[pro_101_support_accounts][subdir] = "features/support"
+projects[pro_101_support_accounts][type] = "module"
+projects[pro_101_support_accounts][download][type] = "git"
+projects[pro_101_support_accounts][download][url] = "git@github.com:pearance/pro_101_support_accounts.git"
 
 
 
@@ -421,11 +430,6 @@ projects[pro_101_seo_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_seo_infrastructure][type] = "module"
 projects[pro_101_seo_infrastructure][download][type] = "git"
 projects[pro_101_seo_infrastructure][download][url] = "git@github.com:pearance/pro_101_seo_infrastructure.git"
-
-projects[pro_101_support_infrastructure][subdir] = "features/infrastructure"
-projects[pro_101_support_infrastructure][type] = "module"
-projects[pro_101_support_infrastructure][download][type] = "git"
-projects[pro_101_support_infrastructure][download][url] = "git@github.com:pearance/pro_101_support_infrastructure.git"
 
 projects[pro_101_user_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_user_infrastructure][type] = "module"
