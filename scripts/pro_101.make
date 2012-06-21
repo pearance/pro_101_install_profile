@@ -333,7 +333,7 @@ projects[pro_101_testimonials_content][download][type] = "git"
 projects[pro_101_support_tools][subdir] = "features/support"
 projects[pro_101_support_tools][type] = "module"
 projects[pro_101_support_tools][download][type] = "git"
-projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_dev_tools.git"
+projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_support_tools.git"
 
 projects[pro_101_firebug][subdir] = "features/support"
 projects[pro_101_firebug][type] = "module"

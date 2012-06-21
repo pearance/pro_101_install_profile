@@ -32,8 +32,8 @@ dependencies[] = pro_101_support_tools
 ; dependencies[] = pro_101_firebug
 ; dependencies[] = pro_101_ignore
 ; The following is enabled in the post-install script to populate user fields.
-dependencies[] = pro_101_support_accounts
-dependencies[] = pro_101_mock_user_accounts
+; dependencies[] = pro_101_support_accounts
+; dependencies[] = pro_101_mock_user_accounts
 
 
 
