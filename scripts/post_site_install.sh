@@ -16,8 +16,8 @@ echo '----------------------------------------------------------------'
 /srv/aegir/bin/drush -y @$1 en pro_101_mock_user_accounts
 
 # Refresh all aliases.
-# /srv/aegir/bin/drush    @$1 pathauto-aliases-delete
-# /srv/aegir/bin/drush    @$1 pathauto-aliases-create
+/srv/aegir/bin/drush    @$1 pathauto-aliases-delete
+/srv/aegir/bin/drush    @$1 pathauto-aliases-create
 
 
 # vim: set ft=sh:

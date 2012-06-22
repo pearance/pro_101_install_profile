@@ -18,8 +18,8 @@ rm sites/all/modules/README.txt
 rm sites/all/themes/README.txt
 rm sites/example.sites.php
 
-rm -r sites/all/modules/contrib/features/tests/
-rm -r sites/all/modules/contrib/uuid/uuid*example
+# rm -r sites/all/modules/contrib/features/tests/
+# rm -r sites/all/modules/contrib/uuid/uuid*example
 
 rm -r themes/stark
 rm -r themes/garland
@@ -28,8 +28,9 @@ rm -r themes/bartik
 
 
 # Make all features writable for ftool's direct save.
-chgrp -R www-data sites/all/modules/
-chmod -R 774 sites/all/modules/
+chgrp -R www-data sites/all/modules/features
+chmod 774 sites/all/modules/
+find sites/all/modules/features/ -type f -exec chmod 664 {}\;
 
 
 
