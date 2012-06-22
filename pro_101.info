@@ -17,37 +17,48 @@ dependencies[] = pro_101_seo_infrastructure
 
 
 ; PRO 101 FEATURES (G)
-; dependencies[] = pro_101_about_feature
-; dependencies[] = pro_101_answers_feature
-; dependencies[] = pro_101_blog_feature
-; dependencies[] = pro_101_showcase_feature
-; dependencies[] = pro_101_page_feature
-; dependencies[] = pro_101_specialties_feature
-; dependencies[] = pro_101_testimonials_feature
+dependencies[] = pro_101_about_feature
+dependencies[] = pro_101_answers_feature
+dependencies[] = pro_101_blog_feature
+dependencies[] = pro_101_showcase_feature
+dependencies[] = pro_101_page_feature
+dependencies[] = pro_101_specialties_feature
+dependencies[] = pro_101_testimonials_feature
+
+
+
+; PRO 101 DEFAULTS (L)
+dependencies[] = pro_101_default_theme
+dependencies[] = pro_101_contact_content
+dependencies[] = pro_101_home_content
+dependencies[] = pro_101_about_content
+dependencies[] = pro_101_answers_content
+dependencies[] = pro_101_blog_content
+dependencies[] = pro_101_specialties_content
+dependencies[] = pro_101_privacy_policy_content
+dependencies[] = pro_101_testimonials_content
+dependencies[] = pro_101_global_content
 
 
 
 ; PRO 101 SUPPORT (G)
 dependencies[] = pro_101_support_tools
+; The following can be enabled in the post-install script.
+; dependencies[] = pro_101_support_accounts
+
+
+
+; PRO 101 DEVELOPMENT (G)
+; The following is optional.
 ; dependencies[] = pro_101_firebug
 ; dependencies[] = pro_101_ignore
-; The following is enabled in the post-install script to populate user fields.
-; dependencies[] = pro_101_support_accounts
+; The following can be enabled in the post-install script.
 ; dependencies[] = pro_101_mock_user_accounts
 
 
 
-; PRO 101 DEFAULTS (L)
-; dependencies[] = pro_101_contact_content
-; dependencies[] = pro_101_about_content
-; dependencies[] = pro_101_answers_content
-; dependencies[] = pro_101_blog_content
-; dependencies[] = pro_101_default_theme
-; dependencies[] = pro_101_home_content
-; dependencies[] = pro_101_specialties_content
-; dependencies[] = pro_101_privacy_policy_content
-; dependencies[] = pro_101_testimonials_content
-; dependencies[] = pro_101_global_content
+; PRO 101 WRAP (G)
+dependencies[] = pro_101_wrap
 
 
 

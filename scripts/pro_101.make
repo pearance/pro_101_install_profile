@@ -1,9 +1,9 @@
-; Make file for Legal Pro 101
+; Pearance Legal Pro 101 Build
 
 api = "2"
 core = "7.x"
 
-;Drupal Core ===================================================================
+;DRUPAL CORE ===================================================================
 projects[drupal][type] = "core"
 projects[drupal][version] = "7.14"
 projects[drupal][patch][995156] = "http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch"
@@ -11,7 +11,7 @@ projects[drupal][patch][995156] = "http://drupal.org/files/issues/995156-5_porta
 
 
 
-; Contributed Modules ==========================================================
+; MODULES/CONTRIB ==========================================================
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
 
@@ -195,12 +195,12 @@ projects[remote_stream_wrapper][version] = "1.0-beta4"
 projects[role_export][subdir] = "contrib"
 projects[role_export][version] = "1.0"
 
-projects[seotools][subdir] = "contrib"
-projects[seotools][type] = "module"
-projects[seotools][download][type] = "git"
-projects[seotools][download][url] = "http://git.drupal.org/project/seotools.git"
-projects[seotools][download][branch] = "7.x-1.0-alpha5"
-projects[seotools][patch][] = "http://github.com/pearance/pro_101_install_profile/raw/master/patches/seotools.patch"
+; projects[seotools][subdir] = "contrib"
+; projects[seotools][type] = "module"
+; projects[seotools][download][type] = "git"
+; projects[seotools][download][url] = "http://git.drupal.org/project/seotools.git"
+; projects[seotools][download][branch] = "7.x-1.0-alpha5"
+; projects[seotools][patch][] = "http://github.com/pearance/pro_101_install_profile/raw/master/patches/seotools.patch"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][version] = "2.4"
@@ -215,7 +215,10 @@ projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta5"
+projects[strongarm][type] = "module"
+projects[strongarm][download][type] = "git"
+projects[strongarm][download][url] = "http://git.drupal.org/project/strongarm.git"
+projects[strongarm][download][branch] = "7.x-2.0"
 
 projects[subpathauto][subdir] = "contrib"
 projects[subpathauto][version] = "1.2"
@@ -263,7 +266,7 @@ projects[xmlsitemap][version] = "2.0-rc1"
 
 
 
-; CUSTOM MODULES ===============================================================
+; CUSTOM/MODULES ===============================================================
 projects[facebook_comments][subdir] = "custom"
 projects[facebook_comments][type] = "module"
 projects[facebook_comments][download][type] = "git"
@@ -276,7 +279,7 @@ projects[pro_101_custom][download][url] = "git@github.com:pearance/pro_101_custo
 
 
 
-; CONTENT FEATURES =============================================================
+; FEATURES/DEFAULTS =============================================================
 projects[pro_101_about_content][subdir] = "features/defaults"
 projects[pro_101_about_content][type] = "module"
 projects[pro_101_about_content][download][type] = "git"
@@ -329,35 +332,7 @@ projects[pro_101_testimonials_content][download][type] = "git"
 
 
 
-; SUPPORT FEATURES =========================================================
-projects[pro_101_support_tools][subdir] = "features/support"
-projects[pro_101_support_tools][type] = "module"
-projects[pro_101_support_tools][download][type] = "git"
-projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_support_tools.git"
-
-projects[pro_101_firebug][subdir] = "features/support"
-projects[pro_101_firebug][type] = "module"
-projects[pro_101_firebug][download][type] = "git"
-projects[pro_101_firebug][download][url] = "git@github.com:pearance/pro_101_firebug.git"
-
-projects[pro_101_ignore][subdir] = "features/support"
-projects[pro_101_ignore][type] = "module"
-projects[pro_101_ignore][download][type] = "git"
-projects[pro_101_ignore][download][url] = "git@github.com:pearance/pro_101_ignore.git"
-
-projects[pro_101_mock_user_accounts][subdir] = "features/support"
-projects[pro_101_mock_user_accounts][type] = "module"
-projects[pro_101_mock_user_accounts][download][type] = "git"
-projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
-
-projects[pro_101_support_accounts][subdir] = "features/support"
-projects[pro_101_support_accounts][type] = "module"
-projects[pro_101_support_accounts][download][type] = "git"
-projects[pro_101_support_accounts][download][url] = "git@github.com:pearance/pro_101_support_accounts.git"
-
-
-
-; FEATURE FEATURES =============================================================
+; FEATURES/FEATURES =============================================================
 projects[pro_101_about_feature][subdir] = "features/features"
 projects[pro_101_about_feature][type] = "module"
 projects[pro_101_about_feature][download][type] = "git"
@@ -400,7 +375,7 @@ projects[pro_101_testimonials_feature][download][url] = "git@github.com:pearance
 
 
 
-; INFRASTRUCTURE FEATURES ======================================================
+; FEATURES/INFRASTRUCTURE ======================================================
 projects[pro_101_authoring_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_authoring_infrastructure][type] = "module"
 projects[pro_101_authoring_infrastructure][download][type] = "git"
@@ -438,6 +413,42 @@ projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/
 
 
 
+; FEATURES/SUPPORT =========================================================
+projects[pro_101_support_tools][subdir] = "features/support"
+projects[pro_101_support_tools][type] = "module"
+projects[pro_101_support_tools][download][type] = "git"
+projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_support_tools.git"
+
+projects[pro_101_firebug][subdir] = "features/support"
+projects[pro_101_firebug][type] = "module"
+projects[pro_101_firebug][download][type] = "git"
+projects[pro_101_firebug][download][url] = "git@github.com:pearance/pro_101_firebug.git"
+
+projects[pro_101_ignore][subdir] = "features/support"
+projects[pro_101_ignore][type] = "module"
+projects[pro_101_ignore][download][type] = "git"
+projects[pro_101_ignore][download][url] = "git@github.com:pearance/pro_101_ignore.git"
+
+projects[pro_101_mock_user_accounts][subdir] = "features/support"
+projects[pro_101_mock_user_accounts][type] = "module"
+projects[pro_101_mock_user_accounts][download][type] = "git"
+projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
+
+projects[pro_101_support_accounts][subdir] = "features/support"
+projects[pro_101_support_accounts][type] = "module"
+projects[pro_101_support_accounts][download][type] = "git"
+projects[pro_101_support_accounts][download][url] = "git@github.com:pearance/pro_101_support_accounts.git"
+
+
+
+; FEATURES/WRAP =========================================================
+projects[pro_101_wrap][subdir] = "features/wrap"
+projects[pro_101_wrap][type] = "module"
+projects[pro_101_wrap][download][type] = "git"
+projects[pro_101_wrap][download][url] = "git@github.com:pearance/pro_101_wrap.git"
+
+
+
 ; LIBRARIES ====================================================================
 libraries[alchemy][download][type] = "file"
 libraries[alchemy][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
@@ -463,17 +474,15 @@ libraries[wordstream][download][filename] = "class.wordstream.inc"
 ; THEMES =======================================================================
 projects[tao][version] = "3.x-dev"
 
-projects[rubik][version] = "4.0-beta8"
+projects[rubik][type] = "theme"
+projects[rubik][download][type] = "git"
+projects[rubik][download][url] = "git@github.com:pearance/rubik.git"
 
 projects[omega][version] = "3.1"
 
 projects[prostarter][type] = "theme"
 projects[prostarter][download][type] = "git"
 projects[prostarter][download][url] = "git@github.com:pearance/prostarter.git"
-
-projects[rubik][type] = "theme"
-projects[rubik][download][type] = "git"
-projects[rubik][download][url] = "git@github.com:pearance/rubik.git"
 
 
 

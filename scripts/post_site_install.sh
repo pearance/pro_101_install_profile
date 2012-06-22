@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# This script is intended to perform server level operations after an aegir site
-# build. The following code patch needs to be placed in the...
-# function drush_provision_drupal_post_provision_install()
-# located in the drush/provision/platform/install.provision.inc file
+# This script is intended to perform server level operations after a successful
+# aegir site # install. The following code patch needs to be placed in the...
+# function drush_provision_drupal_post_provision_install() # located in the
+# drush/provision/platform/install.provision.inc file
 
 echo -e \n\n
 echo `date` - $1
