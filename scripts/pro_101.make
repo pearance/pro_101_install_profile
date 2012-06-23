@@ -240,9 +240,6 @@ projects[update_notifications_disable][version] = "1.0"
 projects[user_readonly][subdir] = "contrib"
 projects[user_readonly][version] = "1.3"
 
-projects[uuid][subdir] = "contrib"
-projects[uuid][version] = "1.x-dev"
-
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.3"
 
@@ -260,9 +257,6 @@ projects[webform_phone][version] = "1.4"
 
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
-
-projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.0-rc1"
 
 
 
