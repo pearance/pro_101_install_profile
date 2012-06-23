@@ -28,7 +28,7 @@ rm -r themes/bartik
 # Make all features writable for ftool's direct save.
 chgrp -R www-data sites/all/modules/features
 chmod 774 sites/all/modules/
-# find sites/all/modules/features/ -type f -exec chmod 664 {} \;
+find sites/all/modules/features/ -type f -exec chmod 664 {} \;
 
 
 
