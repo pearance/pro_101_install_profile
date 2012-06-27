@@ -18,18 +18,14 @@ rm sites/all/modules/README.txt
 rm sites/all/themes/README.txt
 rm sites/example.sites.php
 
-
 rm -r themes/stark
 rm -r themes/garland
 rm -r themes/bartik
 
-
-
 # Make all features writable for ftool's direct save.
 chgrp -R www-data sites/all/modules/features
-chmod 774 sites/all/modules/
+chmod 775 sites/all/modules/features
 find sites/all/modules/features/ -type f -exec chmod 664 {} \;
-
 
 
 echo -e "\nPost build cleanup completed!"

@@ -7,6 +7,7 @@ core = "7.x"
 projects[drupal][type] = "core"
 projects[drupal][version] = "7.14"
 projects[drupal][patch][995156] = "http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch"
+projects[drupal][patch][682000] = "http://drupal.org/files/shortcut_no_limit-682000-41-d7.patch"
 ; Use vocabulary machine name for permissions : http://drupal.org/node/995156
 
 
@@ -26,6 +27,9 @@ projects[autocomplete_deluxe][version] = "1.x-dev"
 
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0"
+
+projects[chart][subdir] = "contrib"
+projects[chart][version] = "1.1"
 
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.9"
@@ -119,6 +123,9 @@ projects[globalredirect][version] = "1.4"
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.2"
 
+projects[google_analytics_reports][subdir] = "contrib"
+projects[google_analytics_reports][version] = "1.1"
+
 projects[insight][subdir] = "contrib"
 projects[insight][version] = "1.0-alpha2"
 
@@ -158,6 +165,9 @@ projects[module_filter][version] = "1.6"
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "2.1"
 projects[mollom][patch][717874] = "http://drupal.org/files/717874-18-exportables-for-mollom.patch"
+
+projects[oauth][subdir] = "contrib"
+projects[oauth][version] = "3.0"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
@@ -210,6 +220,9 @@ projects[simple_gmap][version] = "1.0-rc1"
 
 projects[simplehtmldom[subdir] = "contrib"
 projects[simplehtmldom[version] = "1.12"
+
+projects[site_verify[subdir] = "contrib"
+projects[site_verify[version] = "1.0"
 
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
