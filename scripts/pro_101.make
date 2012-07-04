@@ -40,8 +40,8 @@ projects[clear_password_field][version] = "1.2"
 projects[contact_info][subdir] = "contrib"
 projects[contact_info][type] = "module"
 projects[contact_info][download][type] = "git"
-projects[contact_info][download][branch] = "7.x-1.x"
 projects[contact_info][download][url] = "http://git.drupal.org/project/contact_info.git"
+projects[contact_info][download][branch] = "7.x-1.x"
 
 projects[contentanalysis][subdir] = "contrib"
 projects[contentanalysis][version] = "1.0-beta5"
@@ -90,7 +90,13 @@ projects[email_registration][subdir] = "contrib"
 projects[email_registration][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0-rc2"
+projects[entity][version] = "1.0-rc3"
+
+projects[facebook_comments][subdir] = "contrib"
+projects[facebook_comments][type] = "module"
+projects[facebook_comments][download][type] = "git"
+projects[facebook_comments][download][url] = "http://git.drupal.org/project/facebook_comments.git"
+projects[facebook_comments][download][branch] = "7.x-1.x"
 
 projects[faq][subdir] = "contrib"
 projects[faq][version] = "1.x-dev"
@@ -99,26 +105,26 @@ projects[features][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][download][type] = "git"
 projects[features][download][url] = "http://git.drupal.org/project/features.git"
-projects[features][download][branch] = "7.x-1.x"
+projects[features][download][branch] = "7.x-1.0-rc3"
 projects[features][patch][986968] = "http://drupal.org/files/features_986968_20_shortcut_sets.patch"
 
 projects[field_ellipsis][subdir] = "contrib"
-projects[field_ellipsis][version] = "1.0"
+projects[field_ellipsis][version] = "1.2"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.x-dev"
+projects[file_entity][version] = "2.0-unstable6"
 
 projects[filter_perms][subdir] = "contrib"
 projects[filter_perms][version] = "1.x-dev"
 
 projects[ftools][subdir] = "contrib"
-projects[ftools][version] = "1.4"
+projects[ftools][version] = "1.5"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.4"
+projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.2"
@@ -167,7 +173,7 @@ projects[mollom][version] = "2.1"
 projects[mollom][patch][717874] = "http://drupal.org/files/717874-18-exportables-for-mollom.patch"
 
 projects[oauth][subdir] = "contrib"
-projects[oauth][version] = "3.0"
+projects[oauth][version] = "3.1-beta1"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
@@ -212,17 +218,29 @@ projects[role_export][version] = "1.0"
 ; projects[seotools][download][branch] = "7.x-1.0-alpha5"
 ; projects[seotools][patch][] = "http://github.com/pearance/pro_101_install_profile/raw/master/patches/seotools.patch"
 
-projects[sharethis][subdir] = "contrib"
-projects[sharethis][version] = "2.4"
-
 projects[simple_gmap][subdir] = "contrib"
 projects[simple_gmap][version] = "1.0-rc1"
 
-projects[simplehtmldom[subdir] = "contrib"
-projects[simplehtmldom[version] = "1.12"
+projects[simplehtmldom][subdir] = "contrib"
+projects[simplehtmldom][type] = "module"
+projects[simplehtmldom][download][type] = "git"
+projects[simplehtmldom][download][url] = "http://git.drupal.org/project/simplehtmldom.git"
+projects[simplehtmldom][download][tag] = "7.x-1.12"
 
-projects[site_verify[subdir] = "contrib"
-projects[site_verify[version] = "1.0"
+projects[single_page_website][subdir] = "contrib"
+projects[single_page_website][type] = "module"
+projects[single_page_website][download][type] = "git"
+projects[single_page_website][download][url] = "http://git.drupal.org/project/single_page_website.git"
+projects[single_page_website][download][tag] = "7.x-2.0-beta4"
+
+projects[site_verify][subdir] = "contrib"
+projects[site_verify][type] = "module"
+projects[site_verify][download][type] = "git"
+projects[site_verify][download][url] = "http://git.drupal.org/project/site_verify.git"
+projects[site_verify][download][tag] = "7.x-1.0"
+
+projects[socialmedia[subdir] = "contrib"
+projects[socialmedia[version] = "1.0-beta11"
 
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
@@ -237,15 +255,12 @@ projects[subpathauto][subdir] = "contrib"
 projects[subpathauto][version] = "1.2"
 
 projects[tadaa][subdir] = "contrib"
-projects[tadaa][version] = "1.0-beta1"
-
-projects[tadaa][subdir] = "contrib"
 projects[tadaa][type] = "module"
 projects[tadaa][download][type] = "git"
 projects[tadaa][download][url] = "http://git.drupal.org/project/tadaa.git"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-rc1"
+projects[token][version] = "1.1"
 
 projects[update_notifications_disable][subdir] = "contrib"
 projects[update_notifications_disable][version] = "1.0"
@@ -260,7 +275,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.17"
+projects[webform][version] = "3.18"
 
 projects[webform_ajax][subdir] = "contrib"
 projects[webform_ajax][version] = "1.0"
@@ -268,16 +283,19 @@ projects[webform_ajax][version] = "1.0"
 projects[webform_phone][subdir] = "contrib"
 projects[webform_phone][version] = "1.4"
 
+projects[widgets][subdir] = "contrib"
+projects[widgets][version] = "1.0-beta5"
+
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
 
 
 
 ; CUSTOM/MODULES ===============================================================
-projects[facebook_comments][subdir] = "custom"
-projects[facebook_comments][type] = "module"
-projects[facebook_comments][download][type] = "git"
-projects[facebook_comments][download][url] = "git@github.com:pearance/facebook_comments.git"
+projects[compact_forms][subdir] = "custom"
+projects[compact_forms][type] = "module"
+projects[compact_forms][download][type] = "git"
+projects[compact_forms][download][url] = "git@github.com:pearance/compact_forms.git"
 
 projects[pro_101_custom][subdir] = "custom"
 projects[pro_101_custom][type] = "module"
@@ -457,24 +475,28 @@ projects[pro_101_wrap][download][url] = "git@github.com:pearance/pro_101_wrap.gi
 
 
 ; LIBRARIES ====================================================================
-libraries[alchemy][download][type] = "file"
-libraries[alchemy][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
-libraries[alchemy][destination] = "modules/contrib/alchemy/"
-libraries[alchemy][directory_name] = "AlchemyAPI"
-libraries[alchemy][overwrite] = TRUE
+libraries[AlchemyAPI][download][type] = "file"
+libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
 
 libraries[ckeditor][download][type]= "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 
-libraries[jquery.cycle][download][type]= "file"
-libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+libraries[jquery.easing][download][type]= "file"
+libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+libraries[jquery.easing][download][filename] = "jquery.easing.js"
 
 libraries[json2][download][type]= "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
+libraries[phpQuery][download][type]= "file"
+libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
+
 libraries[wordstream][download][type]= "file"
 libraries[wordstream][download][url] = "https://api.wordstream.com/doc/sample_code?doc=wordstream_api.php&label=WordStream%20API%20Sample%20Code"
 libraries[wordstream][download][filename] = "class.wordstream.inc"
+
+libraries[jquery.cycle][download][type]= "file"
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
 
 

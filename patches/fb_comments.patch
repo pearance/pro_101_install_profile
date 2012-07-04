@@ -1,0 +1,30 @@
+diff --git a/facebook_comments.module b/facebook_comments.module
+index 68a1cc8..0abec1f 100644
+--- a/facebook_comments.module
++++ b/facebook_comments.module
+@@ -63,6 +63,12 @@ function facebook_comments_block_view($delta = '') {
+  */
+ function facebook_comments_admin() {
+   $form = array();
++  $form['facebook_comments_appid'] = array(
++    '#type' => 'textfield',
++    '#title' => t('Facebook App ID'),
++    '#default_value' => variable_get('facebook_comments_appid', ''),
++    '#description' => t('Enter the <a href="https://developers.facebook.com/apps">Facebook App ID</a> to ensure that all comments can be grouped for moderation.'),
++  );
+   $form['facebook_comments_style'] = array(
+     '#type' => 'select',
+     '#title' => t('Color Scheme'),
+@@ -99,12 +105,6 @@ function facebook_comments_admin() {
+     '#options' => array(1 => 1, 2 => 2, 3 => 3, 5 => 5, 7 => 7, 10 => 10, 15 => 15, 20 => 20, 30 => 30),
+     '#default_value' => variable_get('facebook_comments_block_amount', 15),
+   );
+-  $form['facebook_comments_appid'] = array(
+-    '#type' => 'textfield',
+-    '#title' => t('Facebook App ID'),
+-    '#default_value' => variable_get('facebook_comments_appid', ''),
+-    '#description' => t('Enter the Facebook App ID to ensure that all comments can be grouped for moderation.'),
+-  );
+   $defaulttypes = array();
+   $types = node_type_get_types();
+   foreach ($types as $key => $type) {
