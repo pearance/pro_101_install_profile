@@ -37,6 +37,13 @@ projects[ckeditor][version] = "1.9"
 projects[clear_password_field][subdir] = "contrib"
 projects[clear_password_field][version] = "1.2"
 
+projects[compact_forms][subdir] = "contrib"
+projects[compact_forms][type] = "module"
+projects[compact_forms][download][type] = "git"
+projects[compact_forms][download][url] = "http://git.drupal.org/project/compact_forms.git"
+projects[compact_forms][download][branch] = "7.x-1.x"
+projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms-field-exclusion-1267244-7.patch"
+
 projects[contact_info][subdir] = "contrib"
 projects[contact_info][type] = "module"
 projects[contact_info][download][type] = "git"
@@ -97,6 +104,7 @@ projects[facebook_comments][type] = "module"
 projects[facebook_comments][download][type] = "git"
 projects[facebook_comments][download][url] = "http://git.drupal.org/project/facebook_comments.git"
 projects[facebook_comments][download][branch] = "7.x-1.x"
+projects[facebook_comments][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/fb_comments.patch"
 
 projects[faq][subdir] = "contrib"
 projects[faq][version] = "1.x-dev"
@@ -211,6 +219,13 @@ projects[remote_stream_wrapper][version] = "1.0-beta4"
 projects[role_export][subdir] = "contrib"
 projects[role_export][version] = "1.0"
 
+projects[sharethis][subdir] = "contrib"
+projects[sharethis][type] = "module"
+projects[sharethis][download][type] = "git"
+projects[sharethis][download][url] = "http://git.drupal.org/project/sharethis.git"
+projects[sharethis][download][tag] = "7.x-2.4"
+projects[sharethis][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/sharethis.patch"
+
 ; projects[seotools][subdir] = "contrib"
 ; projects[seotools][type] = "module"
 ; projects[seotools][download][type] = "git"
@@ -292,11 +307,6 @@ projects[wordstream][version] = "1.0-rc1"
 
 
 ; CUSTOM/MODULES ===============================================================
-projects[compact_forms][subdir] = "custom"
-projects[compact_forms][type] = "module"
-projects[compact_forms][download][type] = "git"
-projects[compact_forms][download][url] = "git@github.com:pearance/compact_forms.git"
-
 projects[pro_101_custom][subdir] = "custom"
 projects[pro_101_custom][type] = "module"
 projects[pro_101_custom][download][type] = "git"
