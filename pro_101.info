@@ -24,6 +24,7 @@ dependencies[] = pro_101_showcase_feature
 dependencies[] = pro_101_page_feature
 dependencies[] = pro_101_specialties_feature
 dependencies[] = pro_101_testimonials_feature
+dependencies[] = pro_101_socialmedia_feature
 
 
 
