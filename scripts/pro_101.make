@@ -12,6 +12,32 @@ projects[drupal][patch][682000] = "http://drupal.org/files/shortcut_no_limit-682
 
 
 
+; LIBRARIES ====================================================================
+libraries[AlchemyAPI][download][type] = "file"
+libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
+
+libraries[ckeditor][download][type]= "file"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
+
+libraries[jquery.easing][download][type]= "file"
+libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+libraries[jquery.easing][download][filename] = "jquery.easing.js"
+
+libraries[json2][download][type]= "file"
+libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
+
+libraries[phpQuery][download][type]= "file"
+libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
+
+libraries[wordstream][download][type]= "file"
+libraries[wordstream][download][url] = "https://api.wordstream.com/doc/sample_code?doc=wordstream_api.php&label=WordStream%20API%20Sample%20Code"
+libraries[wordstream][download][filename] = "class.wordstream.inc"
+
+libraries[jquery.cycle][download][type]= "file"
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+
+
+
 ; MODULES/CONTRIB ==========================================================
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
@@ -296,7 +322,7 @@ projects[wordstream][version] = "1.0-rc1"
 
 
 
-; CUSTOM/MODULES ===============================================================
+; MODULES/CUSTOM================================================================
 projects[pro_101_custom][subdir] = "custom"
 projects[pro_101_custom][type] = "module"
 projects[pro_101_custom][download][type] = "git"
@@ -304,7 +330,7 @@ projects[pro_101_custom][download][url] = "git@github.com:pearance/pro_101_custo
 
 
 
-; FEATURES/DEFAULTS =============================================================
+; MODULES/FEATURES/DEFAULTS ============================================================
 projects[pro_101_about_content][subdir] = "features/defaults"
 projects[pro_101_about_content][type] = "module"
 projects[pro_101_about_content][download][type] = "git"
@@ -362,16 +388,29 @@ projects[pro_101_testimonials_content][download][type] = "git"
 
 
 
-; FEATURES/FEATURES =============================================================
+; MODULES/FEATURES/DEVELOPMENT =========================================================
+projects[pro_101_firebug][subdir] = "features/development"
+projects[pro_101_firebug][type] = "module"
+projects[pro_101_firebug][download][type] = "git"
+projects[pro_101_firebug][download][url] = "git@github.com:pearance/pro_101_firebug.git"
+
+projects[pro_101_ignore][subdir] = "features/development"
+projects[pro_101_ignore][type] = "module"
+projects[pro_101_ignore][download][type] = "git"
+projects[pro_101_ignore][download][url] = "git@github.com:pearance/pro_101_ignore.git"
+
+projects[pro_101_mock_user_accounts][subdir] = "features/development"
+projects[pro_101_mock_user_accounts][type] = "module"
+projects[pro_101_mock_user_accounts][download][type] = "git"
+projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
+
+
+
+; MODULES/FEATURES/MODULES/FEATURES =============================================================
 projects[pro_101_about_feature][subdir] = "features/features"
 projects[pro_101_about_feature][type] = "module"
 projects[pro_101_about_feature][download][type] = "git"
 projects[pro_101_about_feature][download][url] = "git@github.com:pearance/pro_101_about_feature.git"
-
-# projects[pro_101_about_feature_v][subdir] = "features/features"
-# projects[pro_101_about_feature_v][type] = "module"
-# projects[pro_101_about_feature_v][download][type] = "git"
-# projects[pro_101_about_feature_v][download][url] = "git@github.com:pearance/pro_101_about_feature_v.git"
 
 projects[pro_101_answers_feature][subdir] = "features/features"
 projects[pro_101_answers_feature][type] = "module"
@@ -405,7 +444,7 @@ projects[pro_101_testimonials_feature][download][url] = "git@github.com:pearance
 
 
 
-; FEATURES/INFRASTRUCTURE ======================================================
+; MODULES/FEATURES/INFRASTRUCTURE ======================================================
 projects[pro_101_authoring_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_authoring_infrastructure][type] = "module"
 projects[pro_101_authoring_infrastructure][download][type] = "git"
@@ -443,26 +482,11 @@ projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/
 
 
 
-; FEATURES/SUPPORT =========================================================
+; MODULES/FEATURES/SUPPORT =========================================================
 projects[pro_101_support_tools][subdir] = "features/support"
 projects[pro_101_support_tools][type] = "module"
 projects[pro_101_support_tools][download][type] = "git"
 projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_support_tools.git"
-
-projects[pro_101_firebug][subdir] = "features/support"
-projects[pro_101_firebug][type] = "module"
-projects[pro_101_firebug][download][type] = "git"
-projects[pro_101_firebug][download][url] = "git@github.com:pearance/pro_101_firebug.git"
-
-projects[pro_101_ignore][subdir] = "features/support"
-projects[pro_101_ignore][type] = "module"
-projects[pro_101_ignore][download][type] = "git"
-projects[pro_101_ignore][download][url] = "git@github.com:pearance/pro_101_ignore.git"
-
-projects[pro_101_mock_user_accounts][subdir] = "features/support"
-projects[pro_101_mock_user_accounts][type] = "module"
-projects[pro_101_mock_user_accounts][download][type] = "git"
-projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
 
 projects[pro_101_support_accounts][subdir] = "features/support"
 projects[pro_101_support_accounts][type] = "module"
@@ -471,37 +495,11 @@ projects[pro_101_support_accounts][download][url] = "git@github.com:pearance/pro
 
 
 
-; FEATURES/WRAP =========================================================
+; MODULES/FEATURES/WRAP =========================================================
 projects[pro_101_wrap][subdir] = "features/wrap"
 projects[pro_101_wrap][type] = "module"
 projects[pro_101_wrap][download][type] = "git"
 projects[pro_101_wrap][download][url] = "git@github.com:pearance/pro_101_wrap.git"
-
-
-
-; LIBRARIES ====================================================================
-libraries[AlchemyAPI][download][type] = "file"
-libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
-
-libraries[ckeditor][download][type]= "file"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
-
-libraries[jquery.easing][download][type]= "file"
-libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
-libraries[jquery.easing][download][filename] = "jquery.easing.js"
-
-libraries[json2][download][type]= "file"
-libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
-
-libraries[phpQuery][download][type]= "file"
-libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
-
-libraries[wordstream][download][type]= "file"
-libraries[wordstream][download][url] = "https://api.wordstream.com/doc/sample_code?doc=wordstream_api.php&label=WordStream%20API%20Sample%20Code"
-libraries[wordstream][download][filename] = "class.wordstream.inc"
-
-libraries[jquery.cycle][download][type]= "file"
-libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
 
 
