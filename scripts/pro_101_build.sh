@@ -27,7 +27,6 @@ chgrp -R www-data sites/all/modules/features
 chmod 775 sites/all/modules/features
 find sites/all/modules/features/ -type f -exec chmod 664 {} \;
 
-cp -f /srv/aegir/platforms/.profiles/gfx/googleplus.png /srv/aegir/platforms/$1/sites/all/modules/contrib/socialmedia/icons/glossy/levelten/32x32/.
 
 echo -e "\nPost build cleanup completed!"
 

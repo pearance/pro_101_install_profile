@@ -247,9 +247,6 @@ projects[site_verify][download][type] = "git"
 projects[site_verify][download][url] = "http://git.drupal.org/project/site_verify.git"
 projects[site_verify][download][tag] = "7.x-1.0"
 
-projects[socialmedia[subdir] = "contrib"
-projects[socialmedia[version] = "1.0-beta11"
-
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
 
@@ -290,9 +287,6 @@ projects[webform_ajax][version] = "1.0"
 
 projects[webform_phone][subdir] = "contrib"
 projects[webform_phone][version] = "1.4"
-
-projects[widgets][subdir] = "contrib"
-projects[widgets][version] = "1.0-beta5"
 
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"

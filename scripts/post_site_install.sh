@@ -10,18 +10,7 @@ echo `date` - $1
 echo '----------------------------------------------------------------'
 
 # Enable post install feature(s).
-/srv/aegir/bin/drush -y @$1 en pro_101_default_theme
-/srv/aegir/bin/drush -y @$1 en pro_101_contact_content
-/srv/aegir/bin/drush -y @$1 en pro_101_home_content
-/srv/aegir/bin/drush -y @$1 en pro_101_about_content
-/srv/aegir/bin/drush -y @$1 en pro_101_answers_content
-/srv/aegir/bin/drush -y @$1 en pro_101_blog_content
-/srv/aegir/bin/drush -y @$1 en pro_101_specialties_content
-/srv/aegir/bin/drush -y @$1 en pro_101_privacy_policy_content
-/srv/aegir/bin/drush -y @$1 en pro_101_testimonials_content
 /srv/aegir/bin/drush -y @$1 en pro_101_support_accounts
-
-/srv/aegir/bin/drush -y @$1 en pro_101_global_content
 
 # Uncomment the following for development environments only.
 /srv/aegir/bin/drush -y @$1 en pro_101_mock_user_accounts
