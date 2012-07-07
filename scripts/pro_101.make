@@ -146,6 +146,9 @@ projects[insight][version] = "1.0-alpha2"
 projects[invisimail][subdir] = "contrib"
 projects[invisimail][version] = "1.1"
 
+projects[jasm][subdir] = "contrib"
+projects[jasm][version] = "1.x-dev"
+
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
 
@@ -341,6 +344,11 @@ projects[pro_101_privacy_policy_content][subdir] = "features/defaults"
 projects[pro_101_privacy_policy_content][type] = "module"
 projects[pro_101_privacy_policy_content][download][type] = "git"
 projects[pro_101_privacy_policy_content][download][url] = "git@github.com:pearance/pro_101_privacy_policy_content.git"
+
+projects[pro_101_social_content][subdir] = "features/defaults"
+projects[pro_101_social_content][type] = "module"
+projects[pro_101_social_content][download][type] = "git"
+projects[pro_101_social_content][download][url] = "git@github.com:pearance/pro_101_social_content.git"
 
 projects[pro_101_specialties_content][subdir] = "features/defaults"
 projects[pro_101_specialties_content][type] = "module"

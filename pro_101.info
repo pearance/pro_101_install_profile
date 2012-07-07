@@ -24,7 +24,6 @@ dependencies[] = pro_101_showcase_feature
 dependencies[] = pro_101_page_feature
 dependencies[] = pro_101_specialties_feature
 dependencies[] = pro_101_testimonials_feature
-dependencies[] = pro_101_socialmedia_feature
 
 
 
@@ -39,6 +38,7 @@ dependencies[] = pro_101_support_tools
 ; The following is enabled in the post-install script.
 dependencies[] = pro_101_default_theme
 dependencies[] = pro_101_contact_content
+dependencies[] = pro_101_social_content
 dependencies[] = pro_101_home_content
 dependencies[] = pro_101_about_content
 dependencies[] = pro_101_answers_content
