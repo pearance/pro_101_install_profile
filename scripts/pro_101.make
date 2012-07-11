@@ -38,7 +38,7 @@ libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.
 
 
 
-; MODULES/CONTRIB ==========================================================
+; MODULES/CONTRIB ==============================================================
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
 
@@ -85,6 +85,7 @@ projects[contentoptimizer][version] = "2.0-beta4"
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.x-dev"
 projects[context][patch][1050724] = "http://drupal.org/files/context-context-ui-revamp-1050724-26.patch"
+projects[context][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/context-inline-editor-drops-some-blocks-1076706-13.patch"
 
 projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
@@ -180,6 +181,9 @@ projects[jquery_update][version] = "2.2"
 
 projects[kwresearch][subdir] = "contrib"
 projects[kwresearch][version] = "1.0-alpha3"
+
+projects[lexicon][subdir] = "contrib"
+projects[lexicon][version] = "1.10"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0"
@@ -406,7 +410,7 @@ projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/p
 
 
 
-; MODULES/FEATURES/MODULES/FEATURES =============================================================
+; MODULES/FEATURES/FEATURES =============================================================
 projects[pro_101_about_feature][subdir] = "features/features"
 projects[pro_101_about_feature][type] = "module"
 projects[pro_101_about_feature][download][type] = "git"
@@ -421,6 +425,11 @@ projects[pro_101_blog_feature][subdir] = "features/features"
 projects[pro_101_blog_feature][type] = "module"
 projects[pro_101_blog_feature][download][type] = "git"
 projects[pro_101_blog_feature][download][url] = "git@github.com:pearance/pro_101_blog_feature.git"
+
+projects[pro_101_glossary_feature][subdir] = "features/features"
+projects[pro_101_glossary_feature][type] = "module"
+projects[pro_101_glossary_feature][download][type] = "git"
+projects[pro_101_glossary_feature][download][url] = "git@github.com:pearance/pro_101_glossary_feature.git"
 
 projects[pro_101_page_feature][subdir] = "features/features"
 projects[pro_101_page_feature][type] = "module"

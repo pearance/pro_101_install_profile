@@ -1,0 +1,63 @@
+diff --git a/plugins/context_reaction_block.inc b/plugins/context_reaction_block.inc
+index 5ba2fdc..4ef88b1 100644
+--- a/plugins/context_reaction_block.inc
++++ b/plugins/context_reaction_block.inc
+@@ -299,7 +299,7 @@ class context_reaction_block extends context_reaction {
+    */
+   protected function editable_block($block) {
+ 
+-    if (!empty($block->content['#markup']) || element_children($block->content)) {
++    if (!empty($block->content)) {
+       $block->content = array(
+         'content' => $block->content,
+         'context' => array('#markup' => "<a id='context-block-{$block->module}-{$block->delta}' class='context-block editable edit-{$block->context}'></a>"),
+@@ -310,7 +310,12 @@ class context_reaction_block extends context_reaction {
+         unset($block->content['content']['#contextual_links']);
+       }
+     }
+-
++    else {
++      // the block alter in context.module should ensure that blocks are never
++      // empty if the inline editor is present but in the case that they are,
++      // warn that editing the context is likely to cause this block to be dropped
++      drupal_set_message(t('The block with delta @delta from module @module is not compatible with the inline editor and will be dropped from the context containing it if you edit contexts here', array('@delta' => $block->delta, '@module' => $block->module)), 'warning');
++    }
+     return $block;
+   }
+ 
+@@ -383,7 +388,7 @@ class context_reaction_block extends context_reaction {
+           }
+         }
+       }
+-      
++
+       $this->is_editable_check($context_blocks);
+       foreach ($context_blocks as $r => $blocks) {
+         $context_blocks[$r] = _block_render_blocks($blocks);
+@@ -403,7 +408,7 @@ class context_reaction_block extends context_reaction {
+   }
+ 
+   /**
+-   * Determine if there is an active context editor block, and set a flag.  We will set a flag so 
++   * Determine if there is an active context editor block, and set a flag.  We will set a flag so
+    * that we can make sure that blocks with empty content have some default content.  This is
+    * needed so the save of the context inline editor does not remove the blocks with no content.
+    */
+@@ -426,7 +431,7 @@ class context_reaction_block extends context_reaction {
+       }
+     }
+   }
+-  
++
+   /**
+    * Generate the safe weight range for a block being added to a region such that
+    * there are enough potential unique weights to support all blocks.
+@@ -643,7 +648,7 @@ class context_reaction_block extends context_reaction {
+         module_load_include('module', 'block', 'block');
+         $block = $info[$bid];
+         $block->title = isset($block->title) ? $block->title : '';
+-        $block->context = $context;        
++        $block->context = $context;
+         $block->region = '';
+         $rendered_blocks = _block_render_blocks(array($block)); // For E_STRICT warning
+         $block = array_shift($rendered_blocks);
