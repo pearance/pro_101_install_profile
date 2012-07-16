@@ -1,15 +1,15 @@
 diff --git a/sharethis.module b/sharethis.module
-index 162f047..976785d 100644
+index 162f047..9b8643d 100644
 --- a/sharethis.module
 +++ b/sharethis.module
 @@ -9,9 +9,9 @@
   *
   * Displays help and module information.
   *
-- * @param path
+- * @param path 
 + * @param path
   *   Which path of the site we're using to display help
-- * @param arg
+- * @param arg 
 + * @param arg
   *   Array that holds the current path as returned from arg() function
   */
@@ -18,7 +18,7 @@ index 162f047..976785d 100644
  function sharethis_permission() {
    return array(
      'administer sharethis' => array(
--      'title' => t('Administer ShareThis'),
+-      'title' => t('Administer ShareThis'), 
 +      'title' => t('Administer ShareThis'),
        'description' => t('Change the settings for how ShareThis behaves on the site.'),
      ),
@@ -27,7 +27,7 @@ index 162f047..976785d 100644
    drupal_add_css($my_path . '/stlib_picker.css');
    $current_options_array = sharethis_get_options_array();
    global $base_url;
--
+-  
 +
    // Create the variables related to widget choice.
    $widget_type = $current_options_array['widget'];
@@ -36,7 +36,7 @@ index 162f047..976785d 100644
      $service_string_markup .= "\"" . $key . "\",";
    }
    $service_string_markup = substr($service_string_markup, 0, -1);
--
+-  
 +
    // Create an array of node types.
    $node_type_array = node_type_get_types();
@@ -45,7 +45,7 @@ index 162f047..976785d 100644
    $publisher = $current_options_array['publisherID'];
    // Create the variables for teasers.
    $teaser = $current_options_array['viewMode'] == "1" ? TRUE : FALSE;
--
+-  
 +
    $form = array();
    $form['options'] = array(
@@ -54,16 +54,16 @@ index 162f047..976785d 100644
   */
  function sharethis_configuration_form_validate($form, &$form_state) {
    //Additional filters for the service option input
--
+-  
 +
    // Sanitize the publisher ID option.  Since it's a text field, remove anything that resembles code
    $form_state['values']['sharethis_service_option'] = filter_xss($form_state['values']['sharethis_service_option'], array());
-
+ 
 @@ -230,7 +230,7 @@ function sharethis_configuration_form_validate($form, &$form_state) {
    // Ensure default value for twitter suffix
    $form_state['values']['sharethis_twitter_suffix'] = (isset($form_state['values']['sharethis_twitter_suffix'])) ? $form_state['values']['sharethis_twitter_suffix'] : '';
  }
--
+- 
 +
   /**
   * Implements hook_menu.
@@ -72,10 +72,10 @@ index 162f047..976785d 100644
   * Inserts ShareThis widget code onto each node view.
   * TODO: Want to add the option somewhere to select nodes.
   *
-- * @param node
+- * @param node 
 + * @param node
   *   The node that is being acted upon
-- * @param view_mode
+- * @param view_mode 
 + * @param view_mode
   *   The type of view (teaser, full, etc)
   * @param langcode
@@ -84,7 +84,7 @@ index 162f047..976785d 100644
    }
    // First get all of the options for the sharethis widget from the database:
    $data_options = sharethis_get_options_array();
--
+-  
 +
    // This looks to see if the path variable has been posted by some rewrite module.
    // This is not super efficient, O(N), but N is often less than 20.
@@ -93,13 +93,13 @@ index 162f047..976785d 100644
    // Get the full path to insert into the Share Buttons.
    $mPath = $base_url . $path_module;
    $mTitle = $node->title;
--
+-  
 +
    // Only display the ShareThis buttons if this node fits all the requirements
    if (strpos($data_options['nodeType'], $node->type) !== FALSE) { // Make sure this is the right type of node.
      if (($data_options['viewMode'] == "1") && ($view_mode == "teaser")) { // If "don't show for teaser" is enabled, and this is a teaser, don't do anything
        // Do nothing.
--    }
+-    } 
 +    }
      else {
        // Check where we want to display the ShareThis widget.
@@ -117,20 +117,19 @@ index 162f047..976785d 100644
      }
      // Render the span tag.
      $st_spans .= theme('html_tag', array(
-@@ -427,7 +431,15 @@ function sharethis_get_button_HTML($data_options, $mPath, $mTitle) {
+@@ -427,7 +431,14 @@ function sharethis_get_button_HTML($data_options, $mPath, $mTitle) {
    }
-
+ 
    // Provide the publisher ID.
 -  $st_js .= "<script type='text/javascript'>stLight.options({publisher:'$publisher_id'});</script>";
 +  $st_js .= "
-+    <script type='text/javascript'>stLight.options({
-+        publisher:'$publisher_id',
-+        tracking:'google',
-+        onhover:'true',
-+        headerTitle:'Socialize...',
-+        headerbg:'#aaaaaa',
-+      });
-+    </script>";
++  <script type='text/javascript'>stLight.options({
++      publisher:'$publisher_id',
++      tracking:'google',
++      headerTitle:'Socialize...',
++      headerbg:'#aaaaaa',
++    });
++  </script>";
    return '<div class="sharethis-wrapper">' . $st_spans . $st_js . '</div>';
  }
-
+ 
