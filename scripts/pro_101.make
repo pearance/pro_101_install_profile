@@ -51,11 +51,11 @@ projects[allow_all_file_extensions][version] = "1.1"
 projects[autocomplete_deluxe][subdir] = "contrib"
 projects[autocomplete_deluxe][version] = "1.x-dev"
 
-projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0"
-
 projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.1"
+
+projects[checklistapi][subdir] = "contrib"
+projects[checklistapi][version] = "1.0-beta2"
 
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.9"
@@ -92,6 +92,9 @@ projects[cs_adaptive_image][version] = "1.0-alpha2"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0"
+
+projects[customerror][subdir] = "contrib"
+projects[customerror][version] = "1.x-dev"
 
 projects[defaultcontent][subdir] = "contrib"
 projects[defaultcontent][version] = "1.x-dev"
@@ -213,6 +216,9 @@ projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "2.1"
 projects[mollom][patch][717874] = "http://drupal.org/files/717874-18-exportables-for-mollom.patch"
 
+projects[nodeblock][subdir] = "contrib"
+projects[nodeblock][version] = "1.2"
+
 projects[oauth][subdir] = "contrib"
 projects[oauth][version] = "3.1-beta1"
 
@@ -331,6 +337,11 @@ projects[pro_101_custom][subdir] = "custom"
 projects[pro_101_custom][type] = "module"
 projects[pro_101_custom][download][type] = "git"
 projects[pro_101_custom][download][url] = "git@github.com:pearance/pro_101_custom.git"
+
+projects[pro_101_qa_checklist][subdir] = "custom"
+projects[pro_101_qa_checklist][type] = "module"
+projects[pro_101_qa_checklist][download][type] = "git"
+projects[pro_101_qa_checklist][download][url] = "git@github.com:pearance/pro_101_qa_checklist.git"
 
 
 
