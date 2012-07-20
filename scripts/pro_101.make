@@ -70,6 +70,10 @@ projects[compact_forms][download][url] = "http://git.drupal.org/project/compact_
 projects[compact_forms][download][branch] = "7.x-1.x"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms-field-exclusion-1267244-7.patch"
 
+projects[config_perms][subdir] = "contrib"
+projects[config_perms][version] = "2.x-dev"
+projects[config_perms][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/config_perms.patch"
+
 projects[contact_info][subdir] = "contrib"
 projects[contact_info][type] = "module"
 projects[contact_info][download][type] = "git"
@@ -148,6 +152,9 @@ projects[features][patch][986968] = "http://drupal.org/files/features_986968_20_
 
 ; projects[field_ellipsis][subdir] = "contrib"
 ; projects[field_ellipsis][version] = "1.2"
+
+projects[field_permissions][subdir] = "contrib"
+projects[field_permissions][version] = "1.0-beta2"
 
 ; projects[field_group][subdir] = "contrib"
 ; projects[field_group][version] = "1.1"
@@ -263,7 +270,7 @@ projects[sharethis][type] = "module"
 projects[sharethis][download][type] = "git"
 projects[sharethis][download][url] = "http://git.drupal.org/project/sharethis.git"
 projects[sharethis][download][tag] = "7.x-2.4"
-projects[sharethis][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/sharethis.patch"
+projects[sharethis][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/sharethis1.patch"
 
 projects[simple_gmap][subdir] = "contrib"
 projects[simple_gmap][version] = "1.0-rc1"
@@ -329,6 +336,13 @@ projects[webform_phone][version] = "1.4"
 
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
+
+projects[workbench][subdir] = "contrib"
+projects[workbench][version] = "1.1"
+projects[workbench][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench.patch"
+
+projects[workbench_moderation][subdir] = "contrib"
+projects[workbench_moderation][version] = "1.2"
 
 
 
