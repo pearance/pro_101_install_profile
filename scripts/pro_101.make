@@ -70,10 +70,6 @@ projects[compact_forms][download][url] = "http://git.drupal.org/project/compact_
 projects[compact_forms][download][branch] = "7.x-1.x"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms-field-exclusion-1267244-7.patch"
 
-projects[config_perms][subdir] = "contrib"
-projects[config_perms][version] = "2.x-dev"
-projects[config_perms][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/config_perms.patch"
-
 projects[contact_info][subdir] = "contrib"
 projects[contact_info][type] = "module"
 projects[contact_info][download][type] = "git"
@@ -82,6 +78,9 @@ projects[contact_info][download][branch] = "7.x-1.x"
 
 projects[contentanalysis][subdir] = "contrib"
 projects[contentanalysis][version] = "1.0-beta5"
+
+projects[content_lock][subdir] = "contrib"
+projects[content_lock][version] = "1.4"
 
 projects[contentoptimizer][subdir] = "contrib"
 projects[contentoptimizer][version] = "2.0-beta4"
@@ -265,6 +264,9 @@ projects[remote_stream_wrapper][version] = "1.0-beta4"
 projects[role_export][subdir] = "contrib"
 projects[role_export][version] = "1.0"
 
+projects[rules][subdir] = "contrib"
+projects[rules][version] = "2.x-dev"
+
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][type] = "module"
 projects[sharethis][download][type] = "git"
@@ -338,15 +340,22 @@ projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
 
 projects[workbench][subdir] = "contrib"
-projects[workbench][version] = "1.1"
+projects[workbench][version] = "1.x-dev"
 projects[workbench][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench.patch"
 
 projects[workbench_moderation][subdir] = "contrib"
 projects[workbench_moderation][version] = "1.2"
+projects[workbench_moderation][patch][1397824] = "http://drupal.org/files/access-denied-after-edit-1397824-4.patch"
+projects[workbench_moderation][patch][1314508] = "http://drupal.org/files/workbench_moderation-featuresint-state-transition-1314508-35.patch"
 
 
 
-; MODULES/CUSTOM================================================================
+; MODULES/CUSTOM ===============================================================
+projects[config_perms][subdir] = "custom"
+projects[config_perms][type] = "module"
+projects[config_perms][download][type] = "git"
+projects[config_perms][download][url] = "git@github.com:pearance/config_perms.git"
+
 projects[pro_101_custom][subdir] = "custom"
 projects[pro_101_custom][type] = "module"
 projects[pro_101_custom][download][type] = "git"
@@ -359,7 +368,7 @@ projects[pro_101_qa_checklist][download][url] = "git@github.com:pearance/pro_101
 
 
 
-; MODULES/FEATURES/DEFAULTS ============================================================
+; MODULES/FEATURES/DEFAULTS ====================================================
 projects[pro_101_about_content][subdir] = "features/defaults"
 projects[pro_101_about_content][type] = "module"
 projects[pro_101_about_content][download][type] = "git"
