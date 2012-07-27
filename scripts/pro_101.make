@@ -200,6 +200,9 @@ projects[libraries][version] = "1.0"
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
 
+projects[markup][subdir] = "contrib"
+projects[markup][version] = "1.0-beta1"
+
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc4"
 
