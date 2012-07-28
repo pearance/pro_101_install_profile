@@ -115,6 +115,9 @@ projects[devel_themer][version] = "1.x-dev"
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0"
 
+projects[disable_messages][subdir] = "contrib"
+projects[disable_messages][version] = "1.x-dev"
+
 projects[drupalforfirebug][subdir] = "contrib"
 projects[drupalforfirebug][version] = "1.2"
 
