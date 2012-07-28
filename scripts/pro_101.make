@@ -346,7 +346,8 @@ projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
 
 projects[workbench][subdir] = "contrib"
-projects[workbench][version] = "1.x-dev"
+projects[workbench][version] = "1.1"
+projects[workbench][patch][1388220] = "workbench-missing_actions-1388220-8.patch"
 projects[workbench][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench.patch"
 
 projects[workbench_moderation][subdir] = "contrib"
