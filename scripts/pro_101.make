@@ -349,6 +349,7 @@ projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.1"
 projects[workbench][patch][1388220] = "workbench-missing_actions-1388220-8.patch"
 projects[workbench][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench.patch"
+projects[workbench][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench_current_user_view.patch"
 
 projects[workbench_moderation][subdir] = "contrib"
 projects[workbench_moderation][version] = "1.2"
@@ -559,6 +560,7 @@ projects[tao][version] = "3.x-dev"
 projects[rubik][type] = "theme"
 projects[rubik][download][type] = "git"
 projects[rubik][download][url] = "git@github.com:pearance/rubik.git"
+projects[rubik][patch][1389660] = "http://drupal.org/files/1389660-rubik-secondary-tab-fix-2_0.patch"
 
 projects[omega][version] = "3.1"
 
