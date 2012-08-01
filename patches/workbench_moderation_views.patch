@@ -1,0 +1,49 @@
+diff --git a/views/workbench_moderation.view.inc b/views/workbench_moderation.view.inc
+index 1296929..bb9ea69 100644
+--- a/views/workbench_moderation.view.inc
++++ b/views/workbench_moderation.view.inc
+@@ -9,7 +9,7 @@
+
+ $view = new view;
+ $view->name = 'workbench_moderation';
+-$view->description = '';
++$view->description = 'Modified draft and needs review views.';
+ $view->tag = 'Workbench Moderation';
+ $view->base_table = 'node_revision';
+ $view->human_name = 'workbench_moderation';
+@@ -108,6 +108,14 @@ $handler->display->display_options['style_options']['info'] = array(
+ $handler->display->display_options['style_options']['override'] = 1;
+ $handler->display->display_options['style_options']['sticky'] = 0;
+ $handler->display->display_options['style_options']['order'] = 'desc';
++/* Header: Global: Text area */
++$handler->display->display_options['header']['area']['id'] = 'area';
++$handler->display->display_options['header']['area']['table'] = 'views';
++$handler->display->display_options['header']['area']['field'] = 'area';
++$handler->display->display_options['header']['area']['empty'] = TRUE;
++$handler->display->display_options['header']['area']['content'] = '<h2>My Drafts</h2>';
++$handler->display->display_options['header']['area']['format'] = 'plain_text';
++$handler->display->display_options['header']['area']['tokenize'] = 0;
+ /* No results behavior: Global: Text area */
+ $handler->display->display_options['empty']['area']['id'] = 'area';
+ $handler->display->display_options['empty']['area']['table'] = 'views';
+@@ -419,6 +427,7 @@ $handler->display->display_options['empty']['area']['field'] = 'area';
+ $handler->display->display_options['empty']['area']['empty'] = FALSE;
+ $handler->display->display_options['empty']['area']['content'] = 'This list displays content you have created that is not published. Currently there is no such content.';
+ $handler->display->display_options['empty']['area']['format'] = 'plain_text';
++$handler->display->display_options['empty']['area']['tokenize'] = 0;
+ $handler->display->display_options['defaults']['filters'] = FALSE;
+ /* Filter criterion: User: Current */
+ $handler->display->display_options['filters']['uid_current']['id'] = 'uid_current';
+@@ -471,9 +480,11 @@ $handler->display->display_options['filters']['state']['expose']['identifier'] =
+ $handler->display->display_options['filters']['state']['expose']['remember'] = 1;
+ $handler->display->display_options['filters']['state']['expose']['reduce'] = 1;
+ $handler->display->display_options['path'] = 'admin/workbench/drafts';
+-$handler->display->display_options['menu']['type'] = 'tab';
+ $handler->display->display_options['menu']['title'] = 'My Drafts';
+ $handler->display->display_options['menu']['weight'] = '98';
++$handler->display->display_options['menu']['context'] = 0;
++
++
+ $translatables['workbench_moderation'] = array(
+   t('Defaults'),
+   t('Content I\'ve Edited'),

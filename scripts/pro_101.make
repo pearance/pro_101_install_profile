@@ -349,12 +349,12 @@ projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.1"
 projects[workbench][patch][1388220] = "workbench-missing_actions-1388220-8.patch"
 projects[workbench][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench.patch"
-projects[workbench][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench_current_user_view.patch"
 
 projects[workbench_moderation][subdir] = "contrib"
 projects[workbench_moderation][version] = "1.2"
 projects[workbench_moderation][patch][1397824] = "http://drupal.org/files/access-denied-after-edit-1397824-4.patch"
 projects[workbench_moderation][patch][1314508] = "http://drupal.org/files/workbench_moderation-featuresint-state-transition-1314508-35.patch"
+projects[workbench][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench_moderation_view.patch"
 
 
 
