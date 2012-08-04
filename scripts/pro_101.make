@@ -186,7 +186,9 @@ projects[invisimail][subdir] = "contrib"
 projects[invisimail][version] = "1.1"
 
 projects[jasm][subdir] = "contrib"
-projects[jasm][version] = "1.x-dev"
+projects[jasm][download][type] = "git"
+projects[jasm][download][url] = "http://git.drupal.org/project/jasm.git"
+projects[jasm][download][revision] = "fa753fc72cc9df741edc49d92552e86c0d765418"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"

@@ -1,8 +1,8 @@
 diff --git a/views/workbench_moderation.view.inc b/views/workbench_moderation.view.inc
-index 1296929..6991261 100644
+index 1296929..f464435 100644
 --- a/views/workbench_moderation.view.inc
 +++ b/views/workbench_moderation.view.inc
-@@ -9,7 +9,7 @@
+@@ -9,10 +9,10 @@
  
  $view = new view;
  $view->name = 'workbench_moderation';
@@ -10,7 +10,25 @@ index 1296929..6991261 100644
 +$view->description = 'Modified drafts and needs review views.';
  $view->tag = 'Workbench Moderation';
  $view->base_table = 'node_revision';
- $view->human_name = 'workbench_moderation';
+-$view->human_name = 'workbench_moderation';
++$view->human_name = 'Workbench Moderation';
+ $view->core = 7;
+ $view->api_version = '3.0';
+ $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+@@ -345,10 +345,10 @@ $handler->display->display_options['filters']['current']['id'] = 'current';
+ $handler->display->display_options['filters']['current']['table'] = 'workbench_moderation_node_history';
+ $handler->display->display_options['filters']['current']['field'] = 'current';
+ 
+-/* Display: Needs Review Page */
+-$handler = $view->new_display('page', 'Needs Review Page', 'needs_review_page');
++/* Display: Pending Optimization Page */
++$handler = $view->new_display('page', 'Pending Optimization Page', 'needs_review_page');
+ $handler->display->display_options['defaults']['title'] = FALSE;
+-$handler->display->display_options['title'] = 'Needs Review';
++$handler->display->display_options['title'] = 'Drafts Pending Optimization';
+ $handler->display->display_options['defaults']['access'] = FALSE;
+ $handler->display->display_options['access']['type'] = 'perm';
+ $handler->display->display_options['access']['perm'] = 'use workbench_moderation needs review tab';
 @@ -411,6 +411,15 @@ $handler->display->display_options['menu']['weight'] = '99';
  $handler = $view->new_display('page', 'Drafts Page', 'drafts_page');
  $handler->display->display_options['defaults']['title'] = FALSE;
