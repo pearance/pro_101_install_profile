@@ -3,7 +3,7 @@ index 1296929..f464435 100644
 --- a/views/workbench_moderation.view.inc
 +++ b/views/workbench_moderation.view.inc
 @@ -9,10 +9,10 @@
- 
+
  $view = new view;
  $view->name = 'workbench_moderation';
 -$view->description = '';
@@ -18,7 +18,7 @@ index 1296929..f464435 100644
 @@ -345,10 +345,10 @@ $handler->display->display_options['filters']['current']['id'] = 'current';
  $handler->display->display_options['filters']['current']['table'] = 'workbench_moderation_node_history';
  $handler->display->display_options['filters']['current']['field'] = 'current';
- 
+
 -/* Display: Needs Review Page */
 -$handler = $view->new_display('page', 'Needs Review Page', 'needs_review_page');
 +/* Display: Pending Optimization Page */
@@ -33,15 +33,6 @@ index 1296929..f464435 100644
  $handler = $view->new_display('page', 'Drafts Page', 'drafts_page');
  $handler->display->display_options['defaults']['title'] = FALSE;
  $handler->display->display_options['title'] = 'My Drafts';
-+$handler->display->display_options['defaults']['header'] = FALSE;
-+/* Header: Global: Text area */
-+$handler->display->display_options['header']['area']['id'] = 'area';
-+$handler->display->display_options['header']['area']['table'] = 'views';
-+$handler->display->display_options['header']['area']['field'] = 'area';
-+$handler->display->display_options['header']['area']['empty'] = TRUE;
-+$handler->display->display_options['header']['area']['content'] = '<h2>My Drafts</h2>';
-+$handler->display->display_options['header']['area']['format'] = 'plain_text';
-+$handler->display->display_options['header']['area']['tokenize'] = 0;
  $handler->display->display_options['defaults']['empty'] = FALSE;
  /* No results behavior: Global: Text area */
  $handler->display->display_options['empty']['area']['id'] = 'area';
