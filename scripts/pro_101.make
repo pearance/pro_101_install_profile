@@ -213,7 +213,7 @@ projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc4"
 
 projects[masquerade_extras][subdir] = "contrib"
-projects[masquerade_extras][version] = "1.x-dev"
+projects[masquerade_extras][version] = "2.0-beta4"
 
 projects[maxlength][subdir] = "contrib"
 projects[maxlength][version] = "3.0-beta1"
