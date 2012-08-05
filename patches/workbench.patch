@@ -1,5 +1,5 @@
 diff --git a/workbench.module b/workbench.module
-index a50518b..920f179 100644
+index 2f8e101..0d6bbe3 100644
 --- a/workbench.module
 +++ b/workbench.module
 @@ -36,29 +36,29 @@ function workbench_menu() {
@@ -52,26 +52,12 @@ index a50518b..920f179 100644
  
    return $items;
  }
-diff --git a/workbench.pages.inc b/workbench.pages.inc
-index c6e4694..00c65fd 100644
---- a/workbench.pages.inc
-+++ b/workbench.pages.inc
-@@ -40,12 +40,12 @@ function workbench_content() {
-     '#attributes' => array('class' => array('right', 'clearfix')),
-     '#theme' => 'workbench_element',
+@@ -88,7 +88,7 @@ function workbench_block_info() {
+     'info' => t('Workbench information'),
+     'weight' => -99,
+     'status' => 1,
+-    'region' => 'content',
++    'region' => '',
+     'cache' => DRUPAL_NO_CACHE,
    );
--  $output['workbench_recent_content'] = array(
--    '#view' => 'workbench_recent_content',
--    '#view_display' => 'block_1',
--    '#attributes' => array('class' => array('clearfix'), 'style' => array('clear: both;')),
--    '#theme' => 'workbench_element',
--  );
-+  // $output['workbench_recent_content'] = array(
-+  //   '#view' => 'workbench_recent_content',
-+  //   '#view_display' => 'block_1',
-+  //   '#attributes' => array('class' => array('clearfix'), 'style' => array('clear: both;')),
-+  //   '#theme' => 'workbench_element',
-+  // );
- 
-   // Allow other modules to alter the default page.
-   drupal_alter('workbench_content', $output);
+   return $blocks;
