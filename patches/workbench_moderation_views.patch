@@ -1,9 +1,9 @@
 diff --git a/views/workbench_moderation.view.inc b/views/workbench_moderation.view.inc
-index 1296929..f464435 100644
+index 1296929..cec1e72 100644
 --- a/views/workbench_moderation.view.inc
 +++ b/views/workbench_moderation.view.inc
 @@ -9,10 +9,10 @@
-
+ 
  $view = new view;
  $view->name = 'workbench_moderation';
 -$view->description = '';
@@ -18,7 +18,7 @@ index 1296929..f464435 100644
 @@ -345,10 +345,10 @@ $handler->display->display_options['filters']['current']['id'] = 'current';
  $handler->display->display_options['filters']['current']['table'] = 'workbench_moderation_node_history';
  $handler->display->display_options['filters']['current']['field'] = 'current';
-
+ 
 -/* Display: Needs Review Page */
 -$handler = $view->new_display('page', 'Needs Review Page', 'needs_review_page');
 +/* Display: Pending Optimization Page */
@@ -29,14 +29,16 @@ index 1296929..f464435 100644
  $handler->display->display_options['defaults']['access'] = FALSE;
  $handler->display->display_options['access']['type'] = 'perm';
  $handler->display->display_options['access']['perm'] = 'use workbench_moderation needs review tab';
-@@ -411,6 +411,15 @@ $handler->display->display_options['menu']['weight'] = '99';
+@@ -411,7 +411,7 @@ $handler->display->display_options['menu']['weight'] = '99';
  $handler = $view->new_display('page', 'Drafts Page', 'drafts_page');
  $handler->display->display_options['defaults']['title'] = FALSE;
  $handler->display->display_options['title'] = 'My Drafts';
- $handler->display->display_options['defaults']['empty'] = FALSE;
+-$handler->display->display_options['defaults']['empty'] = FALSE;
++$handler->display->display_options['defaults']['header'] = FALSE;
  /* No results behavior: Global: Text area */
  $handler->display->display_options['empty']['area']['id'] = 'area';
-@@ -419,6 +428,7 @@ $handler->display->display_options['empty']['area']['field'] = 'area';
+ $handler->display->display_options['empty']['area']['table'] = 'views';
+@@ -419,6 +419,7 @@ $handler->display->display_options['empty']['area']['field'] = 'area';
  $handler->display->display_options['empty']['area']['empty'] = FALSE;
  $handler->display->display_options['empty']['area']['content'] = 'This list displays content you have created that is not published. Currently there is no such content.';
  $handler->display->display_options['empty']['area']['format'] = 'plain_text';
@@ -44,7 +46,7 @@ index 1296929..f464435 100644
  $handler->display->display_options['defaults']['filters'] = FALSE;
  /* Filter criterion: User: Current */
  $handler->display->display_options['filters']['uid_current']['id'] = 'uid_current';
-@@ -471,9 +481,11 @@ $handler->display->display_options['filters']['state']['expose']['identifier'] =
+@@ -471,9 +472,11 @@ $handler->display->display_options['filters']['state']['expose']['identifier'] =
  $handler->display->display_options['filters']['state']['expose']['remember'] = 1;
  $handler->display->display_options['filters']['state']['expose']['reduce'] = 1;
  $handler->display->display_options['path'] = 'admin/workbench/drafts';
