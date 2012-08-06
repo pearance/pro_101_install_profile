@@ -322,7 +322,7 @@ projects[tadaa][download][type] = "git"
 projects[tadaa][download][url] = "http://git.drupal.org/project/tadaa.git"
 
 projects[taxonomy_csv][subdir] = "contrib"
-projects[taxonomy_csv][version] = "5.10"
+projects[taxonomy_csv][version] = "5.x-dev"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.1"
