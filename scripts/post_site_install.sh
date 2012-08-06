@@ -9,6 +9,9 @@ echo -e \n\n
 echo `date` - $1
 echo '----------------------------------------------------------------'
 
+# Import taxonomies.
+/srv/aegir/bin/drush -y @$1 taxocsv-import https://raw.github.com/pearance/pro_101_install_profile/master/imports/tags.csv --keep_order --vocabulary_id=tags --result_stats --result_terms
+
 # Enable post install feature(s).
 /srv/aegir/bin/drush -y @$1 en pro_101_support_accounts
 

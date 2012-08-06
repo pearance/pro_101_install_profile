@@ -273,6 +273,9 @@ projects[remote_stream_wrapper][version] = "1.0-beta4"
 projects[role_export][subdir] = "contrib"
 projects[role_export][version] = "1.0"
 
+projects[rss_permissions][subdir] = "contrib"
+projects[rss_permissions][version] = "1.0-beta1"
+
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.x-dev"
 
@@ -369,11 +372,6 @@ projects[config_perms][subdir] = "custom"
 projects[config_perms][type] = "module"
 projects[config_perms][download][type] = "git"
 projects[config_perms][download][url] = "git@github.com:pearance/config_perms.git"
-
-projects[feedburner][subdir] = "custom"
-projects[feedburner][type] = "module"
-projects[feedburner][download][type] = "git"
-projects[feedburner][download][url] = "http://git.drupal.org/project/feedburner.git"
 
 projects[pro_101_custom][subdir] = "custom"
 projects[pro_101_custom][type] = "module"
