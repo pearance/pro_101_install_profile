@@ -19,15 +19,14 @@ libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyA
 libraries[ckeditor][download][type]= "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 
-libraries[jquery.easing][download][type]= "file"
-libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
-libraries[jquery.easing][download][filename] = "jquery.easing.js"
-
 libraries[json2][download][type]= "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
 libraries[phpQuery][download][type]= "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
+
+libraries[timeago][download][type]= "file"
+libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
 
 libraries[wordstream][download][type]= "file"
 libraries[wordstream][download][url] = "https://api.wordstream.com/doc/sample_code?doc=wordstream_api.php&label=WordStream%20API%20Sample%20Code"
@@ -35,6 +34,10 @@ libraries[wordstream][download][filename] = "class.wordstream.inc"
 
 libraries[jquery.cycle][download][type]= "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+
+libraries[jquery.easing][download][type]= "file"
+libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+libraries[jquery.easing][download][filename] = "jquery.easing.js"
 
 
 
@@ -118,6 +121,9 @@ projects[diff][version] = "2.0"
 projects[disable_messages][subdir] = "contrib"
 projects[disable_messages][version] = "1.x-dev"
 
+projects[distributed_blocks][subdir] = "contrib"
+projects[distributed_blocks][version] = "1.0-beta2"
+
 projects[drupalforfirebug][subdir] = "contrib"
 projects[drupalforfirebug][version] = "1.2"
 
@@ -167,6 +173,9 @@ projects[file_entity][version] = "2.0-unstable6"
 projects[filter_perms][subdir] = "contrib"
 projects[filter_perms][version] = "1.x-dev"
 
+projects[flippy][subdir] = "contrib"
+projects[flippy][version] = "1.0"
+
 projects[ftools][subdir] = "contrib"
 projects[ftools][version] = "1.5"
 
@@ -184,12 +193,6 @@ projects[insight][version] = "1.0-alpha2"
 
 projects[invisimail][subdir] = "contrib"
 projects[invisimail][version] = "1.1"
-
-projects[jasm][subdir] = "contrib"
-projects[jasm][type] = "module"
-projects[jasm][download][type] = "git"
-projects[jasm][download][url] = "http://git.drupal.org/project/jasm.git"
-projects[jasm][download][revision] = "fa753fc72cc9df741edc49d92552e86c0d765418"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
@@ -327,6 +330,9 @@ projects[tadaa][download][url] = "http://git.drupal.org/project/tadaa.git"
 projects[taxonomy_csv][subdir] = "contrib"
 projects[taxonomy_csv][version] = "5.x-dev"
 
+projects[timeago][subdir] = "contrib"
+projects[timeago][version] = "2.x-dev"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.1"
 
@@ -372,6 +378,11 @@ projects[config_perms][subdir] = "custom"
 projects[config_perms][type] = "module"
 projects[config_perms][download][type] = "git"
 projects[config_perms][download][url] = "git@github.com:pearance/config_perms.git"
+
+projects[jasm][subdir] = "contrib"
+projects[jasm][type] = "module"
+projects[jasm][download][type] = "git"
+projects[jasm][download][url] = "git@github.com:pearance/pro_101_jasm.git"
 
 projects[pro_101_custom][subdir] = "custom"
 projects[pro_101_custom][type] = "module"
