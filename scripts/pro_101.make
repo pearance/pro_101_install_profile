@@ -5,10 +5,9 @@ core = "7.x"
 
 ;DRUPAL CORE ===================================================================
 projects[drupal][type] = "core"
-projects[drupal][version] = "7.14"
-projects[drupal][patch][995156] = "http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch"
-projects[drupal][patch][682000] = "http://drupal.org/files/shortcut_no_limit-682000-41-d7.patch"
-; Use vocabulary machine name for permissions : http://drupal.org/node/995156
+projects[drupal][version] = "7.15"
+projects[drupal][patch][995156] = "http://drupal.org/files/995156-31_portable_taxonomy_permissions-D7-15.patch"
+projects[drupal][patch][682000] = "http://drupal.org/files/shortcut_no_limit_D8-682000-60.patch"
 
 
 
@@ -16,32 +15,36 @@ projects[drupal][patch][682000] = "http://drupal.org/files/shortcut_no_limit-682
 libraries[AlchemyAPI][download][type] = "file"
 libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
 
-libraries[ckeditor][download][type]= "file"
+libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 
-libraries[json2][download][type]= "file"
+libraries[json2][download][type] = "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
-libraries[phpQuery][download][type]= "file"
+libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
-libraries[timeago][download][type]= "file"
+libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
 
-libraries[wordstream][download][type]= "file"
+libraries[wordstream][download][type] = "file"
 libraries[wordstream][download][url] = "https://api.wordstream.com/doc/sample_code?doc=wordstream_api.php&label=WordStream%20API%20Sample%20Code"
 libraries[wordstream][download][filename] = "class.wordstream.inc"
 
-libraries[jquery.cycle][download][type]= "file"
+libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
-libraries[jquery.easing][download][type]= "file"
+libraries[jquery.easing][download][type] = "file"
 libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
 libraries[jquery.easing][download][filename] = "jquery.easing.js"
 
 
 
 ; MODULES/CONTRIB ==============================================================
+projects[administerusersbyrole][subdir] = "contrib"
+projects[administerusersbyrole][version] = "1.x-dev"
+; http://drupal.org/node/923882
+
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
 
@@ -470,6 +473,10 @@ projects[pro_101_mock_user_accounts][type] = "module"
 projects[pro_101_mock_user_accounts][download][type] = "git"
 projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
 
+projects[pro_101_support_tools][subdir] = "features/development"
+projects[pro_101_support_tools][type] = "module"
+projects[pro_101_support_tools][download][type] = "git"
+projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_support_tools.git"
 
 
 ; MODULES/FEATURES/FEATURES =============================================================
@@ -550,19 +557,6 @@ projects[pro_101_user_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_user_infrastructure][type] = "module"
 projects[pro_101_user_infrastructure][download][type] = "git"
 projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/pro_101_user_infrastructure.git"
-
-
-
-; MODULES/FEATURES/SUPPORT =========================================================
-projects[pro_101_support_tools][subdir] = "features/support"
-projects[pro_101_support_tools][type] = "module"
-projects[pro_101_support_tools][download][type] = "git"
-projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_support_tools.git"
-
-projects[pro_101_support_accounts][subdir] = "features/support"
-projects[pro_101_support_accounts][type] = "module"
-projects[pro_101_support_accounts][download][type] = "git"
-projects[pro_101_support_accounts][download][url] = "git@github.com:pearance/pro_101_support_accounts.git"
 
 
 
