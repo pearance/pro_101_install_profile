@@ -340,9 +340,6 @@ projects[token][version] = "1.1"
 projects[update_notifications_disable][subdir] = "contrib"
 projects[update_notifications_disable][version] = "1.0"
 
-projects[user_readonly][subdir] = "contrib"
-projects[user_readonly][version] = "1.3"
-
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.3"
 
@@ -471,10 +468,10 @@ projects[pro_101_mock_user_accounts][type] = "module"
 projects[pro_101_mock_user_accounts][download][type] = "git"
 projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
 
-projects[pro_101_support_tools][subdir] = "features/development"
-projects[pro_101_support_tools][type] = "module"
-projects[pro_101_support_tools][download][type] = "git"
-projects[pro_101_support_tools][download][url] = "git@github.com:pearance/pro_101_support_tools.git"
+projects[pro_101_support_mode[subdir] = "features/development"
+projects[pro_101_support_mode[type] = "module"
+projects[pro_101_support_mode[download][type] = "git"
+projects[pro_101_support_mode[download][url] = "git@github.com:pearance/pro_101_support_mode.git"
 
 
 ; MODULES/FEATURES/FEATURES =============================================================
