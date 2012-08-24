@@ -61,7 +61,7 @@ projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.1"
 
 projects[checklistapi][subdir] = "contrib"
-projects[checklistapi][version] = "1.0-beta2"
+projects[checklistapi][version] = "1.0-beta3"
 
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.9"
@@ -98,7 +98,7 @@ projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0"
+projects[ctools][version] = "1.2"
 
 projects[customerror][subdir] = "contrib"
 projects[customerror][version] = "1.x-dev"
@@ -108,7 +108,7 @@ projects[defaultcontent][version] = "1.x-dev"
 projects[defaultcontent][patch][1406916] = "http://drupal.org/files/1406916.patch"
 
 projects[delta][subdir] = "contrib"
-projects[delta][version] = "3.0-beta10"
+projects[delta][version] = "3.0-beta11"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.3"
@@ -120,7 +120,7 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0"
 
 projects[disable_messages][subdir] = "contrib"
-projects[disable_messages][version] = "1.x-dev"
+projects[disable_messages][version] = "1.1"
 
 projects[distributed_blocks][subdir] = "contrib"
 projects[distributed_blocks][version] = "1.0-beta2"
@@ -165,14 +165,14 @@ projects[features][patch][986968] = "http://drupal.org/files/features_986968_20_
 projects[field_permissions][subdir] = "contrib"
 projects[field_permissions][version] = "1.0-beta2"
 
-; projects[field_group][subdir] = "contrib"
-; projects[field_group][version] = "1.1"
+projects[field_group][subdir] = "contrib"
+projects[field_group][version] = "1.x-dev"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable6"
 
 projects[filter_perms][subdir] = "contrib"
-projects[filter_perms][version] = "1.x-dev"
+projects[filter_perms][version] = "1.0"
 
 projects[flippy][subdir] = "contrib"
 projects[flippy][version] = "1.0"
@@ -187,7 +187,7 @@ projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.2"
 
 projects[google_analytics_reports][subdir] = "contrib"
-projects[google_analytics_reports][version] = "1.1"
+projects[google_analytics_reports][version] = "1.2"
 
 projects[insight][subdir] = "contrib"
 projects[insight][version] = "1.0-alpha2"
@@ -211,7 +211,7 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
 
 projects[markup][subdir] = "contrib"
-projects[markup][version] = "1.0-beta1"
+projects[markup][version] = "1.1-beta1"
 
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc4"
@@ -226,10 +226,10 @@ projects[media][subdir] = "contrib"
 projects[media][version] = "2.x-dev"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-alpha6"
+projects[metatag][version] = "1.0-alpha8"
 
 projects[module_filter][subdir] = "contrib"
-projects[module_filter][version] = "1.6"
+projects[module_filter][version] = "1.7"
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "2.1"
@@ -251,13 +251,13 @@ projects[pathauto][tag] = "7.x-1.1"
 projects[pathauto][patch][867578] = "http://drupal.org/files/new_drush_commands_to_create_and_delete_url_aliases-867578-21.patch"
 
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "1.4"
+projects[pathologic][version] = "2.1"
 
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.x-dev"
 
 projects[rabbit_hole][subdir] = "contrib"
-projects[rabbit_hole][version] = "2.0-beta1"
+projects[rabbit_hole][version] = "2.0-beta3"
 
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.x-dev"
@@ -281,7 +281,7 @@ projects[rss_permissions][subdir] = "contrib"
 projects[rss_permissions][version] = "1.0-beta1"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.x-dev"
+projects[rules][version] = "2.2"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][type] = "module"
@@ -324,9 +324,7 @@ projects[subpathauto][subdir] = "contrib"
 projects[subpathauto][version] = "1.2"
 
 projects[tadaa][subdir] = "contrib"
-projects[tadaa][type] = "module"
-projects[tadaa][download][type] = "git"
-projects[tadaa][download][url] = "http://git.drupal.org/project/tadaa.git"
+projects[tadaa][version] = "1.0"
 
 projects[taxonomy_csv][subdir] = "contrib"
 projects[taxonomy_csv][version] = "5.x-dev"
@@ -335,13 +333,13 @@ projects[timeago][subdir] = "contrib"
 projects[timeago][version] = "2.x-dev"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.1"
+projects[token][version] = "1.2"
 
-projects[update_notifications_disable][subdir] = "contrib"
-projects[update_notifications_disable][version] = "1.0"
+; projects[update_notifications_disable][subdir] = "contrib"
+; projects[update_notifications_disable][version] = "1.0"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.3"
+projects[views][version] = "3.4"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
@@ -353,7 +351,7 @@ projects[webform_ajax][subdir] = "contrib"
 projects[webform_ajax][version] = "1.0"
 
 projects[webform_phone][subdir] = "contrib"
-projects[webform_phone][version] = "1.4"
+projects[webform_phone][version] = "1.6"
 
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
