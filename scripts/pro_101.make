@@ -166,7 +166,7 @@ projects[field_permissions][subdir] = "contrib"
 projects[field_permissions][version] = "1.0-beta2"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.x-dev"
+projects[field_group][version] = "1.1"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable6"
@@ -466,10 +466,11 @@ projects[pro_101_mock_user_accounts][type] = "module"
 projects[pro_101_mock_user_accounts][download][type] = "git"
 projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
 
-projects[pro_101_support_mode[subdir] = "features/development"
-projects[pro_101_support_mode[type] = "module"
-projects[pro_101_support_mode[download][type] = "git"
-projects[pro_101_support_mode[download][url] = "git@github.com:pearance/pro_101_support_mode.git"
+projects[pro_101_support_mode][subdir] = "features/development"
+projects[pro_101_support_mode][type] = "module"
+projects[pro_101_support_mode][download][type] = "git"
+projects[pro_101_support_mode][download][url] = "git@github.com:pearance/pro_101_support_mode.git"
+
 
 
 ; MODULES/FEATURES/FEATURES =============================================================
@@ -567,7 +568,6 @@ projects[tao][version] = "3.x-dev"
 projects[rubik][type] = "theme"
 projects[rubik][download][type] = "git"
 projects[rubik][download][url] = "git@github.com:pearance/rubik.git"
-projects[rubik][patch][1389660] = "http://drupal.org/files/1389660-rubik-secondary-tab-fix-2_0.patch"
 
 projects[omega][version] = "3.1"
 
