@@ -27,6 +27,10 @@ chgrp -R www-data sites/all/modules/features
 chmod 775 sites/all/modules/features
 find sites/all/modules/features/ -type f -exec chmod 664 {} \;
 
+# Create Boost cache dir
+mkdir cache
+chmod 775 cache
+chgrp www-data cache
 
 echo -e "\nPost build cleanup completed!"
 
