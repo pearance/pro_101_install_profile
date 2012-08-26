@@ -22,5 +22,7 @@ echo '----------------------------------------------------------------'
 /srv/aegir/bin/drush    @$1 pathauto-aliases-delete
 /srv/aegir/bin/drush    @$1 pathauto-aliases-create
 
+# Verify site to rewrite vhost and enable boost caching.
+/srv/aegir/bin/drush @$1 provision-verify
 
 # vim: set ft=sh:
