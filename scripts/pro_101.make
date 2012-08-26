@@ -192,6 +192,9 @@ projects[google_analytics][version] = "1.2"
 projects[google_analytics_reports][subdir] = "contrib"
 projects[google_analytics_reports][version] = "1.2"
 
+projects[hide_profile][subdir] = "contrib"
+projects[hide_profile][version] = "1.x-dev "
+
 projects[image_resize_filter][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.13"
 
