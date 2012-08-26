@@ -57,6 +57,9 @@ projects[allow_all_file_extensions][version] = "1.1"
 projects[autocomplete_deluxe][subdir] = "contrib"
 projects[autocomplete_deluxe][version] = "1.x-dev"
 
+projects[boost][subdir] = "contrib"
+projects[boost][version] = "1.0-beta2"
+
 projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.1"
 
@@ -92,7 +95,7 @@ projects[contentoptimizer][subdir] = "contrib"
 projects[contentoptimizer][version] = "2.0-beta4"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta4"
+projects[context][version] = "3.x-dev"
 
 projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
@@ -188,6 +191,9 @@ projects[google_analytics][version] = "1.2"
 
 projects[google_analytics_reports][subdir] = "contrib"
 projects[google_analytics_reports][version] = "1.2"
+
+projects[image_resize_filter][subdir] = "contrib"
+projects[image_resize_filter][version] = "1.13"
 
 projects[insight][subdir] = "contrib"
 projects[insight][version] = "1.0-alpha2"
@@ -335,11 +341,7 @@ projects[timeago][version] = "2.x-dev"
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.2"
 
-; projects[update_notifications_disable][subdir] = "contrib"
-; projects[update_notifications_disable][version] = "1.0"
-
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.4"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
@@ -355,6 +357,7 @@ projects[webform_phone][version] = "1.6"
 
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
+projects[views][version] = "3.5"
 
 projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.1"
