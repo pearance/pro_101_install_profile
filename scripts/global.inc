@@ -5,7 +5,7 @@
   $conf['file_private_path'] = 'sites/'. $domain . '/private';
   $conf['allow_authorize_operations'] = FALSE; // Prevent the installation of updates via the web interface.
   $conf['maintenance_theme'] = 'prostarter';
-  $conf['shortcut_max_slots'] = 10;
+  $conf['shortcut_max_slots'] = 12;
   $conf['update_notify_emails'] = '';
 
 
