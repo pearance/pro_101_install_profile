@@ -21,6 +21,9 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[json2][download][type] = "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
+libraries[labjs][download][type] = "file"
+libraries[labjs][download][url] = "http://labjs.com/releases/LABjs-2.0.3.tar.gz"
+
 libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
@@ -47,6 +50,9 @@ projects[administerusersbyrole][version] = "1.x-dev"
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
+
+projects[agrcache][subdir] = "contrib"
+projects[agrcache][version] = "1.x-dev"
 
 projects[alchemy][subdir] = "contrib"
 projects[alchemy][version] = "1.0-beta1"
@@ -206,6 +212,9 @@ projects[jquery_update][version] = "2.2"
 
 projects[kwresearch][subdir] = "contrib"
 projects[kwresearch][version] = "1.0-alpha3"
+
+projects[labjs][subdir] = "contrib"
+projects[labjs][version] = "1.3"
 
 projects[lexicon][subdir] = "contrib"
 projects[lexicon][version] = "1.10"
