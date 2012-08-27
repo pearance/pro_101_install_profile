@@ -21,9 +21,6 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[json2][download][type] = "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
-libraries[labjs][download][type] = "file"
-libraries[labjs][download][url] = "http://labjs.com/releases/LABjs-2.0.3.tar.gz"
-
 libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
@@ -276,9 +273,6 @@ projects[rabbit_hole][version] = "2.0-beta3"
 
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.x-dev"
-
-projects[record_feature][subdir] = "contrib"
-projects[record_feature][version] = "1.0-beta2"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-beta4"
