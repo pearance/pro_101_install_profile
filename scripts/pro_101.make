@@ -209,16 +209,13 @@ projects[invisimail][subdir] = "contrib"
 projects[invisimail][version] = "1.1"
 
 projects[jail][subdir] = "contrib"
-projects[jail][version] = "1.3"
+projects[jail][version] = "1.x-dev"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
 
 projects[kwresearch][subdir] = "contrib"
 projects[kwresearch][version] = "1.0-alpha3"
-
-projects[labjs][subdir] = "contrib"
-projects[labjs][version] = "1.3"
 
 projects[lexicon][subdir] = "contrib"
 projects[lexicon][version] = "1.10"
