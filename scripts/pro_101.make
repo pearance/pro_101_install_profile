@@ -393,11 +393,6 @@ projects[jasm][type] = "module"
 projects[jasm][download][type] = "git"
 projects[jasm][download][url] = "git@github.com:pearance/pro_101_jasm.git"
 
-projects[pro_101_custom][subdir] = "custom"
-projects[pro_101_custom][type] = "module"
-projects[pro_101_custom][download][type] = "git"
-projects[pro_101_custom][download][url] = "git@github.com:pearance/pro_101_custom.git"
-
 projects[pro_101_qa_checklist][subdir] = "custom"
 projects[pro_101_qa_checklist][type] = "module"
 projects[pro_101_qa_checklist][download][type] = "git"
