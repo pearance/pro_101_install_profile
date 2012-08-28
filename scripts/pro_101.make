@@ -18,6 +18,10 @@ libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyA
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 
+libraries[jail][download][type] = "file"
+libraries[jail][download][url] = "http://www.sebastianoarmelibattana.com/global/js/jail.0.9.5.min.js"
+libraries[jail][download][filename] = "jquery.jail.js"
+
 libraries[json2][download][type] = "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
@@ -204,6 +208,9 @@ projects[insight][version] = "1.0-alpha2"
 projects[invisimail][subdir] = "contrib"
 projects[invisimail][version] = "1.1"
 
+projects[jail][subdir] = "contrib"
+projects[jail][version] = "1.3"
+
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
 
@@ -249,6 +256,9 @@ projects[mollom][patch][717874] = "http://drupal.org/files/717874-23-exportables
 
 projects[nodeblock][subdir] = "contrib"
 projects[nodeblock][version] = "1.2"
+
+projects[nodeformcols][subdir] = "contrib"
+projects[nodeformcols][version] = "1.x-dev"
 
 projects[oauth][subdir] = "contrib"
 projects[oauth][version] = "3.1-beta1"
