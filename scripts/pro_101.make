@@ -459,6 +459,11 @@ projects[pro_101_testimonials_content][download][type] = "git"
 
 
 ; MODULES/FEATURES/DEVELOPMENT =========================================================
+projects[pro_101_development_mode][subdir] = "features/development"
+projects[pro_101_development_mode][type] = "module"
+projects[pro_101_development_mode][download][type] = "git"
+projects[pro_101_development_mode][download][url] = "git@github.com:pearance/pro_101_development_mode.git"
+
 projects[pro_101_firebug][subdir] = "features/development"
 projects[pro_101_firebug][type] = "module"
 projects[pro_101_firebug][download][type] = "git"

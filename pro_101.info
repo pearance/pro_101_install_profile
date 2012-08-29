@@ -41,9 +41,9 @@ dependencies[] = pro_101_global_content
 
 ; PRO 101 DEVELOPMENT (G)
 dependencies[] = pro_101_support_mode
-; The following is optional.
-; dependencies[] = pro_101_firebug
-; dependencies[] = pro_101_ignore
+dependencies[] = pro_101_development_mode
+
+
 
 
 files[] = pro_101.profile
