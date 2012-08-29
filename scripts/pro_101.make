@@ -146,9 +146,6 @@ projects[drupalforfirebug][version] = "1.2"
 ; projects[ds][patch][1614530] = "http://drupal.org/files/ds-view-mode-class-1614530-5.patch"
 ; projects[ds][patch][1605212] = "http://drupal.org/files/1605212_8_ds_rdfa.patch"
 
-projects[dummyimage][subdir] = "contrib"
-projects[dummyimage][version] = "1.4"
-
 projects[email_registration][subdir] = "contrib"
 projects[email_registration][version] = "1.0"
 
