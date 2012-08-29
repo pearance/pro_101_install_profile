@@ -104,6 +104,9 @@ projects[contentoptimizer][version] = "2.0-beta4"
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.x-dev"
 
+projects[core_library][subdir] = "contrib"
+projects[core_library][version] = "2.0-beta2"
+
 projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
 
