@@ -22,11 +22,23 @@ libraries[jail][download][type] = "file"
 libraries[jail][download][url] = "http://www.sebastianoarmelibattana.com/global/js/jail.0.9.5.min.js"
 libraries[jail][download][filename] = "jquery.jail.js"
 
+libraries[jquery.cycle][download][type] = "file"
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+
+libraries[jquery.easing][download][type] = "file"
+libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+libraries[jquery.easing][download][filename] = "jquery.easing.js"
+
 libraries[json2][download][type] = "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
 libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
+
+libraries[scriptjs][destination] = "libraries/scriptjs/dist"
+libraries[scriptjs][download][type] = "file"
+libraries[scriptjs][download][url] = "https://raw.github.com/ded/script.js/master/dist/script.min.js"
+libraries[scriptjs][download][filename] = "script.js"
 
 libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
@@ -34,13 +46,6 @@ libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
 libraries[wordstream][download][type] = "file"
 libraries[wordstream][download][url] = "https://api.wordstream.com/doc/sample_code?doc=wordstream_api.php&label=WordStream%20API%20Sample%20Code"
 libraries[wordstream][download][filename] = "class.wordstream.inc"
-
-libraries[jquery.cycle][download][type] = "file"
-libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
-
-libraries[jquery.easing][download][type] = "file"
-libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
-libraries[jquery.easing][download][filename] = "jquery.easing.js"
 
 
 
@@ -298,6 +303,9 @@ projects[rss_permissions][version] = "1.0-beta1"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.2"
+
+projects[scriptjs][subdir] = "contrib"
+projects[scriptjs][version] = "1.0-beta4"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][type] = "module"

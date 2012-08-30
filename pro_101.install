@@ -21,4 +21,24 @@ function pro_101_install() {
 
   // module_enable(array('pro_101_mock_user_accounts', $enable_dependencies = FALSE));
   // module_enable(array('pro_101_wrap', $enable_dependencies = FALSE));
+
+  $values = array(
+    array(
+      'module' => 'system',
+      'delta' => 'help',
+      'theme' => 'rubik',
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'none',
+      'pages' => '',
+      'cache' => -1,
+    ),
+  );
+
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();
+
 }
