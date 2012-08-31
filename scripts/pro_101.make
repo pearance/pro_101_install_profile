@@ -248,6 +248,9 @@ projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "2.2"
 projects[mollom][patch][717874] = "http://drupal.org/files/717874-23-exportables-for-mollom_reroll.patch"
 
+projects[nagios][subdir] = "contrib"
+projects[nagios][version] =  "1.2"
+
 projects[nodeblock][subdir] = "contrib"
 projects[nodeblock][version] = "1.2"
 
