@@ -35,11 +35,6 @@ libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/b
 libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
-libraries[scriptjs][destination] = "libraries/scriptjs/dist"
-libraries[scriptjs][download][type] = "file"
-libraries[scriptjs][download][url] = "https://raw.github.com/ded/script.js/master/dist/script.min.js"
-libraries[scriptjs][download][filename] = "script.js"
-
 libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
 
@@ -108,9 +103,6 @@ projects[contentoptimizer][version] = "2.0-beta4"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.x-dev"
-
-projects[core_library][subdir] = "contrib"
-projects[core_library][version] = "2.0-beta2"
 
 projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
@@ -303,9 +295,6 @@ projects[rss_permissions][version] = "1.0-beta1"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.2"
-
-projects[scriptjs][subdir] = "contrib"
-projects[scriptjs][version] = "1.0-beta4"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][type] = "module"
