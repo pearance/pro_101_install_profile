@@ -79,6 +79,9 @@ projects[ckeditor][version] = "1.9"
 projects[clear_password_field][subdir] = "contrib"
 projects[clear_password_field][version] = "1.2"
 
+projects[collapse_text][subdir] = "contrib"
+projects[collapse_text][version] = "2.4"
+
 projects[compact_forms][subdir] = "contrib"
 projects[compact_forms][type] = "module"
 projects[compact_forms][download][type] = "git"
@@ -274,6 +277,9 @@ projects[pathologic][version] = "2.1"
 
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.x-dev"
+
+projects[quicktabs][subdir] = "contrib"
+projects[quicktabs][version] = "3.4"
 
 projects[rabbit_hole][subdir] = "contrib"
 projects[rabbit_hole][version] = "2.0-beta3"
