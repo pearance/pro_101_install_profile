@@ -19,6 +19,7 @@ function pro_101_install() {
   theme_enable(array('prostarter'));
   theme_disable(array('bartik'));
 
+  module_disable(array('update'));
   // module_enable(array('pro_101_mock_user_accounts', $enable_dependencies = FALSE));
   // module_enable(array('pro_101_wrap', $enable_dependencies = FALSE));
 
