@@ -19,20 +19,19 @@ function pro_101_install() {
   theme_enable(array('prostarter'));
   theme_disable(array('bartik'));
 
+
+
+  // Disable default modules
   module_disable(array('update'));
   // module_enable(array('pro_101_mock_user_accounts', $enable_dependencies = FALSE));
   // module_enable(array('pro_101_wrap', $enable_dependencies = FALSE));
 
+
+
+  // Disable default blocks.
   $values = array(
     array(
-      'module' => 'system',
-      'delta' => 'help',
-      'theme' => 'rubik',
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'none',
-      'pages' => '',
-      'cache' => -1,
+      'module' => 'system', 'delta' => 'help', 'theme' => 'rubik', 'status' => 1, 'weight' => 0, 'region' => 'none', 'pages' => '', 'cache' => -1,
     ),
   );
 
