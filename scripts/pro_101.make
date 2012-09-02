@@ -18,6 +18,9 @@ libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyA
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
+
 libraries[jail][download][type] = "file"
 libraries[jail][download][url] = "http://www.sebastianoarmelibattana.com/global/js/jail.0.9.5.min.js"
 libraries[jail][download][filename] = "jquery.jail.js"
@@ -78,6 +81,12 @@ projects[ckeditor][version] = "1.9"
 
 projects[clear_password_field][subdir] = "contrib"
 projects[clear_password_field][version] = "1.2"
+
+projects[colorbox][subdir] = "contrib"
+projects[colorbox][version] = "1.3"
+
+projects[colorbox_node][subdir] = "contrib"
+projects[colorbox_node][version] = "2.4"
 
 projects[collapse_text][subdir] = "contrib"
 projects[collapse_text][version] = "2.4"
