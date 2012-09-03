@@ -1,0 +1,31 @@
+diff --git a/devel_themer.module b/devel_themer.module
+index 4b4554a..77e5d69 100644
+--- a/devel_themer.module
++++ b/devel_themer.module
+@@ -18,7 +18,7 @@ function devel_themer_menu() {
+     'title' => 'Theme Development AJAX variables',
+     'page callback' => 'devel_themer_ajax_variables',
+     'delivery callback' => 'ajax_deliver',
+-    'access arguments' => array('access devel information'),
++    'access arguments' => array('access theme information'),
+     'type' => MENU_CALLBACK,
+   );
+   return $items;
+@@ -67,7 +67,7 @@ function devel_themer_admin_settings() {
+ 
+ 
+ function devel_themer_init() {
+-  if (user_access('access devel information')) {
++  if (user_access('access theme information')) {
+     // Add requisite libraries.
+     drupal_add_library('system', 'jquery.form');
+     drupal_add_library('system', 'drupal.ajax');
+@@ -240,7 +240,7 @@ function devel_themer_catch_function() {
+   list($return, $meta) = devel_themer_theme_twin($hook, $variables);
+   $time = timer_stop($timer_name);
+ 
+-  if (!empty($return) && !is_array($return) && !is_object($return) && user_access('access devel information')) {
++  if (!empty($return) && !is_array($return) && !is_object($return) && user_access('access theme information')) {
+     $key = "thmr_$counter";
+ 
+     // Check for themer attribute in content returned. Apply word boundaries so

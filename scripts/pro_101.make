@@ -134,9 +134,11 @@ projects[delta][version] = "3.0-beta11"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.3"
+projects[devel][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/devel_permissions_for_devel_themer.patch"
 
 projects[devel_themer][subdir] = "contrib"
 projects[devel_themer][version] = "1.x-dev"
+projects[devel][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/devel_themer_permissions.patch"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0"

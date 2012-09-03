@@ -1,0 +1,15 @@
+diff --git a/devel.module b/devel.module
+index 0ebdef4..3823cd1 100644
+--- a/devel.module
++++ b/devel.module
+@@ -719,6 +719,10 @@ function devel_permission() {
+       'title' => t('Access developer information'),
+       'restrict access' => TRUE,
+     ),
++    'access theme information' => array(
++      'description' => t('Essential theme API information for theme developers.'),
++      'title' => t('Access theme information'),
++    ),
+     'execute php code' => array(
+       'title' => t('Execute PHP code'),
+       'description' => t('Run arbitrary PHP from a block.'),
