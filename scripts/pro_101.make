@@ -368,6 +368,10 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.2"
 
 projects[views][subdir] = "contrib"
+projects[views][version] = "3.5"
+
+projects[views_content_cache][subdir] = "contrib"
+projects[views_content_cache][version] = "3.x-dev"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
