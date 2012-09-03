@@ -22,7 +22,7 @@ function pro_101_install() {
 
 
   // Disable default modules
-  module_disable(array('update'));
+  // module_disable(array('update'));
   // module_enable(array('pro_101_mock_user_accounts', $enable_dependencies = FALSE));
   // module_enable(array('pro_101_wrap', $enable_dependencies = FALSE));
 

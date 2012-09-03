@@ -15,12 +15,14 @@ echo '----------------------------------------------------------------'
 # Enable post install feature(s).
 /srv/aegir/bin/drush -y @$1 en pro_101_mock_user_accounts
 
-# Refresh all aliases.
+# Refresh all aliases. Must be executed before pro_101_wrap, which creates its
+# own path aliases.
 /srv/aegir/bin/drush    @$1 pathauto-aliases-delete
 /srv/aegir/bin/drush    @$1 pathauto-aliases-create
 
-# Wrap it up.
+# Wrap it up and disable the update manager, enabled by default.
 /srv/aegir/bin/drush -y @$1 en pro_101_wrap
+/srv/aegir/bin/drush -y @$1 dis update
 
 # Verify site to rewrite vhost and enable boost caching.
 /srv/aegir/bin/drush @$1 provision-verify
