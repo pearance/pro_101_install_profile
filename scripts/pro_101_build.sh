@@ -22,15 +22,26 @@ rm -r themes/stark
 rm -r themes/garland
 rm -r themes/bartik
 
+
+
 # Make all features writable for ftool's direct save.
 chgrp -R www-data sites/all/modules/features
 chmod 775 sites/all/modules/features
 find sites/all/modules/features/ -type f -exec chmod 664 {} \;
 
-# Create Boost cache dir
+
+
+# Create Boost cache directory.
 mkdir cache
 chmod 775 cache
 chgrp www-data cache
+
+
+
+# Copy APC script to the build's scripts directory.
+cp ~/platforms/.profiles/pro_101/scripts/apc.php scripts/.
+
+
 
 echo -e "\nPost build cleanup completed!"
 
