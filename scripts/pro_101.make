@@ -50,6 +50,7 @@ libraries[wordstream][download][filename] = "class.wordstream.inc"
 ; MODULES/CONTRIB ==============================================================
 projects[administerusersbyrole][subdir] = "contrib"
 projects[administerusersbyrole][version] = "1.x-dev"
+projects[administerusersbyrole][patch][1680156] = "http://drupal.org/files/administerusersbyrole.patch"
 ; http://drupal.org/node/923882
 
 projects[admin_menu][subdir] = "contrib"
