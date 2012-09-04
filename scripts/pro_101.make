@@ -253,6 +253,9 @@ projects[maxlength][version] = "3.0-beta1"
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.x-dev"
 
+projects[menu_admin_per_menu][subdir] = "contrib"
+projects[menu_admin_per_menu][version] = "1.0"
+
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha8"
 
@@ -377,6 +380,9 @@ projects[views_content_cache][version] = "3.x-dev"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
+
+projects[vppr][subdir] = "contrib"
+projects[vppr][version] = "1.x-dev"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.18"
