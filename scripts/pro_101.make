@@ -312,6 +312,9 @@ projects[redirect][version] = "1.0-beta4"
 projects[remote_stream_wrapper][subdir] = "contrib"
 projects[remote_stream_wrapper][version] = "1.0-beta4"
 
+projects[roleassign][subdir] = "contrib"
+projects[roleassign][version] = "1.x-dev"
+
 projects[role_export][subdir] = "contrib"
 projects[role_export][version] = "1.0"
 
