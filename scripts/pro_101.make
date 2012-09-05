@@ -139,7 +139,7 @@ projects[devel][patch][] = "https://raw.github.com/pearance/pro_101_install_prof
 
 projects[devel_themer][subdir] = "contrib"
 projects[devel_themer][version] = "1.x-dev"
-projects[devel][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/themer_perms.patch"
+projects[devel_themer][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/themer_perms.patch"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0"
