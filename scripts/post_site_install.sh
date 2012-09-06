@@ -3,7 +3,14 @@
 # This script is intended to perform server level operations after a successful
 # aegir site # install. The following code patch needs to be placed in the...
 # function drush_provision_drupal_post_provision_install() # located in the
-# drush/provision/platform/install.provision.inc file
+# drush/provision/platform/install.provision.inc file:
+#
+# // Pearance addendum: Run a post site install script.
+# $domain = d()->uri;
+# $site_path = d()->site_path;
+# $platform_path = d()->site;
+# `/srv/aegir/platforms/.profiles/pro_101/scripts/post_site_install.sh $domain 2>&1 | tee /srv/aegir/tmp/post_site_install.log`;
+
 
 echo -e \n\n
 echo `date` - $1
