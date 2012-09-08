@@ -184,9 +184,6 @@ projects[features][download][url] = "http://git.drupal.org/project/features.git"
 projects[features][download][branch] = "7.x-1.0-rc3"
 projects[features][patch][986968] = "http://drupal.org/files/features_986968_20_shortcut_sets.patch"
 
-; projects[field_ellipsis][subdir] = "contrib"
-; projects[field_ellipsis][version] = "1.2"
-
 projects[field_permissions][subdir] = "contrib"
 projects[field_permissions][version] = "1.0-beta2"
 
@@ -307,9 +304,6 @@ projects[realname][version] = "1.x-dev"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-beta4"
-
-; projects[rel][subdir] = "contrib"
-; projects[rel][version] = "1.x-dev"
 
 projects[remote_stream_wrapper][subdir] = "contrib"
 projects[remote_stream_wrapper][version] = "1.0-beta4"
