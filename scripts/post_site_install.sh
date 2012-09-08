@@ -30,6 +30,7 @@ echo '----------------------------------------------------------------'
 # Wrap it up and disable the update manager, enabled by default.
 /srv/aegir/bin/drush -y @$1 en pro_101_wrap
 /srv/aegir/bin/drush -y @$1 dis update
+/srv/aegir/bin/drush -y @$1 pm-uninstall update
 
 # Verify site to rewrite vhost and enable boost caching.
 /srv/aegir/bin/drush @$1 provision-verify
