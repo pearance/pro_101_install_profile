@@ -70,6 +70,9 @@ projects[autocomplete_deluxe][version] = "1.x-dev"
 projects[boost][subdir] = "contrib"
 projects[boost][version] = "1.0-beta2"
 
+projects[block_access][subdir] = "contrib"
+projects[block_access][version] = "1.x-dev"
+
 projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.1"
 
