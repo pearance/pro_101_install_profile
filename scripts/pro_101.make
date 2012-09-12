@@ -238,6 +238,9 @@ projects[libraries][version] = "1.0"
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
 
+projects[live_css][subdir] = "contrib"
+projects[live_css][version] = "2.4"
+
 projects[markup][subdir] = "contrib"
 projects[markup][version] = "1.1-beta1"
 
