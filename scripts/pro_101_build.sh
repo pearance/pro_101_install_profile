@@ -27,6 +27,9 @@ chgrp -R www-data sites/all/modules/features
 chmod 775 sites/all/modules/features
 find sites/all/modules/features/ -type f -exec chmod 664 {} \;
 
+# Move custom views into place.
+cp -f ~/platforms/.profiles/pro_101/imports/workbench_moderation.view.inc sites/all/modules/contrib/workbench_moderation/views/.
+
 # Copy APC script to the build's scripts directory.
 cp ~/platforms/.profiles/pro_101/scripts/apc.php scripts/.
 

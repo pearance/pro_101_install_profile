@@ -412,7 +412,6 @@ projects[workbench_moderation][subdir] = "contrib"
 projects[workbench_moderation][version] = "1.2"
 projects[workbench_moderation][patch][1397824] = "http://drupal.org/files/access-denied-after-edit-1397824-4.patch"
 projects[workbench_moderation][patch][1314508] = "http://drupal.org/files/workbench_moderation-featuresint-state-transition-1314508-35.patch"
-projects[workbench_moderation][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/workbench_moderation_views.patch"
 projects[workbench_moderation][patch][1330562] = "http://drupal.org/files/workbench_moderation-entitycache-1330562-16.patch"
 
 
