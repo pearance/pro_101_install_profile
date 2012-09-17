@@ -73,6 +73,9 @@ projects[boost][version] = "1.0-beta2"
 projects[block_access][subdir] = "contrib"
 projects[block_access][version] = "1.x-dev"
 
+projects[ccl][subdir] = "contrib"
+projects[ccl][version] = "1.4"
+
 projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.1"
 
@@ -192,7 +195,7 @@ projects[field_permissions][subdir] = "contrib"
 projects[field_permissions][version] = "1.0-beta2"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.1"
+projects[field_group][version] = "1.x-dev"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable6"
@@ -287,6 +290,9 @@ projects[oauth][version] = "3.1-beta1"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
+
+projects[overlay_paths][subdir] = "contrib"
+projects[overlay_paths][version] = "1.1"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][download][type] = "git"
