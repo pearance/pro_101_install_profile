@@ -55,6 +55,9 @@ projects[administerusersbyrole][version] = "1.x-dev"
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
 
+projects[admin_theme][subdir] = "contrib"
+projects[admin_theme][version] = "1.0"
+
 projects[agrcache][subdir] = "contrib"
 projects[agrcache][version] = "1.x-dev"
 
