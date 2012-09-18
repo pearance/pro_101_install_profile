@@ -612,6 +612,11 @@ projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/
 
 
 ; MODULES/FEATURES/WRAP =========================================================
+projects[pro_101_permissions_wrap][subdir] = "features/wrap"
+projects[pro_101_permissions_wrap][type] = "module"
+projects[pro_101_permissions_wrap][download][type] = "git"
+projects[pro_101_permissions_wrap][download][url] = "git@github.com:pearance/pro_101_permissions_wrap.git"
+
 projects[pro_101_wrap][subdir] = "features/wrap"
 projects[pro_101_wrap][type] = "module"
 projects[pro_101_wrap][download][type] = "git"
