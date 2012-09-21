@@ -297,6 +297,9 @@ projects[omega_tools][version] = "3.0-rc4"
 projects[overlay_paths][subdir] = "contrib"
 projects[overlay_paths][version] = "1.1"
 
+projects[override_node_options][subdir] = "contrib"
+projects[override_node_options][version] = "1.12"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][download][type] = "git"
 projects[pathauto][download][url] = "http://git.drupal.org/project/pathauto.git"
