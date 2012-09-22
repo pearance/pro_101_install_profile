@@ -272,6 +272,9 @@ projects[media][version] = "2.x-dev"
 projects[menu_admin_per_menu][subdir] = "contrib"
 projects[menu_admin_per_menu][version] = "1.0"
 
+projects[menu_token][subdir] = "contrib"
+projects[menu_token][version] = "1.0-beta1"
+
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha8"
 
