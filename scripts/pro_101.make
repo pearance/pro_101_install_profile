@@ -58,6 +58,9 @@ projects[admin_menu][version] = "3.0-rc3"
 projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][version] = "1.0"
 
+projects[admin_views][subdir] = "contrib"
+projects[admin_views][version] = "1.0"
+
 projects[agrcache][subdir] = "contrib"
 projects[agrcache][version] = "1.x-dev"
 
@@ -393,6 +396,9 @@ projects[token][version] = "1.2"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.5"
+
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "3.0"
 
 projects[views_content_cache][subdir] = "contrib"
 projects[views_content_cache][version] = "3.x-dev"
