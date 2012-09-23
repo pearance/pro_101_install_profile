@@ -191,10 +191,7 @@ projects[faq][version] = "1.x-dev"
 projects[faq][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/faq_views.patch"
 
 projects[features][subdir] = "contrib"
-projects[features][type] = "module"
-projects[features][download][type] = "git"
-projects[features][download][url] = "http://git.drupal.org/project/features.git"
-projects[features][download][branch] = "7.x-1.0-rc3"
+projects[features][version] = "1.0"
 projects[features][patch][986968] = "http://drupal.org/files/features_986968_20_shortcut_sets.patch"
 
 projects[field_permissions][subdir] = "contrib"
