@@ -78,6 +78,7 @@ projects[boost][version] = "1.0-beta2"
 
 projects[block_access][subdir] = "contrib"
 projects[block_access][version] = "1.x-dev"
+projects[block_access][patch][] = "http://drupal.org/files/block_access_config_all.patch"
 
 projects[ccl][subdir] = "contrib"
 projects[ccl][version] = "1.4"
@@ -121,6 +122,7 @@ projects[contentanalysis][version] = "1.0-beta5"
 
 projects[content_lock][subdir] = "contrib"
 projects[content_lock][version] = "1.4"
+projects[content_lock][patch][] = "http://drupal.org/files/content_lock_release_typo_1.patch"
 
 projects[contentoptimizer][subdir] = "contrib"
 projects[contentoptimizer][version] = "2.0-beta4"
