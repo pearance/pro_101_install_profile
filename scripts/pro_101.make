@@ -121,9 +121,9 @@ projects[contact_info][download][branch] = "7.x-1.x"
 projects[contentanalysis][subdir] = "contrib"
 projects[contentanalysis][version] = "1.0-beta5"
 
-projects[content_lock][subdir] = "contrib"
-projects[content_lock][version] = "1.4"
-projects[content_lock][patch][] = "http://drupal.org/files/content_lock_release_typo_1.patch"
+; projects[content_lock][subdir] = "contrib"
+; projects[content_lock][version] = "1.4"
+; projects[content_lock][patch][] = "http://drupal.org/files/content_lock_release_typo_1.patch"
 
 projects[contentoptimizer][subdir] = "contrib"
 projects[contentoptimizer][version] = "2.0-beta4"
@@ -305,6 +305,10 @@ projects[overlay_paths][version] = "1.1"
 
 projects[override_node_options][subdir] = "contrib"
 projects[override_node_options][version] = "1.12"
+
+projects[pagepreview][subdir] = "contrib"
+projects[pagepreview][version] = "1.x-dev"
+projects[pagepreview][patch][] = "http://drupal.org/files/pagepreview-title-description-and-block-links-1633428-2.patch"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][download][type] = "git"
