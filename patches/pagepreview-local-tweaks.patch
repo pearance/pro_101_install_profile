@@ -7,7 +7,7 @@ index 08f7bfe..2f9c722 100644
    $node_preview['#type'] = 'item';
    $node_preview['#title'] = t('Preview');
 -  $node_preview['#description'] = t('This preview is a fully rendered page like any anonymous user would view it. All links in the preview have been disabled.');
-+  $node_preview['#description'] = t('This preview is a fully rendered page like any anonymous user would view it. All links in the preview are disabled. You can click on the 'Edit' link above to close this preview.');
++  $node_preview['#description'] = t('This preview is a fully rendered page like any anonymous user would view it. All links in the preview are disabled. You can click on the "Edit" link above to close this preview.');
    $node_preview['#markup'] = '<iframe class="pagepreview-preview" src="' . base_path() . 'pagepreview/' . $form['#token'] . '"></iframe>';
    // Render and rebuild
    $form_state['node_preview'] = drupal_render($node_preview);
