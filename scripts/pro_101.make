@@ -157,7 +157,7 @@ projects[devel_themer][version] = "1.x-dev"
 projects[devel_themer][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/themer_perms.patch"
 
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.0"
+projects[diff][version] = "3.0-alpha1"
 
 projects[disable_messages][subdir] = "contrib"
 projects[disable_messages][version] = "1.1"
