@@ -78,8 +78,7 @@ projects[boost][subdir] = "contrib"
 projects[boost][version] = "1.0-beta2"
 
 projects[block_access][subdir] = "contrib"
-projects[block_access][version] = "1.x-dev"
-projects[block_access][patch][] = "http://drupal.org/files/block_access_config_all.patch"
+projects[block_access][version] = "1.0"
 
 projects[ccl][subdir] = "contrib"
 projects[ccl][version] = "1.4"
@@ -308,8 +307,8 @@ projects[override_node_options][version] = "1.12"
 
 projects[pagepreview][subdir] = "contrib"
 projects[pagepreview][version] = "1.x-dev"
-projects[pagepreview][patch][1633428] = "http://drupal.org/files/pagepreview-title-description-and-block-links-1633428-3.patch"
-projects[pagepreview][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/pagepreview-local-tweaks.patch"
+; projects[pagepreview][patch][1633428] = "http://drupal.org/files/pagepreview-title-description-and-block-links-1633428-3.patch"
+; projects[pagepreview][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/pagepreview-local-tweaks.patch"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][download][type] = "git"
