@@ -349,7 +349,12 @@ projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.2"
 
 projects[save_draft][subdir] = "contrib"
-projects[save_draft][version] = "1.4"
+projects[save_draft][download][type] = "git"
+projects[save_draft][download][url] = "http://git.drupal.org/project/save_draft.git"
+projects[save_draft][tag] = "7.x-1.x"
+projects[save_draft][patch][1409000] = "http://drupal.org/files/save_draft-per-content-type-1409000-1.patch"
+projects[save_draft][patch][1409000] = "http://drupal.org/files/save_draft-per-content-type-1409000-2.patch"
+projects[save_draft][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/save_draft-local.patch"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][type] = "module"
