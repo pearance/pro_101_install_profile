@@ -405,6 +405,9 @@ projects[taxonomy_csv][version] = "5.x-dev"
 projects[timeago][subdir] = "contrib"
 projects[timeago][version] = "2.x-dev"
 
+projects[title][subdir] = "contrib"
+projects[title][version] = "1.0-alpha4"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.2"
 
