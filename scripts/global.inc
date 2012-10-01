@@ -5,7 +5,8 @@
   $conf['file_private_path'] = 'sites/'. $domain . '/private';
   $conf['allow_authorize_operations'] = FALSE; // Prevent the installation of updates via the web interface.
   $conf['maintenance_theme'] = 'prostarter';
-  $conf['shortcut_max_slots'] = 20;
+  $conf['shortcut_max_slots'] = 12;
+  ini_set('error_reporting', 'E_ALL ^ E_NOTICE');
 
 
 # vim: set ft=php:
