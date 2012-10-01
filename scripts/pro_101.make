@@ -296,9 +296,6 @@ projects[nodeformcols][version] = "1.x-dev"
 projects[oauth][subdir] = "contrib"
 projects[oauth][version] = "3.1-beta1"
 
-projects[omega_tools][subdir] = "contrib"
-projects[omega_tools][version] = "3.0-rc4"
-
 projects[overlay_paths][subdir] = "contrib"
 projects[overlay_paths][version] = "1.1"
 
