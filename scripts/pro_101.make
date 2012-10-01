@@ -348,14 +348,6 @@ projects[rss_permissions][version] = "1.0-beta1"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.2"
 
-projects[save_draft][subdir] = "contrib"
-projects[save_draft][download][type] = "git"
-projects[save_draft][download][url] = "http://git.drupal.org/project/save_draft.git"
-projects[save_draft][tag] = "7.x-1.x"
-projects[save_draft][patch][1409000] = "http://drupal.org/files/save_draft-per-content-type-1409000-1.patch"
-projects[save_draft][patch][1409000] = "http://drupal.org/files/save_draft-per-content-type-1409000-2.patch"
-projects[save_draft][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/save_draft-local.patch"
-
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][type] = "module"
 projects[sharethis][download][type] = "git"
@@ -458,7 +450,7 @@ projects[config_perms][type] = "module"
 projects[config_perms][download][type] = "git"
 projects[config_perms][download][url] = "git@github.com:pearance/config_perms.git"
 
-projects[jasm][subdir] = "contrib"
+projects[jasm][subdir] = "custom"
 projects[jasm][type] = "module"
 projects[jasm][download][type] = "git"
 projects[jasm][download][url] = "git@github.com:pearance/pro_101_jasm.git"
@@ -467,6 +459,11 @@ projects[pro_101_qa_checklist][subdir] = "custom"
 projects[pro_101_qa_checklist][type] = "module"
 projects[pro_101_qa_checklist][download][type] = "git"
 projects[pro_101_qa_checklist][download][url] = "git@github.com:pearance/pro_101_qa_checklist.git"
+
+projects[save_draft][subdir] = "custom"
+projects[save_draft][type] = "module"
+projects[save_draft][download][type] = "git"
+projects[save_draft][download][url] = "git@github.com:pearance/save_draft.git"
 
 
 
