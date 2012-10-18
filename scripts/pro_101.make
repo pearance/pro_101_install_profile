@@ -35,6 +35,9 @@ libraries[jquery.easing][download][filename] = "jquery.easing.js"
 libraries[json2][download][type] = "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
+libraries[lessphp][download][type] = "file"
+libraries[lessphp][download][url] = "http://leafo.net/lessphp/src/lessphp-0.3.8.tar.gz"
+
 libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
