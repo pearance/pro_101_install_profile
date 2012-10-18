@@ -250,6 +250,9 @@ projects[kwresearch][version] = "1.0-alpha3"
 projects[lexicon][subdir] = "contrib"
 projects[lexicon][version] = "1.10"
 
+projects[less][subdir] = "contrib"
+projects[less][version] = "2.6"
+
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0"
 
