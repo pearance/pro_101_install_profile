@@ -354,6 +354,9 @@ projects[rss_permissions][version] = "1.0-beta1"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.2"
 
+projects[sassy][subdir] = "contrib"
+projects[sassy][version] = "2.13"
+
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][type] = "module"
 projects[sharethis][download][type] = "git"
