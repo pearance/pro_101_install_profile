@@ -38,6 +38,9 @@ libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/b
 libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
+libraries[phpsass][download][type] = "file"
+libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass/zipball/master"
+
 libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
 
@@ -253,9 +256,6 @@ projects[libraries][version] = "1.0"
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
 
-projects[live_css][subdir] = "contrib"
-projects[live_css][version] = "2.4"
-
 projects[markup][subdir] = "contrib"
 projects[markup][version] = "1.1-beta1"
 
@@ -323,6 +323,9 @@ projects[pathologic][version] = "2.1"
 
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.x-dev"
+
+projects[prepro][subdir] = "contrib"
+projects[prepro][version] = "0.10"
 
 projects[quicktabs][subdir] = "contrib"
 projects[quicktabs][version] = "3.4"
