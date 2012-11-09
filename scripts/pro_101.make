@@ -38,9 +38,6 @@ libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/b
 libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
-libraries[phpsass][download][type] = "file"
-libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass/zipball/master"
-
 libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
 
