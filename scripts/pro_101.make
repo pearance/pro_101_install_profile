@@ -156,7 +156,6 @@ projects[devel][patch][] = "https://raw.github.com/pearance/pro_101_install_prof
 
 projects[devel_themer][subdir] = "contrib"
 projects[devel_themer][version] = "1.x-dev"
-projects[devel_themer][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/themer_perms.patch"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.0-alpha1"
@@ -307,7 +306,6 @@ projects[override_node_options][version] = "1.12"
 
 projects[pagepreview][subdir] = "contrib"
 projects[pagepreview][version] = "1.x-dev"
-projects[pagepreview][patch][1633428] = "http://drupal.org/files/pagepreview-title-description-and-block-links-1633428-4.patch"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][download][type] = "git"
