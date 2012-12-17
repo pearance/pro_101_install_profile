@@ -13,7 +13,7 @@ rm *.txt
 mv sites/robots.txt .
 rm install.php
 
-rm sites/all/README.txt
+rm sites/README.txt
 rm sites/all/modules/README.txt
 rm sites/all/themes/README.txt
 rm sites/example.sites.php
