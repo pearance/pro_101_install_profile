@@ -5,7 +5,7 @@ core = "7.x"
 
 ;DRUPAL CORE ===================================================================
 projects[drupal][type] = "core"
-projects[drupal][version] = "7.15"
+projects[drupal][version] = "7.17"
 projects[drupal][patch][995156] = "http://drupal.org/files/995156-31_portable_taxonomy_permissions-D7-15.patch"
 ; projects[drupal][patch][682000] = "http://drupal.org/files/shortcut_no_limit_D8-682000-60.patch"
 
