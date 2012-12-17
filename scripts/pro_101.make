@@ -81,25 +81,25 @@ projects[block_access][subdir] = "contrib"
 projects[block_access][version] = "1.0"
 
 projects[ccl][subdir] = "contrib"
-projects[ccl][version] = "1.4"
+projects[ccl][version] = "1.5"
 
 projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.1"
 
 projects[checklistapi][subdir] = "contrib"
-projects[checklistapi][version] = "1.0-beta3"
+projects[checklistapi][version] = "1.0-beta4"
 
 projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.9"
+projects[ckeditor][version] = "1.11"
 
 projects[clear_password_field][subdir] = "contrib"
 projects[clear_password_field][version] = "1.2"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "1.3"
+projects[colorbox][version] = "2.0"
 
 projects[colorbox_node][subdir] = "contrib"
-projects[colorbox_node][version] = "2.4"
+projects[colorbox_node][version] = "2.6"
 
 projects[collapse_text][subdir] = "contrib"
 projects[collapse_text][version] = "2.4"
@@ -158,7 +158,7 @@ projects[devel_themer][subdir] = "contrib"
 projects[devel_themer][version] = "1.x-dev"
 
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "3.0-alpha1"
+projects[diff][version] = "3.2"
 
 projects[disable_messages][subdir] = "contrib"
 projects[disable_messages][version] = "1.1"
@@ -205,7 +205,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.x-dev"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable6"
+projects[file_entity][version] = "2.0-unstable7"
 
 projects[filter_perms][subdir] = "contrib"
 projects[filter_perms][version] = "1.0"
@@ -214,16 +214,16 @@ projects[flippy][subdir] = "contrib"
 projects[flippy][version] = "1.0"
 
 projects[ftools][subdir] = "contrib"
-projects[ftools][version] = "1.5"
+projects[ftools][version] = "1.6"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "1.2"
+projects[google_analytics][version] = "1.3"
 
 projects[google_analytics_reports][subdir] = "contrib"
-projects[google_analytics_reports][version] = "1.2"
+projects[google_analytics_reports][version] = "1.3"
 
 projects[image_resize_filter][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.13"
@@ -247,7 +247,7 @@ projects[lexicon][subdir] = "contrib"
 projects[lexicon][version] = "1.10"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0"
+projects[libraries][version] = "2.0"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
@@ -256,7 +256,7 @@ projects[markup][subdir] = "contrib"
 projects[markup][version] = "1.1-beta1"
 
 projects[masquerade][subdir] = "contrib"
-projects[masquerade][version] = "1.0-rc4"
+projects[masquerade][version] = "1.0-rc5"
 
 projects[masquerade_extras][subdir] = "contrib"
 projects[masquerade_extras][version] = "2.0-beta4"
@@ -271,10 +271,10 @@ projects[menu_admin_per_menu][subdir] = "contrib"
 projects[menu_admin_per_menu][version] = "1.0"
 
 projects[menu_token][subdir] = "contrib"
-projects[menu_token][version] = "1.0-beta1"
+projects[menu_token][version] = "1.0-beta3"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-alpha8"
+projects[metatag][version] = "1.0-beta4"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.7"
@@ -314,7 +314,7 @@ projects[pathauto][tag] = "7.x-1.1"
 projects[pathauto][patch][867578] = "http://drupal.org/files/new_drush_commands_to_create_and_delete_url_aliases-867578-21.patch"
 
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "2.1"
+projects[pathologic][version] = "2.10"
 
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.x-dev"
@@ -326,13 +326,13 @@ projects[quicktabs][subdir] = "contrib"
 projects[quicktabs][version] = "3.4"
 
 projects[rabbit_hole][subdir] = "contrib"
-projects[rabbit_hole][version] = "2.0-beta3"
+projects[rabbit_hole][version] = "2.1"
 
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.x-dev"
 
 projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-beta4"
+projects[redirect][version] = "1.0-rc1"
 
 projects[remote_stream_wrapper][subdir] = "contrib"
 projects[remote_stream_wrapper][version] = "1.0-beta4"
@@ -357,7 +357,7 @@ projects[sharethis][download][tag] = "7.x-2.4"
 projects[sharethis][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/sharethis1.patch"
 
 projects[simple_gmap][subdir] = "contrib"
-projects[simple_gmap][version] = "1.0-rc1"
+projects[simple_gmap][version] = "1.0"
 
 projects[simplehtmldom][subdir] = "contrib"
 projects[simplehtmldom][type] = "module"
@@ -387,7 +387,7 @@ projects[strongarm][download][url] = "http://git.drupal.org/project/strongarm.gi
 projects[strongarm][download][branch] = "7.x-2.0"
 
 projects[subpathauto][subdir] = "contrib"
-projects[subpathauto][version] = "1.2"
+projects[subpathauto][version] = "1.3"
 
 projects[tadaa][subdir] = "contrib"
 projects[tadaa][version] = "1.0"
@@ -402,13 +402,13 @@ projects[title][subdir] = "contrib"
 projects[title][version] = "1.0-alpha4"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.2"
+projects[token][version] = "1.4"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.5"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.0"
+projects[views_bulk_operations][version] = "3.1"
 
 projects[views_content_cache][subdir] = "contrib"
 projects[views_content_cache][version] = "3.x-dev"
@@ -417,7 +417,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
 
 projects[vppr][subdir] = "contrib"
-projects[vppr][version] = "1.x-dev"
+projects[vppr][version] = "1.0"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.18"
@@ -426,7 +426,7 @@ projects[webform_ajax][subdir] = "contrib"
 projects[webform_ajax][version] = "1.0"
 
 projects[webform_phone][subdir] = "contrib"
-projects[webform_phone][version] = "1.6"
+projects[webform_phone][version] = "1.11"
 
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
