@@ -5,7 +5,7 @@ core = "7.x"
 
 ;DRUPAL CORE ===================================================================
 projects[drupal][type] = "core"
-projects[drupal][version] = "7.17"
+projects[drupal][version] = "7.18"
 projects[drupal][patch][995156] = "http://drupal.org/files/995156-31_portable_taxonomy_permissions-D7-15.patch"
 ; projects[drupal][patch][682000] = "http://drupal.org/files/shortcut_no_limit_D8-682000-60.patch"
 
@@ -16,7 +16,8 @@ libraries[AlchemyAPI][download][type] = "file"
 libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
 
 libraries[ckeditor][download][type] = "file"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
+; libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
+libraries[ckeditor][download][url] = "http://ckeditor.com/downloads/ckeditor_4.0_basic.zip"
 
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
@@ -60,7 +61,7 @@ projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][version] = "1.0"
 
 projects[admin_views][subdir] = "contrib"
-projects[admin_views][version] = "1.0"
+projects[admin_views][version] = "1.1"
 
 projects[agrcache][subdir] = "contrib"
 projects[agrcache][version] = "1.x-dev"
@@ -72,7 +73,7 @@ projects[allow_all_file_extensions][subdir] = "contrib"
 projects[allow_all_file_extensions][version] = "1.1"
 
 projects[autocomplete_deluxe][subdir] = "contrib"
-projects[autocomplete_deluxe][version] = "1.x-dev"
+projects[autocomplete_deluxe][version] = "2.x-dev"
 
 projects[boost][subdir] = "contrib"
 projects[boost][version] = "1.0-beta2"
@@ -90,7 +91,7 @@ projects[checklistapi][subdir] = "contrib"
 projects[checklistapi][version] = "1.0-beta4"
 
 projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.11"
+projects[ckeditor][version] = "1.12"
 
 projects[clear_password_field][subdir] = "contrib"
 projects[clear_password_field][version] = "1.2"
@@ -178,7 +179,7 @@ projects[email_registration][subdir] = "contrib"
 projects[email_registration][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0-rc3"
+projects[entity][version] = "1.0"
 
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = "1.1"
@@ -313,8 +314,8 @@ projects[pathauto][download][url] = "http://git.drupal.org/project/pathauto.git"
 projects[pathauto][tag] = "7.x-1.1"
 projects[pathauto][patch][867578] = "http://drupal.org/files/new_drush_commands_to_create_and_delete_url_aliases-867578-21.patch"
 
-projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "2.10"
+; projects[pathologic][subdir] = "contrib"
+; projects[pathologic][version] = "2.10"
 
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.x-dev"
@@ -386,8 +387,8 @@ projects[strongarm][download][type] = "git"
 projects[strongarm][download][url] = "http://git.drupal.org/project/strongarm.git"
 projects[strongarm][download][branch] = "7.x-2.0"
 
-projects[subpathauto][subdir] = "contrib"
-projects[subpathauto][version] = "1.3"
+; projects[subpathauto][subdir] = "contrib"
+; projects[subpathauto][version] = "1.3"
 
 projects[tadaa][subdir] = "contrib"
 projects[tadaa][version] = "1.0"
@@ -399,7 +400,7 @@ projects[timeago][subdir] = "contrib"
 projects[timeago][version] = "2.x-dev"
 
 projects[title][subdir] = "contrib"
-projects[title][version] = "1.0-alpha4"
+projects[title][version] = "1.0-alpha5"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.4"
