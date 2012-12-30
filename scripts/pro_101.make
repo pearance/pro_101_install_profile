@@ -16,8 +16,7 @@ libraries[AlchemyAPI][download][type] = "file"
 libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
 
 libraries[ckeditor][download][type] = "file"
-; libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
-libraries[ckeditor][download][url] = "http://ckeditor.com/downloads/ckeditor_4.0_basic.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_full.tar.gz"
 
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
@@ -266,7 +265,7 @@ projects[maxlength][subdir] = "contrib"
 projects[maxlength][version] = "3.0-beta1"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.x-dev"
+projects[media][version] = "2.0-unstable7"
 
 projects[menu_admin_per_menu][subdir] = "contrib"
 projects[menu_admin_per_menu][version] = "1.0"

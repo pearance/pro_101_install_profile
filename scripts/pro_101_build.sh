@@ -1,9 +1,10 @@
 #!/bin/bash
+# vim: set ft=sh:
 
 drush make --working-copy ~/platforms/.profiles/pro_101/scripts/pro_101.make $1
 
 # Link installation profile.
-cd /srv/aegir/platforms/$1
+cd ~/platforms/$1
 rm -r profiles/*
 ln -s ~/platforms/.profiles/pro_101 profiles/pro_101
 
@@ -34,4 +35,8 @@ find sites/all/modules/features/ -type f -exec chmod 664 {} \;
 /bin/cp ~/platforms/.profiles/pro_101/scripts/apc.php scripts/.
 
 echo -e "\nPost build cleanup completed!"
-# vim: set ft=sh:
+
+
+
+# Temporary hacks.
+touch ~/platforms/$1/sites/all/libraries/ckeditor/skins/moono/skin.js
