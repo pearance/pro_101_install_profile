@@ -74,9 +74,6 @@ projects[allow_all_file_extensions][version] = "1.1"
 projects[autocomplete_deluxe][subdir] = "contrib"
 projects[autocomplete_deluxe][version] = "2.x-dev"
 
-projects[bean][subdir] = "contrib"
-projects[bean][version] = "1.0-rc7"
-
 projects[boost][subdir] = "contrib"
 projects[boost][version] = "1.0-beta2"
 
