@@ -3,7 +3,6 @@ description = The Pro 101 Framework
 version = VERSION
 core = 7.x
 
-; THE ORDER OF THE FOLLOWING ENTRIES ARE RELEVANT!
 ; PRO 101 INFRASTRUCTURE (G)
 dependencies[] = pro_101_build_infrastructure
 dependencies[] = pro_101_core_infrastructure
