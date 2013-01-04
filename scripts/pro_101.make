@@ -74,6 +74,9 @@ projects[allow_all_file_extensions][version] = "1.1"
 projects[autocomplete_deluxe][subdir] = "contrib"
 projects[autocomplete_deluxe][version] = "2.x-dev"
 
+projects[bean][subdir] = "contrib"
+projects[bean][version] = "1.0-rc7"
+
 projects[boost][subdir] = "contrib"
 projects[boost][version] = "1.0-beta2"
 
@@ -169,11 +172,6 @@ projects[distributed_blocks][version] = "1.0-beta2"
 projects[drupalforfirebug][subdir] = "contrib"
 projects[drupalforfirebug][version] = "1.2"
 
-; projects[ds][subdir] = "contrib"
-; projects[ds][version] = "2.x-dev"
-; projects[ds][patch][1614530] = "http://drupal.org/files/ds-view-mode-class-1614530-5.patch"
-; projects[ds][patch][1605212] = "http://drupal.org/files/1605212_8_ds_rdfa.patch"
-
 projects[email_registration][subdir] = "contrib"
 projects[email_registration][version] = "1.0"
 
@@ -251,6 +249,9 @@ projects[libraries][version] = "2.0"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
+
+projects[manual-crop][subdir] = "contrib"
+projects[manual-crop][version] = "1.4"
 
 projects[markup][subdir] = "contrib"
 projects[markup][version] = "1.1-beta1"
