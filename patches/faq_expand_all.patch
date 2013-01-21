@@ -1,0 +1,15 @@
+diff --git a/faq.module b/faq.module
+index 7682926..d50d8a5 100644
+--- a/faq.module
++++ b/faq.module
+@@ -1597,8 +1597,8 @@ function theme_faq_page($variables) {
+   }
+   if (variable_get('faq_show_expand_all', FALSE)) {
+     $output .= '<div id="faq-expand-all">';
+-    $output .= '<a class="faq-expand-all-link" href="#faq-expand-all-link">[' . t('expand all') . ']</a>';
+-    $output .= '<a class="faq-collapse-all-link" href="#faq-collapse-all-link">[' . t('collapse all') . ']</a>';
++    $output .= '<a class="faq-expand-all-link" href="#faq-expand-all-link">' . t('expand all') . '</a>';
++    $output .= '<a class="faq-collapse-all-link" href="#faq-collapse-all-link">' . t('collapse all') . '</a>';
+     $output .= "</div>\n";
+   }
+ 

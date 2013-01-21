@@ -188,6 +188,7 @@ projects[facebook_comments][patch][] = "https://raw.github.com/pearance/pro_101_
 projects[faq][subdir] = "contrib"
 projects[faq][version] = "1.x-dev"
 projects[faq][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/faq_views.patch"
+projects[faq][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/faq_expand_all.patch"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
