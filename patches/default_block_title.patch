@@ -1,0 +1,13 @@
+diff --git a/contactinfo.module b/contactinfo.module
+index 539a570..715c2f9 100644
+--- a/contactinfo.module
++++ b/contactinfo.module
+@@ -381,7 +381,7 @@ function contactinfo_block_view($delta) {
+       $contactinfo = variable_get('contactinfo', array());
+       if ($contactinfo) {
+         $block = array(
+-          'subject' => '',
++          'subject' => 'Office Location',
+           'content' => theme('contactinfo', array('contactinfo' => $contactinfo)),
+         );
+       }

@@ -113,6 +113,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms-field-
 
 projects[contact_info][subdir] = "contrib"
 projects[contact_info][version] = "1.x-dev"
+projects[contact_info][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/default_block_title.patch"
 
 projects[contentanalysis][subdir] = "contrib"
 projects[contentanalysis][version] = "1.0-beta5"
