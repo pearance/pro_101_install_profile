@@ -112,10 +112,7 @@ projects[compact_forms][download][branch] = "7.x-1.x"
 projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms-field-exclusion-1267244-7.patch"
 
 projects[contact_info][subdir] = "contrib"
-projects[contact_info][type] = "module"
-projects[contact_info][download][type] = "git"
-projects[contact_info][download][url] = "http://git.drupal.org/project/contact_info.git"
-projects[contact_info][download][branch] = "7.x-1.x"
+projects[contact_info][version] = "1.x-dev"
 
 projects[contentanalysis][subdir] = "contrib"
 projects[contentanalysis][version] = "1.0-beta5"
