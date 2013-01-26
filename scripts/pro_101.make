@@ -404,6 +404,9 @@ projects[token][version] = "1.4"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.5"
 
+projects[views_accordion][subdir] = "contrib"
+projects[views_accordion][version] = "1.0-rc2"
+
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
 
@@ -427,7 +430,6 @@ projects[webform_phone][version] = "1.11"
 
 projects[wordstream][subdir] = "contrib"
 projects[wordstream][version] = "1.0-rc1"
-projects[views][version] = "3.5"
 
 projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.1"
