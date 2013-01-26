@@ -126,7 +126,7 @@ projects[contentoptimizer][subdir] = "contrib"
 projects[contentoptimizer][version] = "2.0-beta4"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.x-dev"
+projects[context][version] = "3.0-beta6"
 projects[context][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/context_permissions.patch"
 
 projects[context_accordion][subdir] = "contrib"
