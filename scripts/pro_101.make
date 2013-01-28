@@ -273,6 +273,10 @@ projects[menu_token][version] = "1.0-beta3"
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta4"
 
+projects[mobile_menu_toggle][subdir] = "contrib"
+projects[mobile_menu_toggle][download][type] = "git"
+projects[mobile_menu_toggle][download][url] = "http://git.drupal.org/sandbox/kbasarab/1791874.git"
+
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.7"
 
