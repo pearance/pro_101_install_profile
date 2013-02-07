@@ -41,6 +41,9 @@ libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQu
 libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
 
+libraries[webkitresize][download][type] = "file"
+libraries[webkitresize][download][url] = "http://www.editorboost.net/Scripts/jquery.webkitresize.min.js"
+
 libraries[wordstream][download][type] = "file"
 libraries[wordstream][download][url] = "https://api.wordstream.com/doc/sample_code?doc=wordstream_api.php&label=WordStream%20API%20Sample%20Code"
 libraries[wordstream][download][filename] = "class.wordstream.inc"
