@@ -378,6 +378,9 @@ projects[site_verify][download][type] = "git"
 projects[site_verify][download][url] = "http://git.drupal.org/project/site_verify.git"
 projects[site_verify][download][tag] = "7.x-1.0"
 
+projects[smart_trim][subdir] = "contrib"
+projects[smart_trim][version] = "1.4"
+
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
 
