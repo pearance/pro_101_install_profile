@@ -231,8 +231,8 @@ projects[invisimail][version] = "1.1"
 projects[jail][subdir] = "contrib"
 projects[jail][version] = "1.x-dev"
 
-projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "2.2"
+projects[jqmulti][subdir] = "contrib"
+projects[jqmulti][version] = "1.0-beta1"
 
 projects[kwresearch][subdir] = "contrib"
 projects[kwresearch][version] = "1.0-alpha3"
@@ -259,7 +259,8 @@ projects[masquerade_extras][subdir] = "contrib"
 projects[masquerade_extras][version] = "2.0-beta4"
 
 projects[maxlength][subdir] = "contrib"
-projects[maxlength][version] = "3.0-beta1"
+projects[maxlength][version] = "3.x-dev"
+projects[maxlength][patch][1247250] = "maxlength-summary-1247250-5.patch"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable7"
