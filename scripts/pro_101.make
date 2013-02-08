@@ -260,7 +260,7 @@ projects[masquerade_extras][version] = "2.0-beta4"
 
 projects[maxlength][subdir] = "contrib"
 projects[maxlength][version] = "3.x-dev"
-projects[maxlength][patch][1247250] = "maxlength-summary-1247250-5.patch"
+projects[maxlength][patch][1247250] = "http://drupal.org/files/maxlength-summary-1247250-5.patch"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable7"
