@@ -13,7 +13,7 @@ projects[drupal][patch][995156] = "http://drupal.org/files/995156-31_portable_ta
 
 ; LIBRARIES ====================================================================
 libraries[AlchemyAPI][download][type] = "file"
-libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/tools/AlchemyAPI_PHP5-0.8.tar.gz"
+libraries[AlchemyAPI][download][url] = "http://www.alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
 
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_full.tar.gz"
@@ -192,11 +192,14 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 projects[features][patch][986968] = "http://drupal.org/files/features_986968_20_shortcut_sets.patch"
 
-projects[field_permissions][subdir] = "contrib"
-projects[field_permissions][version] = "1.0-beta2"
+projects[field_collection][subdir] = "contrib"
+projects[field_collection][version] = "1.0-beta5"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.x-dev"
+
+projects[field_permissions][subdir] = "contrib"
+projects[field_permissions][version] = "1.0-beta2"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable7"
@@ -273,10 +276,6 @@ projects[menu_token][version] = "1.0-beta3"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta4"
-
-projects[mobile_menu_toggle][subdir] = "contrib"
-projects[mobile_menu_toggle][download][type] = "git"
-projects[mobile_menu_toggle][download][url] = "http://git.drupal.org/sandbox/kbasarab/1791874.git"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.7"
@@ -400,6 +399,9 @@ projects[tadaa][version] = "1.0"
 projects[taxonomy_csv][subdir] = "contrib"
 projects[taxonomy_csv][version] = "5.x-dev"
 
+projects[textformatter][subdir] = "contrib"
+projects[textformatter][version] = "1.x-dev"
+
 projects[timeago][subdir] = "contrib"
 projects[timeago][version] = "2.x-dev"
 
@@ -465,6 +467,11 @@ projects[jasm][subdir] = "custom"
 projects[jasm][type] = "module"
 projects[jasm][download][type] = "git"
 projects[jasm][download][url] = "git@github.com:pearance/pro_101_jasm.git"
+
+projects[mobile_menu_toggle][subdir] = "custom"
+projects[mobile_menu_toggle][type] = "module"
+projects[mobile_menu_toggle][download][type] = "git"
+projects[mobile_menu_toggle][download][url] = "git@github.com:pearance/mobile_menu_toggle.git"
 
 projects[pro_101_qa_checklist][subdir] = "custom"
 projects[pro_101_qa_checklist][type] = "module"
