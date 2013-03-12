@@ -18,7 +18,7 @@ echo '----------------------------------------------------------------'
 
 # Import taxonomies.
 /srv/aegir/bin/drush -y @$1 taxocsv-import https://raw.github.com/pearance/pro_101_install_profile/master/imports/tags.csv --keep_order --vocabulary_id=tags --result_stats --result_terms
-/srv/aegir/bin/drush -y @$1 taxocsv-import https://raw.github.com/pearance/pro_101_install_profile/master/imports/qcategories.csv --keep_order --vocabulary_id="question categories" --result_stats --result_terms
+/srv/aegir/bin/drush -y @$1 taxocsv-import https://raw.github.com/pearance/pro_101_install_profile/master/imports/qcategories.csv --keep_order --vocabulary_id=question_category --result_stats --result_terms
 
 # Enable post install feature(s).
 /srv/aegir/bin/drush -y @$1 en pro_101_mock_user_accounts
