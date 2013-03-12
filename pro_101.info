@@ -38,7 +38,7 @@ dependencies[] = pro_101_social_content
 dependencies[] = pro_101_global_content
 
 
-; PRO 101 DEVELOPMENT (G)
+; PRO 101 TOOLS (G)
 dependencies[] = pro_101_support_mode
 dependencies[] = pro_101_development_mode
 
