@@ -19,11 +19,14 @@ libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_full.tar.gz"
 
 libraries[colorbox][download][type] = "file"
-libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
 
 libraries[jail][download][type] = "file"
 libraries[jail][download][url] = "http://www.sebastianoarmelibattana.com/global/js/jail.0.9.5.min.js"
 libraries[jail][download][filename] = "jquery.jail.js"
+
+libraries[jquery][download][type] = "file"
+libraries[jquery][download][url] = "http://code.jquery.com/jquery-1.9.1.min.js"
 
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
@@ -96,7 +99,7 @@ projects[clear_password_field][subdir] = "contrib"
 projects[clear_password_field][version] = "1.2"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.0"
+projects[colorbox][version] = "2.3"
 
 projects[colorbox_node][subdir] = "contrib"
 projects[colorbox_node][version] = "2.6"
@@ -142,8 +145,7 @@ projects[customerror][subdir] = "contrib"
 projects[customerror][version] = "1.x-dev"
 
 projects[defaultcontent][subdir] = "contrib"
-projects[defaultcontent][version] = "1.x-dev"
-projects[defaultcontent][patch][1406916] = "http://drupal.org/files/1406916.patch"
+projects[defaultcontent][version] = "1.0-alpha9"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
@@ -191,9 +193,6 @@ projects[faq][patch][] = "https://raw.github.com/pearance/pro_101_install_profil
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 projects[features][patch][986968] = "http://drupal.org/files/features_986968_20_shortcut_sets.patch"
-
-projects[field_collection][subdir] = "contrib"
-projects[field_collection][version] = "1.0-beta5"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.x-dev"
@@ -541,6 +540,11 @@ projects[pro_101_testimonials_content][type] = "module"
 projects[pro_101_testimonials_content][download][url] = "git@github.com:pearance/pro_101_testimonials_content.git"
 projects[pro_101_testimonials_content][download][type] = "git"
 
+projects[pro_101_user_accounts][subdir] = "features/defaults"
+projects[pro_101_user_accounts][type] = "module"
+projects[pro_101_user_accounts][download][type] = "git"
+projects[pro_101_user_accounts][download][url] = "git@github.com:pearance/pro_101_user_accounts.git"
+
 
 
 ; MODULES/FEATURES/TOOLS =========================================================
@@ -558,11 +562,6 @@ projects[pro_101_ignore][subdir] = "features/tools"
 projects[pro_101_ignore][type] = "module"
 projects[pro_101_ignore][download][type] = "git"
 projects[pro_101_ignore][download][url] = "git@github.com:pearance/pro_101_ignore.git"
-
-projects[pro_101_mock_user_accounts][subdir] = "features/tools"
-projects[pro_101_mock_user_accounts][type] = "module"
-projects[pro_101_mock_user_accounts][download][type] = "git"
-projects[pro_101_mock_user_accounts][download][url] = "git@github.com:pearance/pro_101_mock_user_accounts.git"
 
 projects[pro_101_support_mode][subdir] = "features/tools"
 projects[pro_101_support_mode][type] = "module"

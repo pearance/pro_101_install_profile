@@ -21,7 +21,7 @@ echo '----------------------------------------------------------------'
 /srv/aegir/bin/drush -y @$1 taxocsv-import https://raw.github.com/pearance/pro_101_install_profile/master/imports/qcategories.csv --keep_order --vocabulary_id=question_category --result_stats --result_terms
 
 # Enable post install feature(s).
-/srv/aegir/bin/drush -y @$1 en pro_101_mock_user_accounts
+/srv/aegir/bin/drush -y @$1 en pro_101_user_accounts
 
 # Refresh all aliases. Must be executed before pro_101_wrap, which creates its
 # own path aliases.
