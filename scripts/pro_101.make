@@ -427,6 +427,7 @@ projects[views_content_cache][version] = "3.x-dev"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
+projects[views_slideshow][patch][1367302] = "http://drupal.org/files/views_slideshow-pager_fix_for_first_slide-1367302-10.patch"
 
 projects[vppr][subdir] = "contrib"
 projects[vppr][version] = "1.0"
