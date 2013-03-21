@@ -28,15 +28,9 @@ libraries[jail][download][filename] = "jquery.jail.js"
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "http://code.jquery.com/jquery-1.9.1.min.js"
 
-libraries[jquery.cycle][download][type] = "file"
-libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
-
 libraries[jquery.easing][download][type] = "file"
 libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
 libraries[jquery.easing][download][filename] = "jquery.easing.js"
-
-libraries[json2][download][type] = "file"
-libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 
 libraries[phpQuery][download][type] = "file"
 libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
@@ -424,10 +418,6 @@ projects[views_bulk_operations][version] = "3.1"
 
 projects[views_content_cache][subdir] = "contrib"
 projects[views_content_cache][version] = "3.x-dev"
-
-projects[views_slideshow][subdir] = "contrib"
-projects[views_slideshow][version] = "3.x-dev"
-projects[views_slideshow][patch][1367302] = "http://drupal.org/files/views_slideshow-pager_fix_for_first_slide-1367302-10.patch"
 
 projects[vppr][subdir] = "contrib"
 projects[vppr][version] = "1.0"
