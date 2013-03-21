@@ -22,6 +22,7 @@ rm sites/example.sites.php
 rm -r themes/stark
 rm -r themes/garland
 rm -r themes/bartik
+rm -r sites/all/modules/contrib/flexslider/flexslider_example
 
 # Make all features writable for ftool's direct save.
 chgrp -R www-data sites/all/modules/features
