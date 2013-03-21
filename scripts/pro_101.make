@@ -21,6 +21,9 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
 
+libraries[flexslider][download][type] = "file"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
+
 libraries[jail][download][type] = "file"
 libraries[jail][download][url] = "http://www.sebastianoarmelibattana.com/global/js/jail.0.9.5.min.js"
 libraries[jail][download][filename] = "jquery.jail.js"
@@ -199,6 +202,9 @@ projects[file_entity][version] = "2.0-unstable7"
 
 projects[filter_perms][subdir] = "contrib"
 projects[filter_perms][version] = "1.0"
+
+projects[flexslider][subdir] = "contrib"
+projects[flexslider][version] = "2.0-alpha1"
 
 projects[flippy][subdir] = "contrib"
 projects[flippy][version] = "1.0"
