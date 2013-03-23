@@ -410,9 +410,6 @@ projects[title][version] = "1.0-alpha5"
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.4"
 
-projects[user_picture_field][subdir] = "contrib"
-projects[user_picture_field][version] = "1.0-rc1"
-
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.5"
 
