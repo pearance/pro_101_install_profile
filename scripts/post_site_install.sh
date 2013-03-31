@@ -17,7 +17,7 @@ echo `date` - $1
 echo '----------------------------------------------------------------'
 
 # Copy default user pic.
-wget -P /srv/aegir/platforms/pro101b/sites/@$1/ https://raw.github.com/pearance/pro_101_install_profile/master/imports/picture-default.png
+wget -P /srv/aegir/platforms/pro101b/sites/$1/images/user-pics https://raw.github.com/pearance/pro_101_install_profile/master/imports/picture-default.png
 
 # Import taxonomies.
 /srv/aegir/bin/drush -y @$1 taxocsv-import https://raw.github.com/pearance/pro_101_install_profile/master/imports/specialties.csv --keep_order --vocabulary_id=specialties --result_stats --result_terms
