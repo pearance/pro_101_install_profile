@@ -16,12 +16,12 @@ echo -e \n\n
 echo `date` - $1
 echo '----------------------------------------------------------------'
 
-# Copy default user pic.
-wget -P /srv/aegir/platforms/pro101b/sites/$1/images/user-pics https://raw.github.com/pearance/pro_101_install_profile/master/imports/picture-default.png
-
 # Import taxonomies.
 /srv/aegir/bin/drush -y @$1 taxocsv-import https://raw.github.com/pearance/pro_101_install_profile/master/imports/specialties.csv --keep_order --vocabulary_id=specialties --result_stats --result_terms
 /srv/aegir/bin/drush -y @$1 taxocsv-import https://raw.github.com/pearance/pro_101_install_profile/master/imports/qcategories.csv --keep_order --vocabulary_id=question_category --result_stats --result_terms
+
+# Copy default user pic.
+wget -P /srv/aegir/platforms/$1/sites/$1/images/user-pics/ https://raw.github.com/pearance/pro_101_install_profile/master/imports/picture-default.png
 
 # Enable post install feature(s).
 /srv/aegir/bin/drush -y @$1 en pro_101_user_accounts
