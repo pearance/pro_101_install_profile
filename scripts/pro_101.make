@@ -118,10 +118,6 @@ projects[contact_info][patch][] = "https://raw.github.com/pearance/pro_101_insta
 projects[contentanalysis][subdir] = "contrib"
 projects[contentanalysis][version] = "1.0-beta5"
 
-; projects[content_lock][subdir] = "contrib"
-; projects[content_lock][version] = "1.4"
-; projects[content_lock][patch][] = "http://drupal.org/files/content_lock_release_typo_1.patch"
-
 projects[contentoptimizer][subdir] = "contrib"
 projects[contentoptimizer][version] = "2.0-beta4"
 
@@ -275,6 +271,9 @@ projects[menu_token][version] = "1.0-beta3"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta4"
+
+projects[mobileadaptivetest][subdir] = "contrib"
+projects[mobileadaptivetest][version] = "1.51"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.7"
