@@ -36,7 +36,7 @@ libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easi
 libraries[jquery.easing][download][filename] = "jquery.easing.js"
 
 libraries[phpQuery][download][type] = "file"
-libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
+libraries[phpQuery][download][url] = "https://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
 libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
