@@ -36,7 +36,7 @@ libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easi
 libraries[jquery.easing][download][filename] = "jquery.easing.js"
 
 libraries[phpQuery][download][type] = "file"
-libraries[phpQuery][download][url] = "http://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
+libraries[phpQuery][download][url] = "https://phpquery.googlecode.com/files/phpQuery-0.9.5.386-onefile.zip"
 
 libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
@@ -53,7 +53,7 @@ projects[administerusersbyrole][version] = "1.x-dev"
 ; http://drupal.org/node/923882
 
 projects[admin_menu][subdir] = "contrib"
-projects[admin_menu][version] = "3.0-rc3"
+projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][patch][1778722] = "http://drupal.org/files/admin_menu-realname-1778722-1.patch"
 
 projects[admin_theme][subdir] = "contrib"
@@ -117,10 +117,6 @@ projects[contact_info][patch][] = "https://raw.github.com/pearance/pro_101_insta
 
 projects[contentanalysis][subdir] = "contrib"
 projects[contentanalysis][version] = "1.0-beta5"
-
-; projects[content_lock][subdir] = "contrib"
-; projects[content_lock][version] = "1.4"
-; projects[content_lock][patch][] = "http://drupal.org/files/content_lock_release_typo_1.patch"
 
 projects[contentoptimizer][subdir] = "contrib"
 projects[contentoptimizer][version] = "2.0-beta4"
@@ -275,6 +271,9 @@ projects[menu_token][version] = "1.0-beta3"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta4"
+
+projects[mobileadaptivetest][subdir] = "contrib"
+projects[mobileadaptivetest][version] = "1.51"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.7"
