@@ -54,7 +54,6 @@ projects[administerusersbyrole][version] = "1.x-dev"
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
-projects[admin_menu][patch][1778722] = "http://drupal.org/files/admin_menu-realname-1778722-1.patch"
 
 projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][version] = "1.0"
