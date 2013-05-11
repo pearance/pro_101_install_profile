@@ -452,27 +452,27 @@ projects[workbench_moderation][patch][1330562] = "http://drupal.org/files/workbe
 projects[config_perms][subdir] = "custom"
 projects[config_perms][type] = "module"
 projects[config_perms][download][type] = "git"
-projects[config_perms][download][url] = "git@github.com:pearance/config_perms.git"
+projects[config_perms][download][url] = "https://github.com/pearance/config_perms.git"
 
 projects[jasm][subdir] = "custom"
 projects[jasm][type] = "module"
 projects[jasm][download][type] = "git"
-projects[jasm][download][url] = "git@github.com:pearance/pro_101_jasm.git"
+projects[jasm][download][url] = "https://github.com/pearance/pro_101_jasm.git"
 
 projects[mobile_menu_toggle][subdir] = "custom"
 projects[mobile_menu_toggle][type] = "module"
 projects[mobile_menu_toggle][download][type] = "git"
-projects[mobile_menu_toggle][download][url] = "git@github.com:pearance/mobile_menu_toggle.git"
+projects[mobile_menu_toggle][download][url] = "https://github.com/pearance/mobile_menu_toggle.git"
 
 projects[pro_101_qa_checklist][subdir] = "custom"
 projects[pro_101_qa_checklist][type] = "module"
 projects[pro_101_qa_checklist][download][type] = "git"
-projects[pro_101_qa_checklist][download][url] = "git@github.com:pearance/pro_101_qa_checklist.git"
+projects[pro_101_qa_checklist][download][url] = "https://github.com/pearance/pro_101_qa_checklist.git"
 
 projects[save_draft][subdir] = "custom"
 projects[save_draft][type] = "module"
 projects[save_draft][download][type] = "git"
-projects[save_draft][download][url] = "git@github.com:pearance/save_draft.git"
+projects[save_draft][download][url] = "https://github.com/pearance/save_draft.git"
 
 
 
@@ -480,62 +480,62 @@ projects[save_draft][download][url] = "git@github.com:pearance/save_draft.git"
 projects[pro_101_about_content][subdir] = "features/defaults"
 projects[pro_101_about_content][type] = "module"
 projects[pro_101_about_content][download][type] = "git"
-projects[pro_101_about_content][download][url] = "git@github.com:pearance/pro_101_about_content.git"
+projects[pro_101_about_content][download][url] = "https://github.com/pearance/pro_101_about_content.git"
 
 projects[pro_101_answers_content][subdir] = "features/defaults"
 projects[pro_101_answers_content][type] = "module"
 projects[pro_101_answers_content][download][type] = "git"
-projects[pro_101_answers_content][download][url] = "git@github.com:pearance/pro_101_answers_content.git"
+projects[pro_101_answers_content][download][url] = "https://github.com/pearance/pro_101_answers_content.git"
 
 projects[pro_101_blog_content][subdir] = "features/defaults"
 projects[pro_101_blog_content][type] = "module"
 projects[pro_101_blog_content][download][type] = "git"
-projects[pro_101_blog_content][download][url] = "git@github.com:pearance/pro_101_blog_content.git"
+projects[pro_101_blog_content][download][url] = "https://github.com/pearance/pro_101_blog_content.git"
 
 projects[pro_101_contact_content][subdir] = "features/defaults"
 projects[pro_101_contact_content][type] = "module"
 projects[pro_101_contact_content][download][type] = "git"
-projects[pro_101_contact_content][download][url] = "git@github.com:pearance/pro_101_contact_content.git"
+projects[pro_101_contact_content][download][url] = "https://github.com/pearance/pro_101_contact_content.git"
 
 projects[pro_101_default_theme][subdir] = "features/defaults"
 projects[pro_101_default_theme][type] = "module"
 projects[pro_101_default_theme][download][type] = "git"
-projects[pro_101_default_theme][download][url] = "git@github.com:pearance/pro_101_default_theme.git"
+projects[pro_101_default_theme][download][url] = "https://github.com/pearance/pro_101_default_theme.git"
 
 projects[pro_101_global_content][subdir] = "features/defaults"
 projects[pro_101_global_content][type] = "module"
 projects[pro_101_global_content][download][type] = "git"
-projects[pro_101_global_content][download][url] = "git@github.com:pearance/pro_101_global_content.git"
+projects[pro_101_global_content][download][url] = "https://github.com/pearance/pro_101_global_content.git"
 
 projects[pro_101_home_content][subdir] = "features/defaults"
 projects[pro_101_home_content][type] = "module"
 projects[pro_101_home_content][download][type] = "git"
-projects[pro_101_home_content][download][url] = "git@github.com:pearance/pro_101_home_content.git"
+projects[pro_101_home_content][download][url] = "https://github.com/pearance/pro_101_home_content.git"
 
 projects[pro_101_privacy_policy_content][subdir] = "features/defaults"
 projects[pro_101_privacy_policy_content][type] = "module"
 projects[pro_101_privacy_policy_content][download][type] = "git"
-projects[pro_101_privacy_policy_content][download][url] = "git@github.com:pearance/pro_101_privacy_policy_content.git"
+projects[pro_101_privacy_policy_content][download][url] = "https://github.com/pearance/pro_101_privacy_policy_content.git"
 
 projects[pro_101_social_content][subdir] = "features/defaults"
 projects[pro_101_social_content][type] = "module"
 projects[pro_101_social_content][download][type] = "git"
-projects[pro_101_social_content][download][url] = "git@github.com:pearance/pro_101_social_content.git"
+projects[pro_101_social_content][download][url] = "https://github.com/pearance/pro_101_social_content.git"
 
 projects[pro_101_specialties_content][subdir] = "features/defaults"
 projects[pro_101_specialties_content][type] = "module"
-projects[pro_101_specialties_content][download][url] = "git@github.com:pearance/pro_101_specialties_content.git"
+projects[pro_101_specialties_content][download][url] = "https://github.com/pearance/pro_101_specialties_content.git"
 projects[pro_101_specialties_content][download][type] = "git"
 
 projects[pro_101_testimonials_content][subdir] = "features/defaults"
 projects[pro_101_testimonials_content][type] = "module"
-projects[pro_101_testimonials_content][download][url] = "git@github.com:pearance/pro_101_testimonials_content.git"
+projects[pro_101_testimonials_content][download][url] = "https://github.com/pearance/pro_101_testimonials_content.git"
 projects[pro_101_testimonials_content][download][type] = "git"
 
 projects[pro_101_user_accounts][subdir] = "features/defaults"
 projects[pro_101_user_accounts][type] = "module"
 projects[pro_101_user_accounts][download][type] = "git"
-projects[pro_101_user_accounts][download][url] = "git@github.com:pearance/pro_101_user_accounts.git"
+projects[pro_101_user_accounts][download][url] = "https://github.com/pearance/pro_101_user_accounts.git"
 
 
 
@@ -543,22 +543,22 @@ projects[pro_101_user_accounts][download][url] = "git@github.com:pearance/pro_10
 projects[pro_101_development_mode][subdir] = "features/tools"
 projects[pro_101_development_mode][type] = "module"
 projects[pro_101_development_mode][download][type] = "git"
-projects[pro_101_development_mode][download][url] = "git@github.com:pearance/pro_101_development_mode.git"
+projects[pro_101_development_mode][download][url] = "https://github.com/pearance/pro_101_development_mode.git"
 
 projects[pro_101_firebug][subdir] = "features/tools"
 projects[pro_101_firebug][type] = "module"
 projects[pro_101_firebug][download][type] = "git"
-projects[pro_101_firebug][download][url] = "git@github.com:pearance/pro_101_firebug.git"
+projects[pro_101_firebug][download][url] = "https://github.com/pearance/pro_101_firebug.git"
 
 projects[pro_101_ignore][subdir] = "features/tools"
 projects[pro_101_ignore][type] = "module"
 projects[pro_101_ignore][download][type] = "git"
-projects[pro_101_ignore][download][url] = "git@github.com:pearance/pro_101_ignore.git"
+projects[pro_101_ignore][download][url] = "https://github.com/pearance/pro_101_ignore.git"
 
 projects[pro_101_support_mode][subdir] = "features/tools"
 projects[pro_101_support_mode][type] = "module"
 projects[pro_101_support_mode][download][type] = "git"
-projects[pro_101_support_mode][download][url] = "git@github.com:pearance/pro_101_support_mode.git"
+projects[pro_101_support_mode][download][url] = "https://github.com/pearance/pro_101_support_mode.git"
 
 
 
@@ -566,42 +566,42 @@ projects[pro_101_support_mode][download][url] = "git@github.com:pearance/pro_101
 projects[pro_101_about_feature][subdir] = "features/features"
 projects[pro_101_about_feature][type] = "module"
 projects[pro_101_about_feature][download][type] = "git"
-projects[pro_101_about_feature][download][url] = "git@github.com:pearance/pro_101_about_feature.git"
+projects[pro_101_about_feature][download][url] = "https://github.com/pearance/pro_101_about_feature.git"
 
 projects[pro_101_answers_feature][subdir] = "features/features"
 projects[pro_101_answers_feature][type] = "module"
 projects[pro_101_answers_feature][download][type] = "git"
-projects[pro_101_answers_feature][download][url] = "git@github.com:pearance/pro_101_answers_feature.git"
+projects[pro_101_answers_feature][download][url] = "https://github.com/pearance/pro_101_answers_feature.git"
 
 projects[pro_101_blog_feature][subdir] = "features/features"
 projects[pro_101_blog_feature][type] = "module"
 projects[pro_101_blog_feature][download][type] = "git"
-projects[pro_101_blog_feature][download][url] = "git@github.com:pearance/pro_101_blog_feature.git"
+projects[pro_101_blog_feature][download][url] = "https://github.com/pearance/pro_101_blog_feature.git"
 
 projects[pro_101_glossary_feature][subdir] = "features/features"
 projects[pro_101_glossary_feature][type] = "module"
 projects[pro_101_glossary_feature][download][type] = "git"
-projects[pro_101_glossary_feature][download][url] = "git@github.com:pearance/pro_101_glossary_feature.git"
+projects[pro_101_glossary_feature][download][url] = "https://github.com/pearance/pro_101_glossary_feature.git"
 
 projects[pro_101_page_feature][subdir] = "features/features"
 projects[pro_101_page_feature][type] = "module"
 projects[pro_101_page_feature][download][type] = "git"
-projects[pro_101_page_feature][download][url] = "git@github.com:pearance/pro_101_page_feature.git"
+projects[pro_101_page_feature][download][url] = "https://github.com/pearance/pro_101_page_feature.git"
 
 projects[pro_101_slideshow_feature][subdir] = "features/features"
 projects[pro_101_slideshow_feature][type] = "module"
 projects[pro_101_slideshow_feature][download][type] = "git"
-projects[pro_101_slideshow_feature][download][url] = "git@github.com:pearance/pro_101_slideshow_feature.git"
+projects[pro_101_slideshow_feature][download][url] = "https://github.com/pearance/pro_101_slideshow_feature.git"
 
 projects[pro_101_specialties_feature][subdir] = "features/features"
 projects[pro_101_specialties_feature][type] = "module"
 projects[pro_101_specialties_feature][download][type] = "git"
-projects[pro_101_specialties_feature][download][url] = "git@github.com:pearance/pro_101_specialties_feature.git"
+projects[pro_101_specialties_feature][download][url] = "https://github.com/pearance/pro_101_specialties_feature.git"
 
 projects[pro_101_testimonials_feature][subdir] = "features/features"
 projects[pro_101_testimonials_feature][type] = "module"
 projects[pro_101_testimonials_feature][download][type] = "git"
-projects[pro_101_testimonials_feature][download][url] = "git@github.com:pearance/pro_101_testimonials_feature.git"
+projects[pro_101_testimonials_feature][download][url] = "https://github.com/pearance/pro_101_testimonials_feature.git"
 
 
 
@@ -609,37 +609,37 @@ projects[pro_101_testimonials_feature][download][url] = "git@github.com:pearance
 projects[pro_101_authoring_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_authoring_infrastructure][type] = "module"
 projects[pro_101_authoring_infrastructure][download][type] = "git"
-projects[pro_101_authoring_infrastructure][download][url] = "git@github.com:pearance/pro_101_authoring_infrastructure.git"
+projects[pro_101_authoring_infrastructure][download][url] = "https://github.com/pearance/pro_101_authoring_infrastructure.git"
 
 projects[pro_101_build_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_build_infrastructure][type] = "module"
 projects[pro_101_build_infrastructure][download][type] = "git"
-projects[pro_101_build_infrastructure][download][url] = "git@github.com:pearance/pro_101_build_infrastructure.git"
+projects[pro_101_build_infrastructure][download][url] = "https://github.com/pearance/pro_101_build_infrastructure.git"
 
 projects[pro_101_core_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_core_infrastructure][type] = "module"
 projects[pro_101_core_infrastructure][download][type] = "git"
-projects[pro_101_core_infrastructure][download][url] = "git@github.com:pearance/pro_101_core_infrastructure.git"
+projects[pro_101_core_infrastructure][download][url] = "https://github.com/pearance/pro_101_core_infrastructure.git"
 
 projects[pro_101_form_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_form_infrastructure][type] = "module"
 projects[pro_101_form_infrastructure][download][type] = "git"
-projects[pro_101_form_infrastructure][download][url] = "git@github.com:pearance/pro_101_form_infrastructure.git"
+projects[pro_101_form_infrastructure][download][url] = "https://github.com/pearance/pro_101_form_infrastructure.git"
 
 projects[pro_101_media_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_media_infrastructure][type] = "module"
 projects[pro_101_media_infrastructure][download][type] = "git"
-projects[pro_101_media_infrastructure][download][url] = "git@github.com:pearance/pro_101_media_infrastructure.git"
+projects[pro_101_media_infrastructure][download][url] = "https://github.com/pearance/pro_101_media_infrastructure.git"
 
 projects[pro_101_seo_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_seo_infrastructure][type] = "module"
 projects[pro_101_seo_infrastructure][download][type] = "git"
-projects[pro_101_seo_infrastructure][download][url] = "git@github.com:pearance/pro_101_seo_infrastructure.git"
+projects[pro_101_seo_infrastructure][download][url] = "https://github.com/pearance/pro_101_seo_infrastructure.git"
 
 projects[pro_101_user_infrastructure][subdir] = "features/infrastructure"
 projects[pro_101_user_infrastructure][type] = "module"
 projects[pro_101_user_infrastructure][download][type] = "git"
-projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/pro_101_user_infrastructure.git"
+projects[pro_101_user_infrastructure][download][url] = "https://github.com/pearance/pro_101_user_infrastructure.git"
 
 
 
@@ -647,7 +647,7 @@ projects[pro_101_user_infrastructure][download][url] = "git@github.com:pearance/
 projects[pro_101_wrap][subdir] = "features/wrap"
 projects[pro_101_wrap][type] = "module"
 projects[pro_101_wrap][download][type] = "git"
-projects[pro_101_wrap][download][url] = "git@github.com:pearance/pro_101_wrap.git"
+projects[pro_101_wrap][download][url] = "https://github.com/pearance/pro_101_wrap.git"
 
 
 
@@ -656,13 +656,13 @@ projects[tao][version] = "3.x-dev"
 
 projects[rubik][type] = "theme"
 projects[rubik][download][type] = "git"
-projects[rubik][download][url] = "git@github.com:pearance/rubik.git"
+projects[rubik][download][url] = "https://github.com/pearance/rubik.git"
 
 projects[omega][version] = "3.1"
 
 projects[prostarter][type] = "theme"
 projects[prostarter][download][type] = "git"
-projects[prostarter][download][url] = "git@github.com:pearance/prostarter.git"
+projects[prostarter][download][url] = "https://github.com/pearance/prostarter.git"
 
 
 
