@@ -1,8 +1,9 @@
 #!/bin/bash
 # vim: set ft=sh:
 
-su -s /bin/bash aegir -c "drush make --working-copy /srv/aegir/platforms/.profiles/pro_101/scripts/pro_101.make $1"
+drush make --working-copy /srv/aegir/platforms/.profiles/pro_101/scripts/pro_101.make $1
 cd /srv/aegir/platforms/$1
+chown -R aegir:aegir $1
 chmod g+s $1
 # ------------------------------------------------------------------------------
 
