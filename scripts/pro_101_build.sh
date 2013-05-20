@@ -2,21 +2,19 @@
 # vim: set ft=sh:
 
 drush make --working-copy /srv/aegir/platforms/.profiles/pro_101/scripts/pro_101.make $1
-cd /srv/aegir/platforms/$1
-chown -R aegir:aegir $1
-chmod g+s $1
 # ------------------------------------------------------------------------------
 
 
 
 # Link installation profile.
 rm -r /srv/aegir/platforms/$1/profiles/*
-ln -s ../.profiles/pro_101 /srv/aegir/platforms/$1/profiles/pro_101
+ln -s /srv/aegir/platforms/.profiles/pro_101 /srv/aegir/platforms/$1/profiles/pro_101
 # ------------------------------------------------------------------------------
 
 
 
 # Remove unnecessary files.
+cd $1
 mv robots.txt sites/
 rm *.txt
 mv sites/robots.txt .
@@ -51,11 +49,18 @@ find sites/all/modules/features/ -type f -exec chmod 664 {} \;
 
 # Copy APC script to the build's scripts directory.
 /bin/cp /srv/aegir/platforms/.profiles/pro_101/scripts/apc.php scripts/.
-echo -e "\nPost build cleanup completed!"
 # ------------------------------------------------------------------------------
 
 
 
 # Temporary hacks.
 touch /srv/aegir/platforms/$1/sites/all/libraries/ckeditor/skins/moono/skin.js
+# ------------------------------------------------------------------------------
+
+
+# Set ownership.
+cd /srv/aegir/platforms/
+sudo chown -R aegir:aegir $1
+sudo chmod g+s $1
+echo -e "\nPost build cleanup completed!"
 # ------------------------------------------------------------------------------
