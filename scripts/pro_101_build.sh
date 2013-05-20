@@ -58,9 +58,12 @@ touch /srv/aegir/platforms/$1/sites/all/libraries/ckeditor/skins/moono/skin.js
 # ------------------------------------------------------------------------------
 
 
-# Set ownership.
+# Set ownership and permissions.
 cd /srv/aegir/platforms/
 sudo chown -R aegir:aegir $1
 sudo chmod g+s $1
+cd $1
+sudo find -type d -exec chmod 0775 {} \;
+sudo find -type f -exec chmod 0664 {} \;
 echo -e "\nPost build cleanup completed!"
 # ------------------------------------------------------------------------------
