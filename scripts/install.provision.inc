@@ -79,6 +79,6 @@ function drush_provision_drupal_post_provision_install() {
   $domain = d()->uri;
   $site_path = d()->site_path;
   $platform_path = d()->site;
-  `/srv/aegir/platforms/.profiles/pro_101/scripts/post_site_install.sh $domain 2>&1 | tee /tmp/post_site_install.log`;
+  `/srv/aegir/platforms/.profiles/pro_101/scripts/post_site_install.sh $domain $platform_path 2>&1 | tee /tmp/post_site_install.log`;
 }
 
