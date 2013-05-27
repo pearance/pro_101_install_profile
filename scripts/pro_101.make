@@ -103,13 +103,6 @@ projects[colorbox_node][version] = "2.6"
 projects[collapse_text][subdir] = "contrib"
 projects[collapse_text][version] = "2.4"
 
-projects[compact_forms][subdir] = "contrib"
-projects[compact_forms][type] = "module"
-projects[compact_forms][download][type] = "git"
-projects[compact_forms][download][url] = "http://git.drupal.org/project/compact_forms.git"
-projects[compact_forms][download][branch] = "7.x-1.x"
-projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms-field-exclusion-1267244-7.patch"
-
 projects[contact_info][subdir] = "contrib"
 projects[contact_info][version] = "1.x-dev"
 projects[contact_info][patch][] = "https://raw.github.com/pearance/pro_101_install_profile/master/patches/default_block_title.patch"
