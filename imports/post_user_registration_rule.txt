@@ -1,0 +1,24 @@
+{ "rules_post_user_registration" : {
+    "LABEL" : "Post user registration",
+    "PLUGIN" : "reaction rule",
+    "TAGS" : [ "authenticated" ],
+    "REQUIRES" : [ "rules" ],
+    "ON" : [ "user_insert" ],
+    "IF" : [
+      { "NOT user_has_role" : {
+          "account" : [ "account" ],
+          "roles" : { "value" : {
+              "1" : "1",
+              "8998634" : "8998634",
+              "96220023" : "96220023",
+              "160159362" : "160159362",
+              "121011395" : "121011395"
+            }
+          },
+          "operation" : "OR"
+        }
+      }
+    ],
+    "DO" : [ { "redirect" : { "url" : "#overlay=add\/testimonial" } } ]
+  }
+}
