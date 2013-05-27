@@ -24,10 +24,6 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/arch
 libraries[flexslider][download][type] = "file"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
 
-libraries[jail][download][type] = "file"
-libraries[jail][download][url] = "http://www.sebastianoarmelibattana.com/global/js/jail.0.9.5.min.js"
-libraries[jail][download][filename] = "jquery.jail.js"
-
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "http://code.jquery.com/jquery-1.9.1.min.js"
 
@@ -217,9 +213,6 @@ projects[insight][version] = "1.0-alpha2"
 
 projects[invisimail][subdir] = "contrib"
 projects[invisimail][version] = "1.1"
-
-projects[jail][subdir] = "contrib"
-projects[jail][version] = "1.x-dev"
 
 projects[jqmulti][subdir] = "contrib"
 projects[jqmulti][version] = "1.0-beta1"
