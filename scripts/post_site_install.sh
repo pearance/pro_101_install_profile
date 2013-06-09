@@ -37,7 +37,8 @@ drush -y @$1 fr pro_101_wrap
 drush -y @$1 dis update
 drush -y @$1 pm-uninstall update
 
-# Verify site to rewrite vhost and enable boost caching.
+# Verify site to rewrite vhost (enable boost caching), and clear cache.
 drush @$1 provision-verify
+drush @$1 cc all
 
 # vim: set ft=sh:
